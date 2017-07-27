@@ -3,7 +3,8 @@
                     <div class="modal-dialog">
                         <div class="popup">
                             <div class="centerpopup">
-                                <h1>CONTACT US</h1>
+                                <h1 style="margin-top: 0 ! important;color: white ! important;font-family: Sakkal Majalla ! important;padding-bottom: 5px ! important;font-size: 53px ! important;"
+									>CONTACT US</h1>
                                 <p class="num">0086 15821835428</p>
 								<?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
                                <!-- <div class="placeholder">

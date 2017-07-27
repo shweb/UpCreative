@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    background-color: #000000;
+ 
     font-family: "proxima nova thin", sans-serif;
 }
 
@@ -31,7 +31,7 @@ sup {
 }
 
 *,
-body,
+
 img,
 ul li {
     margin: 0;
@@ -86,20 +86,12 @@ sup {
     top: -.2em
 }
 
-body,
+
 html {
     overflow-x: hidden
 }
 
-body {
-    background-color: #fff;
-    color: #303e48;
-    font-family: "proxima nova thin", sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    -webkit-text-size-adjust: none;
-    -webkit-overflow-scrolling: touch
-}
+
 
 .load-show img {
     width: 220px;
@@ -292,6 +284,12 @@ body {
         letter-spacing: 1px;
         line-height: 1
     }
+	.swith{
+		color: white;
+		font-size: 21px;
+		margin-top: 48px;
+		margin-right: 16px;
+	}
     .menu-list {
         display: table-cell;
         height: auto;
@@ -386,8 +384,8 @@ body {
     .hero-list {
         list-style: none;
         height: auto;
-        padding: 0;
-        margin: 0
+        padding: -50px;
+        margin: -40px;
     }
     .hero-list li {
         float: left;
@@ -1017,7 +1015,8 @@ img.zoomEffect:hover {
         width: 100%;
         max-width: 1280px;
         margin: auto;
-        padding: 0 20px
+        padding: 0 20px;
+		z-index:999;
     }
     
     .hero-top {

@@ -23,6 +23,7 @@
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/popup.css">
 <script>
     new WOW().init();
 </script>
@@ -30,7 +31,7 @@
 
 <header>
 
-	<div class="backg-upcreative cover" style="background-image: url(<?php the_field('background-image'); ?>)">&nbsp;</div>
+	<div class="backg-upcreative cover" style="background-image: url(<?php the_field('background-image');?>);background-attachment:fixed;">&nbsp;</div>
 		<!--background-upcreative-end-->
 		
 		<!--Move-upcreative-start-->
@@ -88,7 +89,7 @@
 				<div class="hero relative" >
 		<!--active-bar-end-->
 			
-		<!--t-we are creative-start-->			
+		<!---we are creative-start-->			
 			<div class="navupcreat wrapper">
 				<div class="relative">
 					<a href="index.html" id="logo-home" class="wow fadeInLeft"></a>
@@ -98,9 +99,9 @@
 						</div>
 						
 							<div class="upcreative">
-								<h2 class="weUP wow fadeInLeft"><?php the_field('title'); ?></h2>
+								<h2 class="weUP "><?php the_field('title'); ?></h2>
 									<div class="wecraft">
-										<h5 class="wecraft wow fadeInRight" ><?php the_field('sous-title'); ?></h5>
+										<h5 class="wecraft" ><?php the_field('sous-title'); ?></h5>
 									</div>
 							</div>
 						

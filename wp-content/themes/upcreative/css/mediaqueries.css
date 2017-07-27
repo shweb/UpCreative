@@ -22,14 +22,20 @@ Team trustylabs */
     font-size: 10px;
 }
 
-.menu-list,
-.menu-search {
+.menu-list {
     vertical-align: middle!important;
     list-style: none;
     font-family: "Proxima Nova Thin";
     letter-spacing: 10px;
     overflow: hidden;
 }
+	.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
 
 .menu-list li,
 .menu-list li li {
@@ -69,14 +75,21 @@ Team trustylabs */
         vertical-align: middle!important;
     }
     
-    .menu-list,
-    .menu-search {
+    .menu-list {
         vertical-align: middle!important;
         list-style: none;
         font-family: "Proxima Nova Thin";
         letter-spacing: 15px;
         overflow: hidden;
     }
+	
+	.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
     
     .menu-list li,
     .menu-list li li {
@@ -143,8 +156,7 @@ Team trustylabs */
         vertical-align: middle!important;
     }
     
-    .menu-list,
-    .menu-search {
+    .menu-list {
         vertical-align: middle!important;
         list-style: none;
         font-family: "Proxima Nova Thin";
@@ -152,6 +164,13 @@ Team trustylabs */
         overflow: hidden;
     }
     
+		.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
     .menu-list li,
     .menu-list li li {
         letter-spacing: 1px;
@@ -229,14 +248,20 @@ Team trustylabs */
         overflow: hidden;
     }
     
-    .menu-list,
-    .menu-search {
+    .menu-list{
         vertical-align: middle!important;
         list-style: none;
         font-family: "Proxima Nova Thin";
         letter-spacing: 15px;
         overflow: hidden;
     }
+		.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
     
     .menu-list li,
     .menu-list li li {
@@ -263,13 +288,21 @@ padding-left:80px;
 vertical-align:middle!important;
 overflow:hidden;
 }
-.menu-list,.menu-search{
+.menu-list{
 vertical-align:middle!important;
 list-style:none;
 font-family:"Proxima Nova Thin";
 letter-spacing:15px;
 overflow:hidden;
 }
+
+	.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
 
 .menu-list li,.menu-list li li{
 letter-spacing:1px;
@@ -301,14 +334,21 @@ font-size:50px;
         overflow: hidden;
     }
     
-    .menu-list,
-    .menu-search {
+    .menu-list {
         vertical-align: middle!important;
         list-style: none;
         font-family: "Proxima Nova Thin";
         letter-spacing: 15px;
         overflow: hidden;
     }
+	
+		.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
     
     .menu-list li,
     .menu-list li li {
@@ -553,14 +593,20 @@ font-size:50px;
         overflow: hidden;
     }
     
-    .menu-list,
-    .menu-search {
+    .menu-list {
         vertical-align: middle!important;
         list-style: none;
         font-family: "Proxima Nova Thin";
         letter-spacing: 15px;
         overflow: hidden;
     }
+		.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
     
     .menu-list li,
     .menu-list li li {
@@ -603,14 +649,20 @@ font-size:50px;
         overflow: hidden;
     }
     
-    .menu-list,
-    .menu-search {
+    .menu-list {
         vertical-align: middle!important;
         list-style: none;
         font-family: "Proxima Nova Thin";
         letter-spacing: 15px;
         overflow: hidden;
     }
+		.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
     
     .menu-list li,
     .menu-list li li {
@@ -652,14 +704,20 @@ font-size:50px;
         overflow: hidden;
     }
     
-    .menu-list,
-    .menu-search {
+    .menu-list {
         vertical-align: middle!important;
         list-style: none;
         font-family: "Proxima Nova Thin";
         letter-spacing: 15px;
         overflow: hidden;
     }
+		.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
     
     .menu-list li,
     .menu-list li li {
@@ -696,7 +754,6 @@ font-size:50px;
     }
     
     .wecraft {
-        padding-top: 1%;
         text-align: center;
         font-size: 50% ! important;
         font-style: bold;
@@ -711,14 +768,20 @@ font-size:50px;
         overflow: hidden;
     }
     
-    .menu-list,
-    .menu-search {
+    .menu-list {
         vertical-align: middle!important;
         list-style: none;
         font-family: "Proxima Nova Thin";
         letter-spacing: 15px;
         overflow: hidden;
     }
+		.menu-search{
+		 vertical-align: middle!important;
+        list-style: none;
+        font-family: "Proxima Nova Thin";
+        letter-spacing: 4px;
+        overflow: hidden;
+	}
     
     .menu-list li,
     .menu-list li li {

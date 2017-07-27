@@ -90,7 +90,7 @@
                     </ul>
                 </div>
 
-                <a href="https://<?php echo $link ;?>">
+                 <a href="http://<?php echo $link ;?>">
                     <button class="button ">
                         VISIT WEBSITE 
                     </button>

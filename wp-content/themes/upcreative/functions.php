@@ -450,7 +450,7 @@ function html5wp_excerpt($length_callback = '', $more_callback = '')
 function html5_blank_view_article($more)
 {
     global $post;
-    return '... <a class="view-article" href="' . get_permalink($post->ID) . '">' . __('View Article', 'html5blank') . '</a>';
+    /*return '... <a class="view-article" href="' . get_permalink($post->ID) . '">' . __('View Article', 'html5blank') . '</a>';*/
 }
 
 // Remove Admin bar
@@ -666,11 +666,11 @@ class Social_Profile extends WP_Widget {
         $directory = get_template_directory_uri();
 
         // social profile link
-        $facebook_profile = "<a href='{$facebook}'><img src='{$directory}/img/fb.png' alt='facebook'></a>";
-        $google_profile = "<a href='{$google}'><img src='{$directory}/img/goo.png' alt='google'></a>";
-        $gmail_profile = "<a href='{$gmail}'> <img src='{$directory}/img/mail.png' alt='gmail'></a>";
-        $inquare_profile = "<a href='{$inquare}'><img src='{$directory}/img/in.png' alt='inquare'></a>";
-        $twitter_profile = "<a href='{$twitter}'><img src='{$directory}/img/tw.png' alt='tweeter'></a>";
+        $facebook_profile = "<a href='{$facebook}' target='_blank'><img src='{$directory}/img/fb.png' alt='facebook'></a>";
+        $google_profile = "<a href='{$google}' target='_blank'><img src='{$directory}/img/goo.png' alt='google'></a>";
+        $gmail_profile = "<a href='{$gmail}' target='_blank'> <img src='{$directory}/img/mail.png' alt='gmail'></a>";
+        $inquare_profile = "<a href='{$inquare}' target='_blank'><img src='{$directory}/img/in.png' alt='inquare'></a>";
+        $twitter_profile = "<a href='{$twitter}' target='_blank'><img src='{$directory}/img/tw.png' alt='tweeter'></a>";
 
         /*echo $args['before_widget'];*/
 
@@ -995,7 +995,7 @@ function my_custom_init()
     );
     flush_rewrite_rules();
 }
-// REGISTER TAXOMONIES join us
+// REGISTER TAXOMONIES Work
 register_taxonomy( 'project',
     array('works'),
     array('hierarchical' => true,
@@ -1050,8 +1050,20 @@ function create_post_type() {
         'name' => __( 'Services' ),
         'singular_name' => __( 'Service' )
       ),
+	  'description' => __( 'This is custom post type Service' ), /* Custom Type Description */
       'public' => true,
 	  'menu_position' => 5, /* this is what order you want it to appear in on the left hand side menu */
+	  'publicly_queryable' => true,
+            'exclude_from_search' => false,
+            'show_ui' => true,
+            'query_var' => true,
+            'menu_position' => 5, /* this is what order you want it to appear in on the left hand side menu */
+            'capability_type' => 'post',
+            'hierarchical' => false,
+            /*'rewrite' => array('slug' => 'news', 'with_front' => true ),*/
+            'has_archive' => false,
+            /* the next one is important, it tells what's enabled in the post editor */
+            'supports' => array( 'title', 'editor','thumbnail','page-attributes')
     )
   );
 }
@@ -1061,5 +1073,14 @@ function my_get_posts( $query ) {
  $query->set( 'post_type', array( 'service' ) );
 
  return $query;
+}
+function is_post_type($type){
+    global $wp_query;
+    if($type == get_post_type($wp_query->post->ID))
+    {
+     wp_reset_postdata(); 
+     return true;
+    }
+    return false;
 }
 ?>

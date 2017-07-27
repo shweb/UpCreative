@@ -43,7 +43,7 @@
 			?>
                 <div class="container">
                     <div href="#" class="col-md-3 col-xs-12 about-history-logo  bg-nc wow fadeInUp" style="background-image: url('<?php echo $featured_image[0]; ?>')"></div>
-                    <div class="col-md-9 col-xs-12  about-history-copy wow fadeInUp">
+                    <div class="col-md-9 col-xs-12  about-history-copy wow fadeInUp" style="min-height:160px;">
                         <div class="container wow fadeInUp">
                             <div class="col-md-2 col-xs-12 about-copy-cell about-history-copy-block wow fadeInLeft">
                                 <?php the_title();?>
