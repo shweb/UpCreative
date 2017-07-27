@@ -95,6 +95,11 @@
 						<div class="home-buttons wow fadeInRight">
 							<div id="navicon"><span></span><span></span><span></span><span></span></div>
 							<div class="top-search-w right cover" style="margin-right: 20px"></div>
+							<?php if(ICL_LANGUAGE_CODE == 'en'): ?>
+							<div class="swith right cover "> 中文</div>
+							<?php else: ?>
+							<div class="swith right cover "> English</div>
+							<?php endif; ?>
 						</div>
 						
 							<div class="upcreative">
@@ -103,7 +108,7 @@
 										<h5 class="wecraft wow fadeInRight" ><?php the_field('sous-title'); ?></h5>
 									</div>
 							</div>
-						
+						</div>
 		<!--we are creative-end-->	
 			
 		<!--home-bar-start-->	

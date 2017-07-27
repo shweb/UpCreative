@@ -6,7 +6,14 @@
 
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
+.swith{
+  color: white;
+  font-size: 21px;
+  margin-top: 48px;
+  margin-right: 16px;
+ font-family: proxima nova thn;
+ }
+ 
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
