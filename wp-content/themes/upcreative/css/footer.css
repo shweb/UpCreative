@@ -1,0 +1,43 @@
+/* footer
+team Trustylabs */
+
+footer{
+	 margin-top:5px;
+    background-color: #303e48;
+    padding-top: 25px;
+}
+.socialupc ul{
+	list-style:none;
+}
+
+.socialupc ul li{
+	float:left;
+}
+
+
+.socialupc img{
+	padding-top:40px;
+	width:30px;
+	display:inline;
+	margin-left:50px;
+}
+
+.main{
+	padding-top:50px;
+	text-align:center;
+	color:white;
+}
+.main h5{
+font-size:17px;
+color:white;
+}
+
+.privacy p {
+	font-family:"Proxima Nova thin";
+	color:white;
+	text-align:center;
+	padding-top:50px;
+	font-size:17px ! important;
+}
+
+/* footer zend  */

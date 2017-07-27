@@ -1,0 +1,163 @@
+
+/* popup start */
+.button:hover {
+    background: #000;
+	color:#fff;
+}
+
+input[type=text] .control{ border:none;}
+.control {
+	padding-top:15px;
+	padding-left:35px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+	border:none;
+}
+
+.control-text {
+	padding-top:15px;
+	padding-left:35px;
+    width: 100%;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    height: 150px;
+	border:none;
+}
+
+.white-bg{
+	background:white !important;
+	height: 159px;
+}
+.work{
+	padding-top:40px;
+	font-size:30px;
+	text-align:center;
+}
+.description1{
+	
+	text-align:left;
+}
+
+.control-tex {
+    width: 834px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    height: 150px;
+	border:none;
+}
+
+.popup {
+    margin: 150px auto;
+    padding: 50px ! important;
+    border-radius: 5px;
+    width: 185%;
+    position: relative;
+    transition: all 1s ease-in-out;
+    background-image: url('../img/popup.png') ;
+    background-position: -265px -30px;
+    margin-left: -40%;
+}
+
+.centerpopup {
+    margin-left: 160px;
+}
+
+.button-group {
+    padding-top: 37px;
+}
+
+.popup p {
+    color: white;
+}
+
+.boutonsubmit {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-top: -6px;
+    margin-left: 552px;
+    font-size: 21px;
+    padding-right: 42px;
+    padding-left: 42px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: black;
+    border:none;
+}
+
+ul.social-network {
+    margin: 0;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 5px 5px;
+}
+
+ul.social-network li a:hover span .fa-circle {
+    color: #2b2b2b;
+}
+
+.social ul {
+	margin-top:20px;
+	margin-left:0 !important;
+	padding-bottom:25px;
+}
+
+.social ul li:last-child {
+	float:left;
+}
+.social ul li {
+	float:left;
+	padding-right:160px;
+}
+
+ .social img {
+    width: 30px;
+} 
+
+    .hero-list li a {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff ! important;
+        text-shadow: 0 0 9px rgba(0, 0, 0, .5)
+    }
+	.menu-list li a {
+    color: #fff ! important;
+    text-decoration: none;
+}
+
+.weUP {
+    position: relative;
+    font: "Proxima Nova Bold"!important;
+    font-style: Small;
+    text-align: center;
+    font-size: 70px !important;
+    color: white;
+}
+.wecraft{
+	   position: relative;
+    font: "Proxima Nova Bold"!important;
+    font-style: Small;
+    text-align: center;
+    font-size: 40px !important;
+    color: white;
+}
+/* popup end */
