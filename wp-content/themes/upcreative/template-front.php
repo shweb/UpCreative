@@ -125,8 +125,8 @@
 						
 						<div class="menu-frame">
 							<div class="menu-search tcenter">
-								<form class="cbform" id="sform" name="sform" method="POST" novalidate="novalidate">
-									<input type="text" name="explore" class="menu-search-input" placeholder="Search" autocomplete="off" autocapitalize="on" autocorrect="on">
+								<form class="cbform" id="sform" name="sform" method="GET" novalidate="novalidate" action="<?php echo home_url(); ?>">
+									<input type="text" name="s" class="menu-search-input" placeholder="Search" autocomplete="off" autocapitalize="on" autocorrect="on">
 										<div class="search">
 											<button type="submit" class="search-button button-default button-w button-xl">Search</button>
 											<img src="<?php echo get_template_directory_uri(); ?>/img/icon-close.png" class="menu-search-close clicker hidden">
