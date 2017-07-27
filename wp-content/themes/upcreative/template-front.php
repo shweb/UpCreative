@@ -95,6 +95,12 @@
 					<a href="index.html" id="logo-home" class="wow fadeInLeft"></a>
 						<div class="home-buttons wow fadeInRight">
 							<div id="navicon"><span></span><span></span><span></span><span></span></div>
+							
+							<?php if(ICL_LANGUAGE_CODE == 'en'): ?>
+							<a href="<?php echo get_site_url();?>/zh"><div class="swith right cover "> 中文 </div></a>
+							<?php else: ?>
+							<a href="<?php echo get_site_url();?>/"><div class="swith right cover "> English </div></a>
+							<?php endif; ?>
 							<div class="top-search-w right cover" style="margin-right: 20px"></div>
 						</div>
 						
@@ -104,7 +110,7 @@
 										<h5 class="wecraft" ><?php the_field('sous-title'); ?></h5>
 									</div>
 							</div>
-						
+						</div>
 		<!--we are creative-end-->	
 			
 		<!--home-bar-start-->	
