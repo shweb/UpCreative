@@ -19,7 +19,12 @@
                 <span></span><span></span><span></span><span></span></div>
                 <div class="top-search  right cover wow fadeInRight"></div>
             </div>
-            <button class="button-multilangue button-top right wow fadeInRight"><a href="#"><strong>中文</strong></a></button>
+            <?php if(ICL_LANGUAGE_CODE == 'en'): ?>
+                <button class="button-multilangue button-top right wow fadeInRight" onclick="location.href='<?php echo get_site_url();?>/zh'"><strong>中文</strong></button>
+            <?php else: ?>
+                <button class="button-multilangue button-top right wow fadeInRight" onclick="location.href='<?php echo get_site_url();?>/'"><strong>English</strong></button>
+            <?php endif; ?>
+
             <button type="button" class="button-default  button-top right sf-box wow fadeInLeft" data-toggle="modal" data-target="#myModal">ENQUIRE</button>
 
             <div id="menumask" class="noselect" style="display: none;">

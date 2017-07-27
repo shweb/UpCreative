@@ -3,25 +3,18 @@
                     <div class="modal-dialog">
                         <div class="popup">
                             <div class="centerpopup">
+							  <?php if(ICL_LANGUAGE_CODE == 'en'): ?>
                                 <h1>CONTACT US</h1>
+							 <?php else: ?>
+								 <h1>联系我们</h1>
+							 <?php endif; ?>
                                 <p class="num">0086 15821835428</p>
-								<?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>
-                               <!-- <div class="placeholder">
-                                    <form class="formulaire">
-                                        <div class="row margin-bottom-20">
-                                            <div class="col-md-10 col-xs-10">
-                                               <input class="control input-name" type="text"   placeholder="Name :">
-                                               <input class="control input-mail" type="text" placeholder="Email :">
-                                               <input class="control input-phone" type="text" placeholder="Phone :">
-                                               <textarea class="control-text input-message" placeholder="Your message :"></textarea>
-                                               <p>
-                                                    <button type="submit" class="boutonsubmit">Submit</button>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>-->
-								
+							 <?php if(ICL_LANGUAGE_CODE == 'en'): ?>
+								<?php echo do_shortcode('[contact-form-7 id="35" title="Contact form 1"]'); ?>	
+							 <?php else: ?>
+								<?php echo do_shortcode('[contact-form-7 id="89" title="Contact form chinese"]'); ?>
+							 <?php endif; ?>
+							 
 							<div class="social">
 									<ul>
 										 <a href="#"><li><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png" alt="facebook"></li></a>
