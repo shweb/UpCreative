@@ -5,10 +5,9 @@
 <meta http-equiv="expires" content="-1">
 <title><?php wp_title(''); ?><?php if (wp_title('', false)){echo ' :';} ?><?php bloginfo('name'); ?></title>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/LOGO.png">
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/LOGO.png">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
 		<link href="<?php echo get_template_directory_uri(); ?>/css/font-animat.css" rel="stylesheet" type="text/css" media="all">
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/loading.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
 		<link href="<?php echo get_template_directory_uri(); ?>/css/main.css" type="text/css" rel="stylesheet">
@@ -16,7 +15,6 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mediaqueries.css">
 		<script async="" src="<?php echo get_template_directory_uri(); ?>/js/analytics.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-latest.min.js"></script>
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.mobile.custom.min.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.placeholder.min.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/header.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.scrollbar.min.js"></script>

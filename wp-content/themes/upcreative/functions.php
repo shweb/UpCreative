@@ -229,9 +229,6 @@ function html5blank_header_scripts()
         wp_register_script('latest-up', get_template_directory_uri() . '/js/jquery-latest.min.js', array(), null);
         wp_enqueue_script('latest-up'); // Enqueue it!
 
-        wp_register_script('mobile-up', get_template_directory_uri() . '/js/jquery.mobile.custom.min.js', array(), null);
-        wp_enqueue_script('mobile-up'); // Enqueue it!
-
         wp_register_script('placeholder-up', get_template_directory_uri() . '/js/jquery.placeholder.min.js', array(), null);
         wp_enqueue_script('placeholder-up'); // Enqueue it!
 

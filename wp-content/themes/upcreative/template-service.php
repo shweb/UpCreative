@@ -22,20 +22,20 @@ endwhile;
 <div class="exp-section noselect">
 <?php while ( $loop->have_posts() ) : $loop->the_post(); 
 		if(max($array)==get_the_id()){ ?>
-			<div class="exp-col exp-fixed exp-mv bg-mv cover cover-bottom-right wow fadeInRight" rel="exp-mv" style="background-image: url(&quot;<?php the_field('image-field') ; ?>&quot;); width: 33.33%;max-height: 900px;background-attachment:scroll;">
+			<div class="exp-col exp-fixed exp-mv bg-mv cover cover-bottom-right wow fadeInRight" rel="exp-mv" style="background-image: url(&quot;<?php the_field('image-field') ; ?>&quot;); width: 33.33%;max-height: 800px ! important;background-attachment:scroll;">
 			<div class="exp-mask" style="display: none;"></div>
 			<img class="exp-logo exp-logo-mv wow fadeInLeft" data-wow-delay="0.5s" src="<?php the_field('logo-field'); ?>">
 		<?php	
 		}
 		else if(min($array)==get_the_id()){ ?>
 			
-			<div class="exp-col exp-fixed exp-nc bg-nc cover cover-top-right cover-bottom-left exp-col-border-r wow fadeInLeft" rel="exp-nc" style="background: url(&quot;<?php the_field('image-field') ; ?>&quot;) left; width: 33.33%;max-height: 900px;background-attachment:scroll;">
+			<div class="exp-col exp-fixed exp-nc bg-nc cover cover-top-right cover-bottom-left exp-col-border-r wow fadeInLeft" rel="exp-nc" style="background: url(&quot;<?php the_field('image-field') ; ?>&quot;) left; width: 33.33%;max-height: 800px ! important;background-attachment:scroll;">
 			<div class="exp-mask" style="display: none;"></div>
 			<img class="exp-logo exp-logo-mv wow fadeInLeft" data-wow-delay="0.5s" src="<?php the_field('logo-field'); ?>">
 		<?php
 		}
 		else { ?>        		
-			<div class="exp-col exp-fixed exp-cs bg-cs cover exp-col-border-r wow fadeInUp" rel="exp-cs" style="background: url(&quot;<?php the_field('image-field'); ?>&quot;) center no-repeat; background-size:cover;width: 33.33%; max-height: 900px;background-attachment:scroll;">
+			<div class="exp-col exp-fixed exp-cs bg-cs cover exp-col-border-r wow fadeInUp" rel="exp-cs" style="background: url(&quot;<?php the_field('image-field'); ?>&quot;) center no-repeat; background-size:cover;width: 33.33%;max-height: 800px ! important;background-attachment:scroll;">
 			<div class="exp-mask" style="display: block;"></div>
 			<img class="exp-logo exp-logo-cs wow fadeInDown" data-wow-delay="0.5s" src="<?php the_field('logo-field'); ?>">
 		<?php
