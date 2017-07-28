@@ -32,12 +32,12 @@
 			$featured_image = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' );
 			$work_image2 = MultiPostThumbnails::get_post_thumbnail_url('Works', 'secondary-image', NULL,'secondary-image-thumbnail');
 			?>	
-			<div class="shadow"> tetmetljeamlkr jmelkj mlkj lmkj</div>
-            <div class="projects mmb" style="background-image: url('<?php echo $featured_image[0]; ?>')">
+			
+            <div class="projects mmb work-banner" style="background-image: url('<?php echo $featured_image[0]; ?>')">
                 <div class="col-md-5">
                     <h4 class="name"><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
                 </div>
-                <div class="col-md-5 hidden-xs wow animated fadeInRight animated" style="z-index:3;">
+                <div class="col-md-5 hidden-xs wow animated fadeInRight animated work-banner" style="z-index:3;">
                     <span class="screenshots" style="background-image: url('<?php echo $work_image2; ?>')"></span>
                 </div>
             </div>

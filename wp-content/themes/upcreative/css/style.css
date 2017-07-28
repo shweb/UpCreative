@@ -493,7 +493,7 @@ margin:15px 0;
     height: 314px;
     margin-top: 30px;
     padding: 10px;
-    background: #17171c;
+    background: black;
     color: #262524;
 }
 
@@ -613,6 +613,7 @@ margin:15px 0;
 
 .projects h4 a {
     color: #fff !important;
+    text-shadow: 0px 0px 34px rgba(0, 0, 0, 0.5);
 }
 
 .grid {
@@ -1725,15 +1726,7 @@ h3
 
 /* ---- .element-item ---- */
 
-.projects {
-  position: relative;
-  width: 100%;
-  height: 314px;
-  margin-top:30px;
-  padding: 10px;
-  background: #17171c;
-  color: #262524;
-}
+
 
 .projects > * {
   margin: 0;
@@ -1907,23 +1900,6 @@ text-decoration:none;
 }
 
 
-.shadow{
-    position: absolute;
-    margin-top: 30px;
-    width: 96.9%;
-    z-index: 1;
-    height: 314px;
-    background: rgba(0,0,0,0.5);
-}
-
-.shadow:first-child{
-    position: absolute;
-    margin-top: 0;
-    width: 96.9%;
-    z-index: 1;
-    height: 314px;
-    background: rgba(0,0,0,0.5);
-}
 .div.wpcf7-mail-sent-ok{
 display:none ! important;
 }
