@@ -26,7 +26,7 @@
     new WOW().init();
 </script>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/popup.css">
-
+<body style="width: 100%;height: 100%;">
 <header>
 
 	<div class="backg-upcreative cover" style="background-image: url(<?php the_field('background-image');?>);background-attachment:fixed;">&nbsp;</div>
@@ -89,8 +89,8 @@
 			
 		<!---we are creative-start-->			
 			<div class="navupcreat wrapper">
-				<div class="relative">
-					<a href="index.html" id="logo-home" class="wow fadeInLeft"></a>
+				<div class="container">
+					<a href="<?php echo home_url(); ?>" id="logo-home" class="wow fadeInLeft" ></a>
 						<div class="home-buttons wow fadeInRight">
 							<div id="navicon"><span></span><span></span><span></span><span></span></div>
 							
@@ -101,14 +101,19 @@
 							<?php endif; ?>
 							<div class="top-search-w right cover" style="margin-right: 20px"></div>
 						</div>
+				</div>
+				
+				<div style="height: 27%" ></div>
+						<div class="container">
 						
-							<div class="upcreative">
 								<h2 class="weUP "><?php the_field('title'); ?></h2>
 									<div class="wecraft">
 										<h5 class="wecraft" ><?php the_field('sous-title'); ?></h5>
 									</div>
-							</div>
 						</div>
+							
+							
+				
 		<!--we are creative-end-->	
 			
 		<!--home-bar-start-->	
@@ -116,7 +121,7 @@
 						<div class="wrapper">
 							<div class="ico-home">
 								<div class="menu-bar-home">
-									<a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-home.png" class="left"></a>
+									<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-home.png" class="left"></a>
 								</div>
 							</div>
 						</div>

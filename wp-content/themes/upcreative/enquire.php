@@ -3,12 +3,10 @@
                     <div class="modal-dialog">
                         <div class="popup">
                             <div class="centerpopup">
-                                <h1 style="margin-top: 0 ! important;color: white ! important;font-family: Sakkal Majalla ! important;padding-bottom: 5px ! important;font-size: 53px ! important;"
-									>CONTACT US</h1>
 							  <?php if(ICL_LANGUAGE_CODE == 'en'): ?>
-                                <h1>CONTACT US</h1>
+                                <h1 style="margin-top: 0 ! important;color: white ! important;font-family: Sakkal Majalla ! important;padding-bottom: 5px ! important;font-size: 53px ! important;">CONTACT US</h1>
 							 <?php else: ?>
-								 <h1>联系我们</h1>
+								 <h1 style="margin-top: 0 ! important;color: white ! important;font-family: Sakkal Majalla ! important;padding-bottom: 5px ! important;font-size: 53px ! important;">联系我们</h1>
 							 <?php endif; ?>
                                 <p class="num">0086 15821835428</p>
 							 <?php if(ICL_LANGUAGE_CODE == 'en'): ?>
