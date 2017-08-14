@@ -332,11 +332,17 @@ html {
         width: 120px;
         height: 88px;
         margin-top: 30px;
-        margin-left: 53px;
+        margin-left: 37px;
         background-image: url(../img/logowhite.png);
         background-size: contain;
         cursor: pointer
     }
+	#title{
+		color:white;
+		text-align:center;
+	}
+
+
     .backg-upcreative {
         background-position: center;
         background-size: auto;
@@ -1015,12 +1021,7 @@ img.zoomEffect:hover {
     }
     
     .wrapper {
-        position: relative;
         clear: both;
-        width: 100%;
-        max-width: 1280px;
-        margin: auto;
-        padding: 0 20px;
 		z-index:1;
     }
     
