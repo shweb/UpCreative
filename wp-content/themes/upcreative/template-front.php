@@ -78,7 +78,7 @@
 							</div>					
 				</div>
 		</header>
-		
+		<?php get_template_part('enquire'); ?>
 		<section>
 		  <!--move start-->
 			<div id="move-top" class="move-bar clicker noselect">
