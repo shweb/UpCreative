@@ -518,17 +518,6 @@ img.zoomEffect:hover {
     overflow-y: auto
 }
 
-.menu-bar,
-.menu-bar-home {
-    position: fixed;
-    top: 31px; //left:0;
-    transition: all .5s
-}
-
-.menu-bar-home {
-    top: 79px
-}
-
 .menu-frame {
     display: table;
     width: 100%;
@@ -1168,7 +1157,7 @@ img.zoomEffect:hover {
     }
     
     .menu-bar-home {
-        top: 79px
+        top: 50px
     }
     
     .menu-bar-scroll {

@@ -36,11 +36,11 @@
 						<div class="home-buttons wow fadeInRight">
 							<div id="navicon"><span></span><span></span><span></span><span></span></div>
 							<?php if(ICL_LANGUAGE_CODE == 'en'): ?>
-							<a href="<?php echo get_site_url();?>/zh"><div class="swith right cover hidden-xs "> 中文 </div></a>
+							<a href="<?php echo get_site_url();?>/zh"><div class="swith right cover "> 中文 </div></a>
 							<?php else: ?>
-							<a href="<?php echo get_site_url();?>/"><div class="swith right cover hidden-xs "> English </div></a>
+							<a href="<?php echo get_site_url();?>/"><div class="swith right cover "> English </div></a>
 							<?php endif; ?>
-							<div class="top-search-w right cover" style="margin-right: 20px"></div>
+							<div class="top-search-w right cover hidden-xs" style="margin-right: 20px"></div>
 						</div>
 					
 						<div id="menumask" class="noselect">

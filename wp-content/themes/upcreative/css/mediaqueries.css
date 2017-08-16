@@ -3,6 +3,9 @@ Team trustylabs */
 /*-----------------<200-400>---------------------------*/
 
 @media screen and (max-width:365px) {
+	#logo-home{
+		margin-left:0px ! important;
+	}
     .upcreative {
         font-size: 40px ! important;
         text-align: center;
@@ -12,36 +15,33 @@ Team trustylabs */
         text-align: center;
         font-size: 50% ! important;
     }
-
-
+.menu-bar-home {
+top: 45px !important;
+}
+.menu-list {
+        padding: 75px !important;
+    text-align: center !important;
+    margin-left: 30%;
+}
+.menu-list li{
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    line-height: 2;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+}
+@media screen and (min-width:370px) and (max-width:375px){
 .menu-list {
     display: table-cell;
-    height: 20px;
-    padding: 50px;
-    vertical-align: middle!important;
-    font-size: 10px;
-}
-
-.menu-list {
-    vertical-align: middle!important;
-    list-style: none;
-    font-family: "Proxima Nova Thin";
-    letter-spacing: 10px;
-    overflow: hidden;
-}
-	.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-
-.menu-list li,
-.menu-list li li {
-    letter-spacing: 0;
-    line-height: 3;
-    font-size: 40px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center !important;
+    padding: 65px !important;
 }
 }
 
@@ -68,20 +68,10 @@ Team trustylabs */
     }
     
     .menu-list {
-        display: table-cell;
-        height: 50px;
-        padding: 20px;
-        padding-left: 50px;
-        vertical-align: middle!important;
+text-align:center;
+		 padding: 85px !important
     }
-    
-    .menu-list {
-        vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 15px;
-        overflow: hidden;
-    }
+ 
 	
 	.menu-search{
 		 vertical-align: middle!important;
@@ -94,7 +84,7 @@ Team trustylabs */
     .menu-list li,
     .menu-list li li {
         letter-spacing: 1px;
-        line-height: 7
+        line-height: 2
     }
 }
 @media screen and (max-width:520px) {
@@ -313,6 +303,10 @@ font-size:50px;
 
 /*-----------------<700-800>---------------------------*/
 @media screen and (min-width:750px) and (max-width:770px) {
+	.menu-bar-home {
+    top: 50px ! important;
+    margin-left: 58px ! important;
+}
     .upcreative {
         font-size: 50px ! important;
         text-align: center;
@@ -329,7 +323,6 @@ font-size:50px;
         display: table-cell;
         height: 50px;
         padding: 20px;
-        padding-left: 80px;
         vertical-align: middle!important;
         overflow: hidden;
     }
@@ -354,7 +347,7 @@ font-size:50px;
     .menu-list li li {
         letter-spacing: 1px;
         line-height: 3;
-        font-size: 50px;
+    font-size: 40px;
     }
     
     #activate-left {
@@ -407,8 +400,7 @@ font-size:50px;
         margin: 0 5px 8px;
     }
     
-    .menu-bar,
-    .menu-bar-home {
+    .menu-bar {
         position: relative;
         top: 0;
         margin-top: 31px;
@@ -416,7 +408,6 @@ font-size:50px;
     
     .menu-frame {
         clear: both;
-        padding: 20px 15px 40px;
     }
     
     .about-copy-cell,
@@ -450,10 +441,6 @@ font-size:50px;
         padding: 10px 15px;
     }
     
-    .home-buttons {
-        margin-top: 0;
-    }
-    
     .about-copy-cell {
         margin: 0 0 5px;
     }
@@ -468,28 +455,13 @@ font-size:50px;
         width: 100%
     }
     
-    .menu-bar-home {
-        top: -10px
-    }
+   
     
     .pop-hero-camp-slider {
         display: none;
     }
     
-    .menu-list {
-        padding-right: 50px
-    }
-    
-    .menu-list li {
-        border: none;
-        padding: 0;
-        margin: 0;
-        font-size: 30px;
-        line-height: 1;
-        font-weight: 100;
-        text-transform: uppercase;
-        letter-spacing: 1px
-    }
+
     
     .menu-list li li {
         display: block;
@@ -644,7 +616,6 @@ font-size:50px;
         display: table-cell;
         height: 50px;
         padding: 20px;
-        padding-left: 80px;
         vertical-align: middle!important;
         overflow: hidden;
     }
