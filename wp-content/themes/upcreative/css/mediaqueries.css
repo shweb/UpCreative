@@ -1,6 +1,11 @@
 /* mediaqueris css  
 Team trustylabs */
 /*-----------------<200-400>---------------------------*/
+@media screen and (max-width:320px) {
+	.top-search-w{
+		margin-right:9px ! important;
+	}
+}
 
 @media screen and (max-width:365px) {
 	#logo-home{
