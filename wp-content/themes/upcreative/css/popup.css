@@ -68,6 +68,7 @@ padding-left: 40px !important;
 	background: url(../img/popup.png);
 padding-left: 11%;
 padding-right: 11%;
+padding-bottom: 4%;
 background-position: 48% 30%;
 }
 .modal-title {
@@ -114,6 +115,7 @@ border: none;
 	margin-top:50% ! important;
 	text-align:center ! important;
 	line-height: 0 ! important;
+	margin-bottom: 25px ! important;
 }
 .modal-title2 {
     font-size:22px;
@@ -145,8 +147,11 @@ border: none;
 }
 @media screen and (min-width:360px) and (max-width:365px) {
 .modal-title {
-    font-size: 29px ! important;
-    margin: 34px ! important;
+	font-size: 29px ! important;
+	margin-top: 85px !important;
+	line-height: 0 ! important;
+	margin-bottom: 25px ! important;
+	text-align: center ! important;
  
 }
 

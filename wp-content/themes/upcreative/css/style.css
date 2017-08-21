@@ -72,7 +72,7 @@ padding-left: 40px !important;
 	background: url(../img/popup.png);
 padding-left: 11%;
 padding-right: 11%;
-background-position: 48% 30%;
+background-position: 48% 32%;
 }
 .modal-title {
     color: white;
@@ -117,7 +117,6 @@ border: none;
     font-size: 35px ! important;
 	margin-top:50% ! important;
 	text-align:center ! important;
-	line-height: 0 ! important;
 }
 .modal-title2 {
     font-size:22px;
