@@ -1,210 +1,165 @@
-
-/* popup start */
-.button:hover {
-    background: #000;
-	color:#fff;
+.center {
+    margin-top:50px;   
 }
 
-.popup h1 {
-    margin-top: 0 ! important;
-    color: white ! important;
-    font-family: Sakkal Majalla ! important;
-    padding-bottom: 5px ! important;
-    font-size: 53px ! important;
+.modal-header {
+	padding-bottom: 5px;
+	border-bottom:none ! important;
 }
 
-input[type=text] .control{ border:none;}
-.control {
-	padding-top:15px;
-	padding-left:35px;
-    width: 100%;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-	border:none;
+.modal-footer {
+padding: 0;
+ border-top:none ! important;
+ text-align: center ! important;
 }
 
-
-.input-name{ 
-background:url(../img/user.png) no-repeat #FFF;
-background-size:20px;
-background-position: 5px 14px;
+    
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
 }
-.input-mail{ 
-background:url(../img/email.png) no-repeat #FFF;
-background-size:20px;
-background-position: 5px 14px;
-}
-.input-phone{ 
-background:url(../img/phone-call.png) no-repeat #FFF;
-background-size:20px;
-background-position: 5px 14px;
-}
-.input-message{ 
-background:url(../img/chat.png) no-repeat #FFF;
-background-size:20px;
-background-position: 5px 14px;
-}
-
-
-
-.control-text {
-	padding-top:15px;
-	padding-left:35px;
-    width: 100%;
-    padding-bottom: 25px;
-    margin-bottom: 10px;
-    height: 150px;
-	border:none;
-}
-
-.white-bg{
-	background:white !important;
-	height: 159px;
-}
-.work{
-	padding-top:40px;
-	font-size:30px;
-	text-align:center;
-}
-.description1{
 	
-	text-align:left;
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+.header-popup{
+padding: 20px 20px 0px 15px;
 }
 
-.control-tex {
-    width: 834px;
-    padding-bottom: 25px;
-    margin-bottom: 10px;
-    height: 150px;
-	border:none;
+#input-name{ 
+background:url(../img/user.png) no-repeat #FFF;
+background-size: 20px;
+background-position: 6px 7px;
+}
+#input-mail{ 
+background:url(../img/email.png) no-repeat #FFF;
+background-size: 20px;
+background-position: 6px 7px;
+}
+#input-phone{ 
+background:url(../img/phone-call.png) no-repeat #FFF;
+background-size: 20px;
+background-position: 6px 7px;
+}
+#input-message{ 
+background:url(../img/chat.png) no-repeat #FFF;
+background-size: 20px;
+background-position: 6px 7px;
 }
 
-.popup {
-    margin: 160px auto;
-    padding: 35px ! important;
-    border-radius: 5px;
-    width: 185%;
-    transition: all 1s ease-in-out;
-    background-image: url('../img/popup.png') ;
-    background-position: -265px -30px;
-    margin-left: -40%;
-	overflow:hidden;
-	position:fixed ! important;
+input[type=text] .placehold{ border:none;}
+.placehold {
+padding-top: 5px !important;
+padding-left: 40px !important;
+}
+.placehold-text {
+	padding-left: 41px !important; 
 
 }
-.popup .close {
-    position: absolute;
-    background: url(../img/cross.png) no-repeat;
-    width: 37px;
-    top: 12px;
-    right: 75px;
-    transition: all 200ms;
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000!important;
-}
+.modal-dialog {
+    width: 70% !important; 
+    margin: 115px auto !important; 
 
-.centerpopup {
-    margin-left: 160px;
 }
-
-.button-group {
-    padding-top: 37px;
+.modal-content {
+	background: url(../img/popup.png);
+padding-left: 11%;
+padding-right: 11%;
+background-position: 48% 30%;
 }
-
-.popup p {
+.modal-title {
+    color: white;
+    font-family: Sakkal Majalla;
+    font-size: 65px;
+	line-height: 65px ! important;
+}
+.modal-title2 {
+    font-family: Sakkal Majalla;
+    font-size: 45px;
     color: white;
 }
-
-.boutonsubmit {
-	display: inline-block;
-    padding: 6px 12px;
-    margin-top: -6px;
-    margin-left: 552px;
-    font-size: 21px;
-    padding-right: 42px;
-    padding-left: 42px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    color: #fff;
-    background-color: black;
-    border:none;
+.modal-header .close {
+    font-size: 45px ! important;
+}
+#social {
+	width:35px;
+	
+}
+#social:before{
+	width:35px;
+	margin-left:20px;
 }
 
-ul.social-network {
-    margin: 0;
-    margin-left: 0;
-    padding-left: 0;
-    list-style: none;
+.modal-body {
+    margin-bottom: 60px;
+	border-bottom: none  ! important;
 }
 
-ul.social-network li {
-    display: inline;
-    margin: 5px 5px;
+.btn-sender{
+background-color:black;
+color:white;
+padding: 10px 47px 10px 45px;
+border: none;	
+}
+.form-control {
+    height: 45px ! important;
+  
+}
+@media screen and (max-width:359px) {
+.modal-title {
+    font-size: 35px ! important;
+	margin-top:50% ! important;
+	text-align:center ! important;
+	line-height: 0 ! important;
+}
+.modal-title2 {
+    font-size:22px;
+	text-align:center;
+
+}
+.btn-sender {
+    padding: 10px 52px 10px 52px ! important;
+}
+.form-control {
+    height: 50px !important;
+}
+#input-name {
+    background-position: 7px 13px !important;
+}
+#input-mail {
+ background-position: 7px 13px !important;
+}
+#input-phone {
+  background-position: 7px 13px !important;
+}
+#input-message {
+  background-position: 7px 13px !important;
+}
+.modal-content {
+
+    background-position: 50% 50% !important;
+}
+}
+@media screen and (min-width:360px) and (max-width:365px) {
+.modal-title {
+    font-size: 29px ! important;
+    margin: 34px ! important;
+ 
 }
 
-ul.social-network li a:hover span .fa-circle {
-    color: #2b2b2b;
-}
+.modal-title2 {
+    font-size:22px ! important;
+	text-align:center ! important;
 
-.social ul {
-	margin-top:20px;
-	margin-left:0 !important;
-	padding-bottom:25px;
 }
-
-.social ul li:last-child {
-	float:left;
-}
-.social ul li {
-	float:left;
-	padding-right:160px;
-	list-style:none;
-}
-
- .social img {
-    width: 30px;
+.btn-sender {
+    padding: 10px 63px 10px 63px ! important;
 } 
+.modal-content {
 
-    .hero-list li a {
-        font-size: 14px;
-        font-weight: 400;
-        color: #fff ! important;
-        text-shadow: 0 0 9px rgba(0, 0, 0, .5)
-    }
-	.menu-list li a {
-    color: #fff ! important;
-    text-decoration: none;
+    background-position: 50% !important;
 }
-
-.weUP {
-    position: relative;
-    font: "Proxima Nova Bold"!important;
-    font-style: Small;
-    text-align: center;
-    font-size: 70px !important;
-    color: white;
 }
-.wecraft{
-	   position: relative;
-    font: "Proxima Nova Bold"!important;
-    font-style: Small;
-    text-align: center;
-    font-size: 40px !important;
-    color: white;
-}
-/* popup end */
