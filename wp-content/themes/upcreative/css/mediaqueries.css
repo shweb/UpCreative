@@ -58,7 +58,12 @@ top: 45px !important;
 
 }
 /* footer end */
-
+@media screen and (min-width:376px) and (max-width:399px){
+	.menu-frame{
+	margin-left: 17%  ! important;
+text-align: center  ! important;
+}
+}
 /*-----------------<400-500>---------------------------*/
 @media screen and (min-width:400px) and (max-width:500px) {
     .upcreative {
@@ -142,13 +147,13 @@ text-align:center;
         text-align: center;
         font-size: 50% ! important;
     }
+	.menu-frame {
+    margin-left: 27%;
+margin-top: 19%;
+}
     
     .menu-list {
-        display: table-cell;
-        height: 50px;
-        padding: 20px;
-        padding-left: 50px;
-        vertical-align: middle!important;
+       text-align:center;
     }
     
     .menu-list {
@@ -169,7 +174,7 @@ text-align:center;
     .menu-list li,
     .menu-list li li {
         letter-spacing: 1px;
-        line-height: 3
+        line-height: 2
     }
 }
 @media screen and (min-width:603px) {

@@ -1,3 +1,4 @@
+<div class="container">
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
@@ -22,8 +23,11 @@
 			<div class="form-group">
 			  <textarea class="form-control placehold-text" rows="5" id="input-message" placeholder="Your message"></textarea>
 			</div> 
-
-			<button class="pull-right btn-sender" type="submit" class="btn ">Send</button>
+			<div class="row">
+			<div class="col-md-offset-10 col-md-2 col-xs-6 col-sm-12">
+			<button class="btn btn-sender" type="submit" class="btn ">Send</button>
+			</div>
+			</div>
 		</form>
       </div>
       <div class="modal-footer">
@@ -47,4 +51,5 @@
     </div>
 
   </div>
+</div>
 </div>
