@@ -2,295 +2,345 @@
 Team trustylabs */
 /*-----------------<200-400>---------------------------*/
 @media screen and (max-width:320px) {
+	#logo-home {
+    float: left;
+    width: 120px;
+    height: 88px;
+    margin-top: 30px;
+    margin-left: 0;
+    background-image: url(../img/logowhite.png);
+    background-size: contain;
+    cursor: pointer;
+}
 .menu-frame {
-    clear: both ! important;
+clear: both ! important;
     text-align: center ! important;
     margin-left: 19% ! important;
-    margin-top: 10% ! important;
-	overflow:hidden;
+    margin-top: 18% ! important;
+    overflow: hidden;
 }
-	.logoup{
-		margin-left: 27%;
-	}
-	.socialupc{
-		margin-left: 9%;
-	}
-	.top-search-w{
-		margin-right:9px ! important;
-	}
+.logoup{
+margin-left: 27%;
+}
+.socialupc{
+margin-left: 9%;
+}
+.top-search-w{
+margin-right:9px ! important;
+}
+.menu-list li {
+    display: block;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 29px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: -8px;
+}
+main.css:264
+.menu-list li, .menu-list li li {
+    letter-spacing: 0;
+    line-height: 2;
+}
 }
 
-@media screen and (max-width:365px) {
-	#logo-home{
-		margin-left:0px ! important;
-	}
-    .upcreative {
-        font-size: 40px ! important;
-        text-align: center;
-    }
-    .wecraft {
-        padding-top: 10px;
-        text-align: center;
-        font-size: 50% ! important;
-    }
+@media screen and (min-width:359px) and (max-width:365px) {
+.menu-frame {
+clear: both;
+margin-left: 25%;
+text-align: center;
+margin-top: 65px;
+}
+#logo-home{
+margin-left:0px ! important;
+}
+.upcreative {
+font-size: 40px ! important;
+text-align: center;
+}
+.wecraft {
+padding-top: 10px;
+text-align: center;
+font-size: 50% ! important;
+}
 .menu-bar-home {
 top: 45px !important;
 }
 
 .menu-list li{
-    border: none;
-    padding: 0;
-    margin: 0;
-    font-size: 30px;
-    line-height: 2;
-    font-weight: 100;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+border: none;
+padding: 0;
+margin: 0;
+font-size: 30px;
+line-height: 2;
+font-weight: 100;
+text-transform: uppercase;
+letter-spacing: 1px;
 }
 }
 @media screen and (min-width:350px) and (max-width:399px){
-		.logoup{
-		margin-left: 28%;
-	}
+.logoup{
+margin-left: 28%;
+}
 }
 @media screen and (min-width:370px) and (max-width:375px){
 .menu-list {
-    display: table-cell;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    text-align: center !important;
-    padding: 65px !important;
+display: table-cell;
+height: auto;
+padding: 0;
+margin: 0;
+text-align: center !important;
+padding: 65px !important;
 }
 }
 
 /* footer start */
 @media screen and (min-width:300px) and (max-width:600px){
-	
+
 
 }
 /* footer end */
 @media screen and (min-width:376px) and (max-width:399px){
-	.menu-frame{
-	margin-left: 17%  ! important;
-text-align: center  ! important;
+.menu-frame{
+margin-left: 17% ! important;
+text-align: center ! important;
+margin-top: 33px;
+
 }
 }
 /*-----------------<400-500>---------------------------*/
 @media screen and (min-width:400px) and (max-width:500px) {
-    .upcreative {
-        font-size: 60px ! important;
-        text-align: center;
-    }
-    
-    .wecraft {
-        padding-top: 10px;
-        text-align: center;
-        font-size: 50% ! important;
-    }
-    
-    .menu-list {
+.upcreative {
+font-size: 60px ! important;
+text-align: center;
+}
+
+.wecraft {
+padding-top: 10px;
+text-align: center;
+font-size: 50% ! important;
+}
+
+.menu-list {
 text-align:center;
-		 padding: 85px !important
-    }
- 
-	
-	.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-    
-    .menu-list li,
-    .menu-list li li {
-        letter-spacing: 1px;
-        line-height: 2
-    }
+padding: 85px !important
+}
+
+
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
+
+.menu-list li,
+.menu-list li li {
+letter-spacing: 1px;
+line-height: 2
+}
 }
 @media screen and (max-width:520px) {
-    body {
-        font-size: 17px;
-    }
-    
-    h1 {
-        font-size: 32px;
-    }
-    
-    .button-top {
-        display: none;
-    }
-    
-    .about-history-cell {
-        float: left;
-        clear: left;
-        width: 100%
-    }
-    
-    .about-history-copy {
-        padding: 20px;
-    }
-    
-    .about-contact-cell {
-        display: block;
-        width: 100%;
-        padding: 0;
-        //text-align: left;
-    }
+body {
+font-size: 17px;
+}
+
+h1 {
+font-size: 32px;
+}
+
+.button-top {
+display: none;
+}
+
+.about-history-cell {
+float: left;
+clear: left;
+width: 100%
+}
+
+.about-history-copy {
+padding: 20px;
+}
+
+.about-contact-cell {
+display: block;
+width: 100%;
+padding: 0;
+//text-align: left;
+}
 }
 @media screen and (max-width: 550px) {
-    .about-history-cell {
-        float: left;
-        clear: left;
-        width: 100%
-    }
+.about-history-cell {
+float: left;
+clear: left;
+width: 100%
+}
 }
 
 /* -------------------------500-600------------------------ */
 @media screen and (min-width:550px) and (max-width:600px) {
-    .upcreative {
-        font-size: 60px ! important;
-        text-align: center;
-    }
-    
-    .wecraft {
-        padding-top: 10px;
-        text-align: center;
-        font-size: 50% ! important;
-    }
-	.menu-frame {
-    margin-left: 27%;
+.upcreative {
+font-size: 60px ! important;
+text-align: center;
+}
+
+.wecraft {
+padding-top: 10px;
+text-align: center;
+font-size: 50% ! important;
+}
+.menu-frame {
+margin-left: 27%;
 margin-top: 19%;
 }
-    
-    .menu-list {
-       text-align:center;
-    }
-    
-    .menu-list {
-        vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 15px;
-        overflow: hidden;
-    }
-    
-		.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-    .menu-list li,
-    .menu-list li li {
-        letter-spacing: 1px;
-        line-height: 2
-    }
+
+.menu-list {
+text-align:center;
+}
+
+.menu-list {
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 15px;
+overflow: hidden;
+}
+
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
+.menu-list li,
+.menu-list li li {
+    letter-spacing: 4px;
+    line-height: 3;
+}
+}
+@media screen and (min-width:601px) and (max-width:649px){
+.menu-frame {
+clear: both !important;
+margin-left: 39% !important;
+text-align: center !important;
+
+}
+.menu-list li {
+display: block  !important;
+border: none  !important;
+padding: 0  !important;
+margin: 0  !important;
+font-size: 21px  !important;
+font-weight: 100 !important;
+text-transform: uppercase  !important;
+}
 }
 @media screen and (min-width:603px) {
-    ::-webkit-scrollbar {
-        width: 8px
-    }
-    
-    ::-webkit-scrollbar-track {
-        border-left: 1px solid #eee;
-        -webkit-border-radius: 0;
-        border-radius: 0;
-        background: #eee
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        -webkit-border-radius: 0;
-        border-radius: 0;
-        background: #bbb
-    }
-    
-    ::-webkit-scrollbar-thumb:window-inactive {
-        background: #eee
-    }
-    
-    .activate-bar,
-    .show-l {
-        display: none;
-    }
-    
-    .camp-div-best,
-    .camp-div-side,
-    .ncamp-div-best,
-    .ncamp-div-side {
-        position: relative;
-    }
-    
-    .body-copy {
-        font-size: 18px;
-    }
-    
-    .button-default {
-        min-width: 100px;
-    }
-    
-    .section-div {
-        padding: 20px 0;
-        font-size: 27px;
-    }
+::-webkit-scrollbar {
+width: 8px
+}
+
+::-webkit-scrollbar-track {
+border-left: 1px solid #eee;
+-webkit-border-radius: 0;
+border-radius: 0;
+background: #eee
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0;
+border-radius: 0;
+background: #bbb
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+background: #eee
+}
+
+.activate-bar,
+.show-l {
+display: none;
+}
+
+.camp-div-best,
+.camp-div-side,
+.ncamp-div-best,
+.ncamp-div-side {
+position: relative;
+}
+
+.body-copy {
+font-size: 18px;
+}
+
+.button-default {
+min-width: 100px;
+}
+
+.section-div {
+padding: 20px 0;
+font-size: 27px;
+}
 }
 
 /*-----------------<600-700>---------------------------*/
 @media screen and (min-width:750px) and (max-width:770px){
-	    .upcreative {
-        font-size: 50px ! important;
-        text-align: center;
-    }
-    
-    .wecraft {
-        padding-top: 1%;
-        text-align: center;
-        font-size: 50% ! important;
-        font-style: bold;
-    }
-    
-    .menu-list {
-        display: table-cell;
-        height: 50px;
-        padding: 20px;
-        padding-left: 80px;
-        vertical-align: middle!important;
-        overflow: hidden;
-    }
-    
-    .menu-list{
-        vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 15px;
-        overflow: hidden;
-    }
-		.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-    
-    .menu-list li,
-    .menu-list li li {
-        letter-spacing: 1px;
-        line-height: 3;
-        font-size: 50px;
-    }
-    
-    #activate-left {
-        left: -42px;
-        background-image: url(../img/flgauche.png);
-    }
-    
-    #activate-right {
-        right: -42px;
-        background-image: url(../img/fldroit.png)
-    }
+.upcreative {
+font-size: 50px ! important;
+text-align: center;
+}
+
+.wecraft {
+padding-top: 1%;
+text-align: center;
+font-size: 50% ! important;
+font-style: bold;
+}
+
+.menu-list {
+display: table-cell;
+height: 50px;
+padding: 20px;
+padding-left: 80px;
+vertical-align: middle!important;
+overflow: hidden;
+}
+
+.menu-list{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 15px;
+overflow: hidden;
+}
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
+
+.menu-list li,
+.menu-list li li {
+letter-spacing: 1px;
+line-height: 3;
+font-size: 50px;
+}
+
+#activate-left {
+left: -42px;
+background-image: url(../img/flgauche.png);
+}
+
+#activate-right {
+right: -42px;
+background-image: url(../img/fldroit.png)
+}
 
 .menu-list{
 display:table-cell;
@@ -308,13 +358,13 @@ letter-spacing:15px;
 overflow:hidden;
 }
 
-	.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
 
 .menu-list li,.menu-list li li{
 letter-spacing:1px;
@@ -325,509 +375,509 @@ font-size:50px;
 
 /*-----------------<700-800>---------------------------*/
 @media screen and (min-width:750px) and (max-width:770px) {
-	.menu-bar-home {
-    top: 50px ! important;
-    margin-left: 58px ! important;
+.menu-bar-home {
+top: 50px ! important;
+margin-left: 58px ! important;
 }
-    .upcreative {
-        font-size: 50px ! important;
-        text-align: center;
-    }
-    
-    .wecraft {
-        padding-top: 1%;
-        text-align: center;
-        font-size: 50% ! important;
-        font-style: bold;
-    }
-    
-    .menu-list {
-        display: table-cell;
-        height: 50px;
-        padding: 20px;
-        vertical-align: middle!important;
-        overflow: hidden;
-    }
-    
-    .menu-list {
-        vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 15px;
-        overflow: hidden;
-    }
-	
-		.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-    
-    .menu-list li,
-    .menu-list li li {
-        letter-spacing: 1px;
-        line-height: 3;
-    font-size: 40px;
-    }
-    
-    #activate-left {
-        left: -42px;
-        background-image: url(../img/flgauche.png);
-    }
-    
-    #activate-right {
-        right: -42px;
-        background-image: url(../img/fldroit.png)
-    }
+.upcreative {
+font-size: 50px ! important;
+text-align: center;
+}
+
+.wecraft {
+padding-top: 1%;
+text-align: center;
+font-size: 50% ! important;
+font-style: bold;
+}
+
+.menu-list {
+display: table-cell;
+height: 50px;
+padding: 20px;
+vertical-align: middle!important;
+overflow: hidden;
+}
+
+.menu-list {
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 15px;
+overflow: hidden;
+}
+
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
+
+.menu-list li,
+.menu-list li li {
+letter-spacing: 1px;
+line-height: 3;
+font-size: 40px;
+}
+
+#activate-left {
+left: -42px;
+background-image: url(../img/flgauche.png);
+}
+
+#activate-right {
+right: -42px;
+background-image: url(../img/fldroit.png)
+}
 }
 
 /* footer start */
 @media screen and (min-width:600px) and (max-width:799px){
-	.logoup{
-		margin-left: 40%;
-	}
-	.socialupc img{
-	padding-top:40px;
-	width:30px;
-	display:inline;
+.logoup{
+margin-left: 40%;
+}
+.socialupc img{
+padding-top:40px;
+width:30px;
+display:inline;
 
 
-	}
-		.socialupc {
-	margin-left:20%;
+}
+.socialupc {
+margin-left:20%;
 
-	}
+}
 
 }
 @media screen and (min-width:800px) and (max-width:899px){
-	.logoup{
-		margin-left: 43%;
-	}
-	.socialupc img{
-	padding-top:40px;
-	width:30px;
-	display:inline;
+.logoup{
+margin-left: 43%;
+}
+.socialupc img{
+padding-top:40px;
+width:30px;
+display:inline;
 
 
-	}
-		.socialupc {
-	margin-left:5%;
+}
+.socialupc {
+margin-left:5%;
 
-	}
+}
 
 }
 @media screen and (min-width:900px) and (max-width:999px){
-	.logoup{
-		margin-left: 43%;
-	}
-	.socialupc img{
-	padding-top:40px;
-	width:30px;
-	display:inline;
+.logoup{
+margin-left: 43%;
+}
+.socialupc img{
+padding-top:40px;
+width:30px;
+display:inline;
 
 
-	}
-		.socialupc {
-	margin-left:5%;
+}
+.socialupc {
+margin-left:5%;
 
-	}
+}
 
 }
 /* footer end */
 @media screen and (max-width:710px) {
-    #menumask,
-    .pop-exp-best {
-        text-align: left;
-    }
-    
-    #logo-home {
-        width: 80px;
-        height: 58px;
-    }
-    
-    .top-menu,
-    .topsub-logo-block {
-        display: none;
-    }
-    
-    .menu-frame,
-    .pop-hero-camp-static {
-        display: block;
-    }
-    
-    #navicon {
-        margin: 0 5px 8px;
-    }
-    
-    .menu-bar {
-        position: relative;
-        top: 0;
-        margin-top: 31px;
-    }
-    
-    .menu-frame {
-        clear: both;
-    }
-    
-    .about-copy-cell,
-    .about-people-cell {
-        float: left;
-        clear: left;
-        width: 100%
-    }
-    
-    .menu-sub-list {
-        margin: 7px 0 20px;
-    }
-    
-    .menu-search-input {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 50px;
-    }
-    
-    .hero-top {
-        padding-top: 20px;
-    }
-    
-    .hero-list li {
-        padding-right: 10px;
-        margin-right: 10px;
-    }
-    
-    .pop-exp,
-    .pop-exp-best {
-        padding: 10px 15px;
-    }
-    
-    .about-copy-cell {
-        margin: 0 0 5px;
-    }
-    
-    .exp-buttons {
-        margin-top: -2px;
-    }
-    
-    .pop-exp-best {
-        position: relative;
-        height: auto;
-        width: 100%
-    }
-    
-   
-    
-    .pop-hero-camp-slider {
-        display: none;
-    }
-    
+#menumask,
+.pop-exp-best {
+text-align: left;
+}
 
-    
-    .menu-list li li {
-        display: block;
-        margin: 5px 0;
-        padding-left: 0;
-        border: 0;
-        font-size: 19px
-    }
-    
-    .menu-search-input {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 50px
-    }
-    
-    .hero-top {
-        padding-top: 50px
-    }
-    
-    .exp-buttons {
-        margin-top: -2px
-    }
+#logo-home {
+width: 80px;
+height: 58px;
+}
+
+.top-menu,
+.topsub-logo-block {
+display: none;
+}
+
+.menu-frame,
+.pop-hero-camp-static {
+display: block;
+}
+
+#navicon {
+margin: 0 5px 8px;
+}
+
+.menu-bar {
+position: relative;
+top: 0;
+margin-top: 31px;
+}
+
+.menu-frame {
+clear: both;
+}
+
+.about-copy-cell,
+.about-people-cell {
+float: left;
+clear: left;
+width: 100%
+}
+
+.menu-sub-list {
+margin: 7px 0 20px;
+}
+
+.menu-search-input {
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 50px;
+}
+
+.hero-top {
+padding-top: 20px;
+}
+
+.hero-list li {
+padding-right: 10px;
+margin-right: 10px;
+}
+
+.pop-exp,
+.pop-exp-best {
+padding: 10px 15px;
+}
+
+.about-copy-cell {
+margin: 0 0 5px;
+}
+
+.exp-buttons {
+margin-top: -2px;
+}
+
+.pop-exp-best {
+position: relative;
+height: auto;
+width: 100%
+}
+
+
+
+.pop-hero-camp-slider {
+display: none;
+}
+
+
+
+.menu-list li li {
+display: block;
+margin: 5px 0;
+padding-left: 0;
+border: 0;
+font-size: 19px
+}
+
+.menu-search-input {
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 50px
+}
+
+.hero-top {
+padding-top: 50px
+}
+
+.exp-buttons {
+margin-top: -2px
+}
 }
 @media screen and (max-width:768px) {
-    .projects {
-        height: auto;
-    }
-    
-    .projects h4 {
-        padding-bottom: 65px;
-    }
+.projects {
+height: auto;
+}
+
+.projects h4 {
+padding-bottom: 65px;
+}
 }
 /* -------------------------800-900------------------------ */
- 
-    @media screen and (max-width:850px) {
-        .about-people-hero {
-            height: 400px
-        }
-        .exp-content {
-            padding: 30px
-        }
-    }
+
+@media screen and (max-width:850px) {
+.about-people-hero {
+height: 400px
+}
+.exp-content {
+padding: 30px
+}
+}
 
 
 /* --------------------------900---------------------------*/
 @media screen and (max-width:990px) {
-    .projects {
-        height: 470px;
-        margin-top: 20px;
-    }
-    
-    .projects h4 {
-        padding-top: 75px;
-    }
-    
-    .grid {
-        text-align: center;
-    }
-    
-    .grid h4 {
-        margin-left: 0;
-    }
+.projects {
+height: 470px;
+margin-top: 20px;
+}
+
+.projects h4 {
+padding-top: 75px;
+}
+
+.grid {
+text-align: center;
+}
+
+.grid h4 {
+margin-left: 0;
+}
 }
 
 /* footer start */
 @media screen and (min-width:800px) and (max-width:990px){
-	
-	.socialupc img{
-	padding-top:50px;
-	width:30px;
-	display:inline;
-	margin-left:85px;
 
-	}
+.socialupc img{
+padding-top:50px;
+width:30px;
+display:inline;
+margin-left:85px;
+
+}
 }
 
 /* footer end */
 
 /*-----------------<1000>---------------------------*/
 @media screen and (min-width:990px) and (max-width:1050px) {
-    .upcreative {
-        font-size: 50px ! important;
-        text-align: center;
-    }
-    
-    .wecraft {
-        padding-top: 1%;
-        text-align: center;
-        font-size: 50% ! important;
-        font-style: bold;
-    }
-    
-    .menu-list {
-        display: table-cell;
-        height: 50px;
-        padding: 20px;
-        padding-left: 80px;
-        vertical-align: middle!important;
-        overflow: hidden;
-    }
-    
-    .menu-list {
-        vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 15px;
-        overflow: hidden;
-    }
-		.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-    
-    .menu-list li,
-    .menu-list li li {
-        letter-spacing: 1px;
-        line-height: 2;
-        font-size: 50px;
-    }
-    
-    #activate-left {
-        left: -42px;
-        background-image: url(../img/flgauche.png);
-    }
-    
-    #activate-right {
-        right: -42px;
-        background-image: url(../img/fldroit.png)
-    }
+.upcreative {
+font-size: 50px ! important;
+text-align: center;
+}
+
+.wecraft {
+padding-top: 1%;
+text-align: center;
+font-size: 50% ! important;
+font-style: bold;
+}
+
+.menu-list {
+display: table-cell;
+height: 50px;
+padding: 20px;
+padding-left: 80px;
+vertical-align: middle!important;
+overflow: hidden;
+}
+
+.menu-list {
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 15px;
+overflow: hidden;
+}
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
+
+.menu-list li,
+.menu-list li li {
+letter-spacing: 1px;
+line-height: 2;
+font-size: 50px;
+}
+
+#activate-left {
+left: -42px;
+background-image: url(../img/flgauche.png);
+}
+
+#activate-right {
+right: -42px;
+background-image: url(../img/fldroit.png)
+}
 }
 
 /*-----------------<1000-1300>---------------------------*/
 @media screen and (min-width:1200px) and (max-width:1290px) {
-    .upcreative {
-        font-size: 50px ! important;
-        text-align: center;
-    }
-    
-    .wecraft {
-        padding-top: 1%;
-        text-align: center;
-        font-size: 50% ! important;
-        font-style: bold;
-    }
-    
-    .menu-list {
-        display: table-cell;
-        height: 50px;
-        padding: 20px;
-        vertical-align: middle!important;
-        overflow: hidden;
-    }
-    
-    .menu-list {
-        vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 15px;
-        overflow: hidden;
-    }
-		.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-    
-    .menu-list li,
-    .menu-list li li {
-        letter-spacing: 1px;
-        line-height: 2
-    }
-    
-    #activate-left {
-        left: -42px;
-        background-image: url(../img/flgauche.png);
-    }
-    
-    #activate-right {
-        right: -42px;
-        background-image: url(../img/fldroit.png)
-    }
+.upcreative {
+font-size: 50px ! important;
+text-align: center;
+}
+
+.wecraft {
+padding-top: 1%;
+text-align: center;
+font-size: 50% ! important;
+font-style: bold;
+}
+
+.menu-list {
+display: table-cell;
+height: 50px;
+padding: 20px;
+vertical-align: middle!important;
+overflow: hidden;
+}
+
+.menu-list {
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 15px;
+overflow: hidden;
+}
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
+
+.menu-list li,
+.menu-list li li {
+letter-spacing: 1px;
+line-height: 2
+}
+
+#activate-left {
+left: -42px;
+background-image: url(../img/flgauche.png);
+}
+
+#activate-right {
+right: -42px;
+background-image: url(../img/fldroit.png)
+}
 }
 
 /*-----------------<1300-1500>---------------------------*/
 @media screen and (min-width:1300px) and (max-width:1500px) {
-    .upcreative {
-        font-size: 50px ! important;
-        text-align: center;
-    }
-    
-    .wecraft {
-        padding-top: 1%;
-        text-align: center;
-        font-size: 50% ! important;
-        font-style: bold;
-    }
-    
-    .menu-list {
-        display: table-cell;
-        height: 50px;
-        padding: 20px;
-        padding-left: 80px;
-        vertical-align: middle!important;
-        overflow: hidden;
-    }
-    
-    .menu-list {
-        vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 15px;
-        overflow: hidden;
-    }
-		.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-    
-    .menu-list li,
-    .menu-list li li {
-        letter-spacing: 1px;
-        line-height: 2
-    }
-    
-    #activate-top {
-        top: 14.5px;
-        background-image: url(../img/flhaut.png);
-    }
-    
-    #activate-bottom {
-        bottom: 22px;
-        background-image: url(../img/flbas.png)
-    }
-    
-    #activate-left {
-        left: -48px;
-        background-image: url(../img/flgauche.png);
-    }
-    
-    #activate-right {
-        right: -48px;
-        background-image: url(../img/fldroit.png)
-    }
+.upcreative {
+font-size: 50px ! important;
+text-align: center;
+}
+
+.wecraft {
+padding-top: 1%;
+text-align: center;
+font-size: 50% ! important;
+font-style: bold;
+}
+
+.menu-list {
+display: table-cell;
+height: 50px;
+padding: 20px;
+padding-left: 80px;
+vertical-align: middle!important;
+overflow: hidden;
+}
+
+.menu-list {
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 15px;
+overflow: hidden;
+}
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
+
+.menu-list li,
+.menu-list li li {
+letter-spacing: 1px;
+line-height: 2
+}
+
+#activate-top {
+top: 14.5px;
+background-image: url(../img/flhaut.png);
+}
+
+#activate-bottom {
+bottom: 22px;
+background-image: url(../img/flbas.png)
+}
+
+#activate-left {
+left: -48px;
+background-image: url(../img/flgauche.png);
+}
+
+#activate-right {
+right: -48px;
+background-image: url(../img/fldroit.png)
+}
 }
 
 /*-----------------<1600-1700>---------------------------*/
 @media screen and (min-width:1600px) and (max-width:1700px) {
-    .upcreative {
-        font-size: 50px ! important;
-        text-align: center;
-    }
-    
-    .wecraft {
-        text-align: center;
-        font-size: 50% ! important;
-        font-style: bold;
-    }
-    
-    .menu-list {
-        display: table-cell;
-        height: 50px;
-        padding: 20px;
-        padding-left: 80px;
-        vertical-align: middle!important;
-        overflow: hidden;
-    }
-    
-    .menu-list {
-        vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 15px;
-        overflow: hidden;
-    }
-		.menu-search{
-		 vertical-align: middle!important;
-        list-style: none;
-        font-family: "Proxima Nova Thin";
-        letter-spacing: 4px;
-        overflow: hidden;
-	}
-    
-    .menu-list li,
-    .menu-list li li {
-        letter-spacing: 1px;
-        line-height: 2
-    }
-    
-    #activate-left {
-        left: -72px;
-        background-image: url(../img/flgauche.png);
-    }
-    
-    #activate-right {
-        right: -72px;
-        background-image: url(../img/fldroit.png)
-    }
+.upcreative {
+font-size: 50px ! important;
+text-align: center;
+}
+
+.wecraft {
+text-align: center;
+font-size: 50% ! important;
+font-style: bold;
+}
+
+.menu-list {
+display: table-cell;
+height: 50px;
+padding: 20px;
+padding-left: 80px;
+vertical-align: middle!important;
+overflow: hidden;
+}
+
+.menu-list {
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 15px;
+overflow: hidden;
+}
+.menu-search{
+vertical-align: middle!important;
+list-style: none;
+font-family: "Proxima Nova Thin";
+letter-spacing: 4px;
+overflow: hidden;
+}
+
+.menu-list li,
+.menu-list li li {
+letter-spacing: 1px;
+line-height: 2
+}
+
+#activate-left {
+left: -72px;
+background-image: url(../img/flgauche.png);
+}
+
+#activate-right {
+right: -72px;
+background-image: url(../img/fldroit.png)
+}
 }
 
 
