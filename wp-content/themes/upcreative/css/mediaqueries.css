@@ -12,13 +12,7 @@ background-image: url(../img/logowhite.png);
 background-size: contain;
 cursor: pointer;
 }
-.menu-frame {
-clear: both ! important;
-text-align: center ! important;
-margin-left: 19% ! important;
-margin-top: 18% ! important;
-overflow: hidden;
-}
+
 .logoup{
 margin-left: 27%;
 }
@@ -46,12 +40,7 @@ line-height: 2;
 }
 
 @media screen and (min-width:359px) and (max-width:365px) {
-.menu-frame {
-clear: both;
-margin-left: 25%;
-text-align: center;
-margin-top: 65px;
-}
+
 #logo-home{
 margin-left:0px ! important;
 }
@@ -102,11 +91,18 @@ padding: 65px !important;
 }
 /* footer end */
 @media screen and (min-width:376px) and (max-width:399px){
-.menu-frame{
-margin-left: 17% ! important;
-text-align: center ! important;
-margin-top: 33px;
 
+.menu-list li {
+    display: block;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 100px;
 }
 }
 /*-----------------<400-500>---------------------------*/
@@ -195,10 +191,6 @@ padding-top: 10px;
 text-align: center;
 font-size: 50% ! important;
 }
-.menu-frame {
-margin-left: 27%;
-margin-top: 19%;
-}
 
 .menu-list {
 text-align:center;
@@ -226,12 +218,7 @@ line-height: 3;
 }
 }
 @media screen and (min-width:601px) and (max-width:649px){
-.menu-frame {
-clear: both !important;
-margin-left: 39% !important;
-text-align: center !important;
 
-}
 .menu-list li {
 display: block  !important;
 border: none  !important;
@@ -612,6 +599,7 @@ margin-top: -2px
 }
 }
 @media screen and (max-width:768px) {
+
 .projects {
 height: auto;
 }
@@ -926,13 +914,7 @@ background-image: url(../img/logowhite.png);
 background-size: contain;
 cursor: pointer;
 }
-.menu-frame {
-clear: both ! important;
-text-align: center ! important;
-margin-left: 19% ! important;
-margin-top: 18% ! important;
-overflow: hidden;
-}
+
 .logoup{
 margin-left: 27%;
 }
@@ -943,14 +925,19 @@ margin-left: 9%;
 margin-right:9px ! important;
 }
 .menu-list li {
-display: block;
-border: none;
-padding: 0;
-margin: 0;
-font-size: 29px;
-font-weight: 100;
-text-transform: uppercase;
-margin-top: -8px;
+    display: block;
+    border: none;
+    padding: 0;
+    margin: 0;
+	margin-top: 0px;
+	margin-left: 0px;
+    font-size: 29px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-left: 72px;
+    text-align: center;
+    line-height: 1;
 }
 main.css:264
 .menu-list li, .menu-list li li {
@@ -960,12 +947,7 @@ line-height: 2;
 }
 
 @media screen and (min-width:359px) and (max-width:365px) {
-.menu-frame {
-clear: both;
-margin-left: 25%;
-text-align: center;
-margin-top: 65px;
-}
+
 #logo-home{
 margin-left:0px ! important;
 }
@@ -981,16 +963,17 @@ font-size: 50% ! important;
 .menu-bar-home {
 top: 45px !important;
 }
-
-.menu-list li{
-border: none;
-padding: 0;
-margin: 0;
-font-size: 30px;
-line-height: 2;
-font-weight: 100;
-text-transform: uppercase;
-letter-spacing: 1px;
+.menu-list li {
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    line-height: 1;
+    margin-left: 85px;
+    text-align: center;
+    margin-top: 60px;
 }
 }
 @media screen and (min-width:350px) and (max-width:399px){
@@ -1010,18 +993,28 @@ padding: 65px !important;
 }
 
 /* footer start */
-@media screen and (min-width:300px) and (max-width:600px){
+@media screen and (min-width:600px) and (max-width:699px){
 
+.menu-list li {
+    display: block;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 191px;
+    line-height: 1 important;
+}
 
+main.css:264
+.m
 }
 /* footer end */
 @media screen and (min-width:376px) and (max-width:399px){
-.menu-frame{
-margin-left: 17% ! important;
-text-align: center ! important;
-margin-top: 33px;
 
-}
 }
 /*-----------------<400-500>---------------------------*/
 @media screen and (min-width:400px) and (max-width:500px) {
@@ -1109,10 +1102,7 @@ padding-top: 10px;
 text-align: center;
 font-size: 50% ! important;
 }
-.menu-frame {
-margin-left: 27%;
-margin-top: 19%;
-}
+
 
 .menu-list {
 text-align:center;
@@ -1140,12 +1130,7 @@ line-height: 3;
 }
 }
 @media screen and (min-width:601px) and (max-width:649px){
-.menu-frame {
-clear: both !important;
-margin-left: 39% !important;
-text-align: center !important;
 
-}
 .menu-list li {
 display: block  !important;
 border: none  !important;
