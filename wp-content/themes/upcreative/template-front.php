@@ -56,7 +56,7 @@
 						<div class="container">
 							<div class="relative">
 								<div class="menu-bar-home">
-									<a href="<?php echo home_url(); ?>"><img src="<?php echo home_url(); ?>/img/icon-home.png" class="left"  width="32"></a>
+									<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-home.png" class="left"  width="32"></a>
 								</div>
 							</div>
 						</div>
@@ -86,7 +86,7 @@
 	<section id="movebar">
 		<div id="move-top" class="move-bar clicker noselect" style="top: -222px;">
 			<div class="container tcenter">
-				<div class="move-img"><img src="<img src="<?php echo get_template_directory_uri(); ?>"/img/flhaut.png" ></div>
+				<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flhaut.png" ></div>
 				<div>
 					<div class="move-horizontal move-title"><span><?php the_field('haut-title'); ?></span></div>
 					<div class="move-horizontal move-copy"><span><?php the_field('haut-sous-title'); ?></span></div>
