@@ -297,11 +297,11 @@ border-bottom: none !important;
 }
 @media screen and (min-width:1000px) and (max-width:1300px) {
 .modal-content {
-margin-top: 60% !important;
+margin-top: 32% !important;
 
 }
 .btn-sender {
-margin-left: -63px;
+margin-left: -38px;
 padding: 10px 50px 10px 50px !important;
 width: 140px;
 }
