@@ -11,13 +11,9 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
 <link href="<?php echo get_template_directory_uri(); ?>/css/main.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery.scrollbar.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mediaqueries.css">
 <script async="" src="<?php echo get_template_directory_uri(); ?>/js/analytics.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-latest.min.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.placeholder.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/header.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.scrollbar.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
@@ -25,121 +21,124 @@
 <script>
     new WOW().init();
 </script>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/popup.css">
+
 <body style="width: 100%;height: 100%;">
 	
-		<header>
-			<div class="backg-upcreative cover" style="background-image: url(<?php the_field('background-image');?>);background-attachment:fixed;">&nbsp;</div>
-			
-				<div class="container wrapper hero relative">
-					<a href="<?php echo home_url(); ?>" id="logo-home" class="wow fadeInLeft" ></a>
-						<div class="home-buttons wow fadeInRight">
-							<div id="navicon"><span></span><span></span><span></span><span></span></div>
+		<header id="nav">
+		<!--header nav start -->
+		<div class="hero relative" style="height: 791px;">
+			<div class="hero-img cover" style="background-image: url(<?php the_field('background-image');?>); height: 821px; width: 1630px; top: -15px; left: -15px;"></div>
+				
+				<div class="container spacer-top" style="z-index:2;">
+					<a href="<?php echo home_url(); ?>" id="logo-home" class="wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInLeft;"></a>
+						
+						<div class="home-buttons wow fadeInRight" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInRight;">
+							<div id="navicon" class=""><span></span><span></span><span></span><span></span></div>
 							<?php if(ICL_LANGUAGE_CODE == 'en'): ?>
 							<a href="<?php echo get_site_url();?>/zh"><div class="swith right cover "> 中文 </div></a>
 							<?php else: ?>
 							<a href="<?php echo get_site_url();?>/"><div class="swith right cover "> English </div></a>
 							<?php endif; ?>
-							<div class="top-search-w right cover " style="margin-right: 20px"></div>
+							<div class="top-search-w right cover"></div>
+						</div>
+						
+						<div class="space" style="height:257px" ></div>
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<div class="text-center upcreative">
+									<h1 style="color:white;"><strong><?php the_field('title'); ?></strong></h1>
+									<h3 style="color:white;"><?php the_field('sous-title'); ?></h3>
+								</div>
+							</div>
+						</div>
+						
+					<div id="menumask" class="noselect" style="display: none;">
+						<div class="container">
+							<div class="relative">
+								<div class="menu-bar-home">
+									<a href="<?php echo home_url(); ?>"><img src="<?php echo home_url(); ?>/img/icon-home.png" class="left"  width="32"></a>
+								</div>
+							</div>
 						</div>
 					
-						<div id="menumask" class="noselect">
-								<div class="wrapper">
-									<div class="ico-home">
-										<div class="menu-bar-home">
-											<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-home.png" class="left"></a>
-										</div>
+						<div class="menu-frame">
+							<div class="menu-search tcenter" style="display: none;">
+								<form class="cbform" id="sform" name="sform" method="GET" novalidate="novalidate" action="<?php echo home_url(); ?>">
+									<input type="text" name="s" class="menu-search-input" placeholder="Search" autocomplete="off" autocapitalize="on" autocorrect="on">
+									<div class="menu-search-box">
+										<button type="submit" class="menu-search-button button-default button-w button-xl">Search</button>
+										<img src="<?php echo get_template_directory_uri(); ?>/img/icon-close.png" class="menu-search-close clicker hidden" alt="" width="40">
 									</div>
-								</div>
-							<div class="menu-frame">
-								<div class="menu-search tcenter">
-									<form class="cbform" id="sform" name="sform" method="GET" novalidate="novalidate" action="<?php echo home_url(); ?>">
-										<input type="text" name="s" class="menu-search-input" placeholder="Search" autocomplete="off" autocapitalize="on" autocorrect="on">
-											<div class="search">
-												<button type="submit" class="search-button button-default button-w button-xl">Search</button>
-												<img src="<?php echo get_template_directory_uri(); ?>/img/icon-close.png" class="menu-search-close clicker hidden">
-											</div>
-									</form>
-								</div>
-								<?php html5blank_head_nav(); ?>	
+								</form>
+								<div class="search-results container"></div>
 							</div>
-							
-						</div>
-						<div style="height:42%" ></div>
-							<div class="container">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3">
-											<div id="title">
-												<h1 class="titre1 wow fadeInLeft"><strong><?php the_field('title'); ?></strong></h1>
-												<h2 class="titre2 wow fadeInRight"><?php the_field('sous-title'); ?></h2>
-											</div>
-										</div>
-								</div>
-							</div>					
-				</div>
-		</header>
-		<?php get_template_part('enquire'); ?>
-		<section>
-		  <!--move start-->
-			<div id="move-top" class="move-bar clicker noselect">
-				<div class="wrapper tcenter">
-					<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flhaut.png" alt="Up arrow"></div>
-					<div>
-						<div class="move-horizontal move-title"><span><?php the_field('haut-title'); ?></span></div>
-						<div class="move-horizontal move-copy"><span><?php the_field('haut-sous-title'); ?></span></div>
-					</div>
-				</div>
-			</div>
-			
-			<div id="move-bottom" class="move-bar clicker noselect">
-				<div class="wrapper tcenter">
-					<div>
-						<div class="move-horizontal move-title"><span><?php the_field('bas-title'); ?></span></div>
-						<div class="move-horizontal move-copy"><span><?php the_field('bas-sous-title'); ?></span></div>
-					</div>
-					<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flbas.png" alt="Down arrow"></div>
-				</div>
-			</div>
-			
-			<div id="move-left" class="move-bar table clicker noselect">
-				<div class="table-cell table-cell-m">
-					<div>
-						<div class="table-cell table-cell-m tleft move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png" alt="Left arrow"></div>
-						<div class="table-cell table-cell-m tright move-upright">
-							<div class="move-vertical move-title"><span><?php the_field('gauche-title'); ?></span></div>
-							<div class="move-horizontal move-copy"><span><?php the_field('gauche-sous-title'); ?></span></div>
+						<?php html5blank_head_nav(); ?>
 						</div>
 					</div>
 				</div>
-			</div>
-			
-			<div id="move-right" class="move-bar table clicker noselect">
-					<div class="table-cell table-cell-m">
-						<div>
-							<div class="table-cell table-cell-m tleft move-upright">
-								<div class="move-vertical move-title"><span><?php the_field('droite-title'); ?></span></div>
-								<div class="move-horizontal move-copy"><span><?php the_field('droite-sous-title'); ?></span></div>
-							</div>
-							<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/fldroit.png" alt="Right arrow"></div>
-						</div>
-					</div>
-			</div>
-				<div id="activate-top" class="activate-bar " ></div>
-				<div id="activate-bottom" class="activate-bar" ></div>
-				<div id="activate-left" class="activate-bar" ></div>
-				<div id="activate-right" class="activate-bar" ></div>
-			<!--move end-->				
-		</section>
-				
-		<footer>		
-			<div class="container">
-				<div class="hero-bottom wrapper">
-					<ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s">
-						<li><a href="<?php  get_site_url; ?>">ABOUT</a></li>
-						<li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal">ENQUIRE</a></li>
-					</ul>
+		</div>																		
+	</header>
+	<!--header nav end -->
+	
+	<?php get_template_part('enquire'); ?>
+	
+	<!-- section move start -->
+	<section id="movebar">
+		<div id="move-top" class="move-bar clicker noselect" style="top: -222px;">
+			<div class="container tcenter">
+				<div class="move-img"><img src="<img src="<?php echo get_template_directory_uri(); ?>"/img/flhaut.png" ></div>
+				<div>
+					<div class="move-horizontal move-title"><span><?php the_field('haut-title'); ?></span></div>
+					<div class="move-horizontal move-copy"><span><?php the_field('haut-sous-title'); ?></span></div>
 				</div>
 			</div>
-	    </footer>
-	</body>
-</html>
+		</div>
+		
+		<div id="move-right" class="move-bar table clicker noselect" style="right: -330px;">
+			<div class="table-cell table-cell-m">
+					<div class="table-cell table-cell-m tleft move-upright">
+						<div class="move-vertical move-title"><span><?php the_field('droite-title'); ?></span></div>
+						<div class="move-horizontal move-copy"><span><?php the_field('droite-sous-title'); ?></span></div>
+					</div>
+					<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/fldroit.png" ></div>
+			</div>
+		</div>
+		
+		<div id="move-bottom" class="move-bar clicker noselect"  style="bottom: -245px;">
+			<div class="container tcenter">
+				<div>
+					<div class="move-horizontal move-title"><span><?php the_field('bas-title'); ?></span></div>
+					<div class="move-horizontal move-copy"><span><?php the_field('bas-sous-title'); ?></span></div>
+				</div>
+				<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flbas.png" alt="Down arrow"></div>
+			</div>
+		</div>
+		
+		<div id="move-left" class="move-bar table clicker noselect" style="left: -330px;">
+			<div class="table-cell table-cell-m">
+					<div class="table-cell table-cell-m tleft move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png" ></div>
+					<div class="table-cell table-cell-m tright move-upright">
+						<div class="move-vertical move-title"><span><?php the_field('gauche-title'); ?></span></div>
+						<div class="move-horizontal move-copy"><span><?php the_field('gauche-sous-title'); ?></span></div>
+					</div>
+			</div>
+		</div>
+		
+		<div id="activate-top" class="activate-bar" style="display: block;"></div>
+		<div id="activate-bottom" class="activate-bar" style="display: block;"></div>
+		<div id="activate-left" class="activate-bar" style="display: block;"></div>
+		<div id="activate-right" class="activate-bar" style="display: block;"></div>
+	</section>
+	<!-- section move end -->
+																	
+	<!--section footer start -->
+	<section id="footer">
+        <div class="container footer ">
+            <ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInLeft;">
+                <li><a href="<?php  get_site_url; ?>">About</a></li>
+                <li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal" >Enquire</a></li>
+            </ul>
+		</div>
+	</section>	
+	<!-- section footer end -->
+</body></html>
