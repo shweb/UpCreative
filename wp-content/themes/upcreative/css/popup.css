@@ -238,7 +238,14 @@ background-position: 48% 24% ! important;
 }
 }
 @media screen and (min-width:600px) and (max-width:700px) {
-
+	.modal-content {
+    background: url(../img/popup.png);
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-bottom: 4%;
+    background-position: 48% 30%;
+    margin-top: 50%;
+}
 .btn-sender {
 margin-left: 62%;
 padding: 10px 50px 10px 50px !important;
@@ -247,6 +254,30 @@ width: 140px;
 .modal-body {
 margin-bottom: 0px !important;
 border-bottom: none !important;
+}
+}
+@media screen and (min-width:750px) and (max-width:799px) {
+.modal-footer {
+    padding: 0;
+    border-top: none ! important;
+    text-align: center ! important;
+    margin-top: -26px ! important;
+    margin-left: 25px ! important;
+}
+.btn-sender {
+    background-color: black;
+    color: white;
+    padding: 10px 47px 10px 47px;
+    border: none;
+    margin-left: 14px;
+}
+.modal-content {
+    background: url(../img/popup.png);
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-bottom: 4%;
+    background-position: 48% 30%;
+    margin-top: 40%;
 }
 }
 @media screen and (min-width:800px) and (max-width:1000px) {
@@ -266,10 +297,11 @@ border-bottom: none !important;
 }
 @media screen and (min-width:1000px) and (max-width:1300px) {
 .modal-content {
-margin-top: 19% !important;
+margin-top: 60% !important;
+
 }
 .btn-sender {
-margin-left: -38px;
+margin-left: -63px;
 padding: 10px 50px 10px 50px !important;
 width: 140px;
 }
