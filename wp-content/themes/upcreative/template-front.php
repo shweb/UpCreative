@@ -42,7 +42,7 @@
 							<div class="top-search-w right cover"></div>
 						</div>
 						
-						<div class="space" style="height:257px" ></div>
+						<div class="space"></div>
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
 								<div class="text-center upcreative">
