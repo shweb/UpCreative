@@ -11,13 +11,13 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
 <link href="<?php echo get_template_directory_uri(); ?>/css/main.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/popup.css">
 <script async="" src="<?php echo get_template_directory_uri(); ?>/js/analytics.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-latest.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/header.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/popup.css">
 <script>
     new WOW().init();
 </script>
@@ -135,7 +135,7 @@
 	<section id="footer">
         <div class="container footer ">
             <ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInLeft;">
-                <li><a href="<?php  get_site_url; ?>">About</a></li>
+                <li><a href="<?php  get_site_url; ?>about-us">ABOUT</a></li>
                 <li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal" >Enquire</a></li>
             </ul>
 		</div>
