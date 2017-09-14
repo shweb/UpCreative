@@ -88,8 +88,7 @@
 			<div class="container tcenter">
 				<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flhaut.png" ></div>
 				<div>
-					<div class="move-horizontal move-title"><span><?php the_field('haut-title'); ?></span></div>
-					<div class="move-horizontal move-copy"><span><?php the_field('haut-sous-title'); ?></span></div>
+					<div class="move-horizontal move-title"><span><a class="slide" href="<?php echo home_url(); ?>"><?php the_field('haut-title'); ?></a></span></div>
 				</div>
 			</div>
 		</div>
@@ -97,8 +96,7 @@
 		<div id="move-right" class="move-bar table clicker noselect" style="right: -330px;">
 			<div class="table-cell table-cell-m">
 					<div class="table-cell table-cell-m tleft move-upright">
-						<div class="move-vertical move-title"><span><?php the_field('droite-title'); ?></span></div>
-						<div class="move-horizontal move-copy"><span><?php the_field('droite-sous-title'); ?></span></div>
+						<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>about-us"><?php the_field('droite-title'); ?></a></span></div>
 					</div>
 					<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/fldroit.png" ></div>
 			</div>
@@ -107,8 +105,7 @@
 		<div id="move-bottom" class="move-bar clicker noselect"  style="bottom: -245px;">
 			<div class="container tcenter">
 				<div>
-					<div class="move-horizontal move-title"><span><?php the_field('bas-title'); ?></span></div>
-					<div class="move-horizontal move-copy"><span><?php the_field('bas-sous-title'); ?></span></div>
+					<div class="move-horizontal move-title"><span><a class="slide" href="<?php  get_site_url; ?>services"><?php the_field('bas-title'); ?></a></span></div>
 				</div>
 				<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flbas.png" alt="Down arrow"></div>
 			</div>
@@ -118,8 +115,7 @@
 			<div class="table-cell table-cell-m">
 					<div class="table-cell table-cell-m tleft move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png" ></div>
 					<div class="table-cell table-cell-m tright move-upright">
-						<div class="move-vertical move-title"><span><?php the_field('gauche-title'); ?></span></div>
-						<div class="move-horizontal move-copy"><span><?php the_field('gauche-sous-title'); ?></span></div>
+						<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>works"><?php the_field('gauche-title'); ?></a></span></div>
 					</div>
 			</div>
 		</div>

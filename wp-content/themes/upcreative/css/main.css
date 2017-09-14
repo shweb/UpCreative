@@ -32,6 +32,15 @@ transition: all .5s;
 text-align: center;
 }
 
+.slide{
+	color:white ! important;
+	font-size: 35px ! important;
+}
+
+.slide:hover{
+	color:white ! important;
+	text-decoration:none;
+}
 
 * {
 -moz-box-sizing: border-box;
@@ -51,9 +60,7 @@ line-height: 0;
 -o-user-drag: none;
 user-drag: none;
 }
-a {
-color: #000;
-}
+
 a:hover {
 text-decoration: underline;
 }
