@@ -132,7 +132,7 @@
         <div class="container footer ">
             <ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInLeft;">
                 <li><a href="<?php  get_site_url; ?>about-us">ABOUT</a></li>
-                <li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal" >Enquire</a></li>
+                <li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal" >ENQUIRE</a></li>
             </ul>
 		</div>
 	</section>	
