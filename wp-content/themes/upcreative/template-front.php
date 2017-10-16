@@ -101,11 +101,11 @@
 				</div>
 			</div>
 			
-			<div id="move-left" class="move-bar table clicker noselect">
-				<div class="table-cell table-cell-m">
+			<div id="move-left" class="move-bar clicker noselect">
+				<div class=" table-cell-m">
 					<div>
-						<div class="table-cell table-cell-m tleft move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png" alt="Left arrow"></div>
-						<div class="table-cell table-cell-m tright move-upright">
+						<div class=" table-cell-m tleft move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png" alt="Left arrow"></div>
+						<div class=" table-cell-m tright move-upright">
 							<div class="move-vertical move-title"><span><?php the_field('gauche-title'); ?></span></div>
 							<div class="move-horizontal move-copy"><span><?php the_field('gauche-sous-title'); ?></span></div>
 						</div>
@@ -114,13 +114,13 @@
 			</div>
 			
 			<div id="move-right" class="move-bar table clicker noselect">
-					<div class="table-cell table-cell-m">
+					<div class=" table-cell-m">
 						<div>
-							<div class="table-cell table-cell-m tleft move-upright">
+							<div class=" table-cell-m tleft move-upright">
 								<div class="move-vertical move-title"><span><?php the_field('droite-title'); ?></span></div>
 								<div class="move-horizontal move-copy"><span><?php the_field('droite-sous-title'); ?></span></div>
 							</div>
-							<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/fldroit.png" alt="Right arrow"></div>
+							<div class=" table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/fldroit.png" alt="Right arrow"></div>
 						</div>
 					</div>
 			</div>
@@ -136,7 +136,8 @@
 				<div class="hero-bottom wrapper">
 					<ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s">
 						<li><a href="<?php  get_site_url; ?>">ABOUT</a></li>
-						<li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal">ENQUIRE</a></li>
+						<li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal">Start a project</a></li>
+						<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/qrcodeupcreative.png" class="qrcode" ></a></li>
 					</ul>
 				</div>
 			</div>

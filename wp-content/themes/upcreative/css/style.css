@@ -11,6 +11,27 @@ team Trustylabs */
 	border-bottom:none ! important;
 }
 
+.textdesc{
+	font-size:25px;
+	color:white
+}
+
+a > .learn{
+	background-color: #3498db;
+	margin-top:15px;
+	margin-bottom:15px;
+	color:white;
+}
+
+a > .learn:hover{
+	color:white ! important;
+}
+
+a > .learn:focus{
+	color:white ! important;
+}
+
+
 .modal-footer {
 padding: 0;
  border-top:none ! important;
