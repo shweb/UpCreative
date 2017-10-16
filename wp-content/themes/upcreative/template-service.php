@@ -47,7 +47,7 @@ endwhile;
                                                         <div>
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
 															<h2> <?php the_content(); ?></h2>
-															<a href="#" class="pull-right"> <button type="button" class="btn learn btn-lg ">Large button</button></a>
+															<a href="http://localhost/UpCreative/hybrid-development/" class="pull-right"> <button type="button" class="btn learn btn-lg ">Learn More</button></a>
                                                             <div class="clear"></div>
                                                         </div>
 

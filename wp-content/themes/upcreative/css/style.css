@@ -1,5 +1,30 @@
 /* footer
 team Trustylabs */
+/* sercice detail */
+
+.image.round img {
+    border-radius: 100%;
+	width:65%;
+}
+.service-content{
+	margin-top: 100px;
+	margin-bottom:75px;
+}
+.text-service{
+	font-size:18px;
+}
+.title-detailservice{
+	margin-bottom:40px;
+}
+.bg-service{
+	background-color:#f2f2f2;
+}
+.btn-service{
+	margin-top:30px;
+}
+/* service detail */
+
+
 
 /*pop up */
 .center {
