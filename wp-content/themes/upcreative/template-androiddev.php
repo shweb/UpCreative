@@ -1,4 +1,4 @@
-<?php /* Template Name: iosappli Page Template */ ?>
+<?php /* Template Name: Androiddev Page Template */ ?>
 <?php get_header(); ?>
 	
     <!-- section about upcreative start -->
