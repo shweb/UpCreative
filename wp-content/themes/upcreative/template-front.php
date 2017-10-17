@@ -148,8 +148,8 @@
             <ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInLeft;">
                 <li><a href="<?php  get_site_url; ?>about-us">ABOUT</a></li>
                 <li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal">Start a Project</a></li>
-                <li><a href="#"><img class="qrcode" src="<?php echo get_template_directory_uri(); ?>/img/qrcodeupcreative.png" ></a></li>
             </ul>
+			<p><a href="#" class="pull-right wow fadeInRight"><img class="qrcode" src="<?php echo get_template_directory_uri(); ?>/img/qrcodeupcreative.png" ></a><p>
         </div>
     </section>
     <!-- section footer end -->
