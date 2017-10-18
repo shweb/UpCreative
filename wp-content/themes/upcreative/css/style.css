@@ -24,10 +24,11 @@ team Trustylabs */
 }
 
 a > .learn{
-	background-color: #3498db;
+	background-color: #000;
 	margin-top:15px;
 	margin-bottom:15px;
 	color:white;
+	border-radius: 0 !important;
 }
 
 a > .learn:hover{
