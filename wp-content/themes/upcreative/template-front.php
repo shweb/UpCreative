@@ -51,13 +51,18 @@
                     </div>
 
                     <div class="space"></div>
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="text-center upcreative">
-                                <h1 style="color:white;"><strong><?php the_field('title'); ?></strong></h1>
-                                <h3 style="color:white;"><?php the_field('sous-title'); ?></h3>
-                            </div>
-                        </div>
+					
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-xs-1"></div>
+							<div class="col-md-6 col-xs-10 text-center-md absolute">
+								<div class=" upcreative" style="text-align: center;">
+									<h1 class="title1" style="color:white;"><?php the_field('title'); ?></h1>
+									<h3 class="title2" style="color:white;"><?php the_field('sous-title'); ?></h3>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-1"></div>
+						</div>
                     </div>
 
                     <div id="menumask" class="noselect" style="display: none;">
@@ -91,67 +96,76 @@
         <?php get_template_part('enquire'); ?>
 
             <!-- section move start -->
-            <section id="movebar">
-                <div id="move-top" class="move-bar clicker noselect" style="top: -222px;">
-                    <div class="container tcenter">
-                        <div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flhaut.png"></div>
-                        <div>
-                            <div class="move-horizontal move-title"><span><a class="slide" href="<?php echo home_url(); ?>"><?php the_field('haut-title'); ?></a></span></div>
-                        </div>
-                    </div>
-				</div>
-
-				<div id="move-bottom" class="move-bar clicker noselect" style="bottom: -245px;">
-					<div class="container tcenter">
-						<div>
-							<div class="move-horizontal move-title"><span><a class="slide" href="<?php  get_site_url; ?>services"><?php the_field('bas-title'); ?></a></span></div>
+			<div class="container">
+				<section id="movebar">
+					<div id="move-top" class="move-bar clicker noselect" style="top: -222px;">
+						<div class="container tcenter">
+							<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flhaut.png"></div>
+							<div>
+								<div class="move-horizontal move-title"><span><a class="slide" href="<?php echo home_url(); ?>"><?php the_field('haut-title'); ?></a></span></div>
+							</div>
 						</div>
-						<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flbas.png" alt="Down arrow"></div>
 					</div>
-				</div>
-				
-				
-				
 
-				<div id="move-right" class="move-bar table clicker noselect" style="right: -330px;">
-					<div class="table-cell table-cell-m">
-						<div class="table-cell table-cell-m tleft move-upright">
-							<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>about-us"><?php the_field('droite-title'); ?></a></span></div>
+					<div id="move-bottom" class="move-bar clicker noselect" style="bottom: -245px;">
+						<div class="container tcenter">
+							<div>
+								<div class="move-horizontal move-title"><span><a class="slide" href="<?php  get_site_url; ?>services"><?php the_field('bas-title'); ?></a></span></div>
+							</div>
+							<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flbas.png" alt="Down arrow"></div>
+						</div>
+					</div>
+					
+					
+					
 
+					<div id="move-right" class="move-bar table clicker noselect" style="right: -330px;">
+						<div class="table-cell table-cell-m">
+							<div class="table-cell table-cell-m tleft move-upright">
+								<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>works"><?php the_field('droite-title'); ?></a></span></div>
+
+							</div>
+							<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/fldroit.png"></div>
 						</div>
-						<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/fldroit.png"></div>
 					</div>
-				</div>
-				
-				<div id="move-left" class="move-bar table clicker noselect" style="right: -330px;">
-					<div class="table-cell table-cell-m">
-					<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png"></div>
-						<div class="table-cell table-cell-m tleft move-upleft">
-							<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>about-us"><?php the_field('droite-title'); ?></a></span></div>
+					
+					<div id="move-left" class="move-bar table clicker noselect" style="right: -330px;">
+						<div class="table-cell table-cell-m">
+						<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png"></div>
+							<div class="table-cell table-cell-m tleft move-upleft">
+								<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>about-us"><?php the_field('droite-title'); ?></a></span></div>
+							</div>
+							
 						</div>
-						
 					</div>
-				</div>
+					
+					
 				
-				
-			
-                                <div id="activate-top" class="activate-bar "></div>
-                                <div id="activate-bottom" class="activate-bar"></div>
-                                <div id="activate-left" class="activate-bar"></div>
-                                <div id="activate-right" class="activate-bar"></div>
-                                <!--move end-->
-            </section>
+					<div id="activate-top" class="activate-bar "></div>
+					<div id="activate-bottom" class="activate-bar"></div>
+					<div id="activate-left" class="activate-bar"></div>
+					<div id="activate-right" class="activate-bar"></div>
+								
+				</section>
+			</div>
 
     <!--section footer start -->
-    <section id="footer">
-        <div class="container footer ">
-            <ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInLeft;">
-                <li><a href="<?php  get_site_url; ?>about-us">ABOUT</a></li>
-                <li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal">Start a Project</a></li>
-            </ul>
-			<p><a href="#" class="pull-right wow fadeInRight"><img class="qrcode" src="<?php echo get_template_directory_uri(); ?>/img/qrcodeupcreative.png" ></a><p>
-        </div>
-    </section>
+		<section id="footer">
+			<div class="container footer ">
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInLeft;">
+							<li><a href="<?php  get_site_url; ?>about-us">ABOUT</a></li>
+							<li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal">ENQUIRE</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<p><a href="#" class="pull-right wow fadeInRight"><img class="qrcode" src="<?php echo get_template_directory_uri(); ?>/img/qrcodeupcreative.png" ></a>
+						<p>
+					</div>
+				</div>
+			</div>
+		</section>
     <!-- section footer end -->
     </body>
 
