@@ -849,6 +849,8 @@ color: #797979;
 	 position: relative;
  }
  
+ 
+ /* home responsive-start */
 @media screen and (min-width:319px) and (max-width:350px){
 	.space {
     height:115px !important;
@@ -927,9 +929,6 @@ height: 110px !important;
 }
 
 
-
-
-
 @media screen and (min-width:1000px) and (max-width:1023px){
 	.space {
     height: 190px !important;
@@ -955,7 +954,7 @@ height: 110px !important;
 	font-size: 40px !important;
 }
 
-
+/* home responsive end */
 
 @media screen and (max-width:1200px) {
 .about-contact-info {

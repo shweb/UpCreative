@@ -42,16 +42,14 @@
 
 			?>
                 <div class="container">
-                    <div href="#" class="col-md-3 col-xs-12 about-history-logo  bg-nc wow fadeInUp" style="background-image: url('<?php echo $featured_image[0]; ?>')"></div>
-                    <div class="col-md-9 col-xs-12  about-history-copy wow fadeInUp" style="min-height:160px;">
-                        <div class="container wow fadeInUp">
-                            <div class="col-md-2 col-xs-12 about-copy-cell about-history-copy-block wow fadeInLeft">
-                                <?php the_title();?>
-                            </div>
-                            <div class="col-md-5 col-xs-11 desk wow fadeInLeft"><strong><?php the_content();?></strong></div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
+					<div class="row bg-custom">	
+						<div class="col-md-4 col-xs-12 text-center about-copy-cell about-history-copy-block wow fadeInLeft">
+							<?php the_title();?>
+							 <div href="#" class="about-history-logo  bg-nc wow fadeInUp" style="background-image: url('<?php echo $featured_image[0]; ?>')"></div>
+						</div>
+						<div class="col-md-8 col-xs-12 desk wow fadeInLeft"><?php the_content();?></div>
+						<div class="clear"></div>
+					</div>
                 </div>
                 <div class="divider-s"></div>
                 <?php
