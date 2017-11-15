@@ -131,7 +131,16 @@ clear: both;
 width: 100%;
 max-width: 1280px;
 margin: auto;
-padding: 0 20px;
+padding: 0 6px;
+}
+
+@media screen and (min-width:768px) and (max-width:1025px){
+	.dividerupc {
+    height: 0 ! important;
+}
+.wrapper,.wrapper-s {
+padding: 0 6px ! important;
+}
 }
 
 .wrapper-s {
