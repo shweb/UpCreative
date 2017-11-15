@@ -2,6 +2,23 @@
 team Trustylabs */
 /* sercice detail */
 
+@media screen and (max-width:768px){
+	#logo-home {
+    float: left;
+    width: 80px ! important;
+    height: 88px;
+    margin-top: 20px;
+    margin-right: 15px;
+    background-image: url(../img/logowhite.png);
+    background-size: contain;
+    cursor: pointer;
+}
+.dividerupc {
+    height: 0px !important;
+}
+}
+
+
 .image.round img {
     border-radius: 100%;
 	width:65%;
