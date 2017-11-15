@@ -139,7 +139,7 @@ padding: 0 6px;
     height: 0 ! important;
 }
 .wrapper,.wrapper-s {
-padding: 0 6px ! important;
+padding: 0 -1px ! important;
 }
 }
 
