@@ -5,7 +5,7 @@
     <meta http-equiv="expires" content="-1">
     <title>
         <?php wp_title(''); ?>
-            <?php if (wp_title('', false)){echo ' :';} ?>
+            <?php if (wp_title('', false)){echo ' : ';} ?>
                 <?php bloginfo('name'); ?>
     </title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
@@ -102,7 +102,13 @@
 						<div class="container tcenter">
 							<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flhaut.png"></div>
 							<div>
-								<div class="move-horizontal move-title"><span><a class="slide" href="<?php echo home_url(); ?>"><?php the_field('haut-title'); ?></a></span></div>
+								<div class="move-horizontal move-title">
+								<span>
+									<a class="slide" href="<?php echo home_url(); ?>" data-toggle="modal" data-target="#myModal">
+										<?php the_field('haut-title'); ?>
+									</a>
+								</span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -122,7 +128,7 @@
 					<div id="move-right" class="move-bar table clicker noselect" style="right: -330px;">
 						<div class="table-cell table-cell-m">
 							<div class="table-cell table-cell-m tleft move-upright">
-								<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>works"><?php the_field('droite-title'); ?></a></span></div>
+								<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>work"><?php the_field('droite-title'); ?></a></span></div>
 
 							</div>
 							<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/fldroit.png"></div>
@@ -133,7 +139,7 @@
 						<div class="table-cell table-cell-m">
 						<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png"></div>
 							<div class="table-cell table-cell-m tleft move-upleft">
-								<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>about-us"><?php the_field('droite-title'); ?></a></span></div>
+								<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>about-us"><?php the_field('gauche-title'); ?></a></span></div>
 							</div>
 							
 						</div>

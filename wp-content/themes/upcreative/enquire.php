@@ -7,7 +7,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h1 class="modal-title">Contact us</h1>
-		<p class="modal-title2">032514547585</p>
+		<p class="modal-title2">0086 15821835428</p>
       </div>
       <div class="modal-body">
 		<form>
