@@ -29,7 +29,7 @@ endwhile;
                                                         <div>
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
 															<h2> <?php the_content(); ?></h2>
-															<a href="<?php  get_site_url; ?>hybrid-development" class="pull-right"> <button type="button" class="btn learn btn-lg ">Learn More</button></a>
+															<a href="<?php  get_site_url; ?>hybrid-development" class="pull-right"> <button type="button" class="btn btn-success">Learn More</button></a>
                                                             <div class="clear"></div>
                                                         </div>
 
@@ -43,7 +43,7 @@ endwhile;
                                                         <div>
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
 															<h2> <?php the_content(); ?></h2>
-															<a href="<?php  get_site_url; ?>/ios-development/" class="pull-right"> <button type="button" class="btn learn btn-lg ">Learn More</button></a>
+															<a href="<?php  get_site_url; ?>/ios-development/" class="pull-right"> <button type="button" class="btn btn-success" ">Learn More</button></a>
                                                             <div class="clear"></div>
                                                         </div>
 
@@ -56,7 +56,7 @@ endwhile;
                                                         <div>
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
 															<h2> <?php the_content(); ?></h2>
-															<a href="<?php  get_site_url; ?>android-development" class="pull-right"> <button type="button" class="btn learn btn-lg ">Learn More</button></a>
+															<a href="<?php  get_site_url; ?>android-development" class="pull-right"> <button type="button" class="btn btn-success">Learn More</button></a>
                                                             <div class="clear"></div>
                                                         </div>
 
