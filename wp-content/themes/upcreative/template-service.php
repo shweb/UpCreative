@@ -29,7 +29,7 @@ endwhile;
                                                         <div>
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
 															<h4> <?php the_content(); ?></h4>
-															<a href="<?php  get_site_url; ?>wechat" class="pull-left"> <button type="button" class="btn btn-default">Learn More</button></a>
+															<a href="<?php  get_site_url; ?>wechat-development" class="pull-left"> <button type="button" class="btn btn-default" >Learn more</button></a></br>
                                                             <div class="clear"></div>
                                                         </div>
 
@@ -43,13 +43,11 @@ endwhile;
                                                         <div>
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
 															<h4> <?php the_content(); ?></h4>
-															<a href="<?php  get_site_url; ?>ios-development" class="pull-left"> <button type="button" class="btn btn-default" >IOs</button></a></br>
+															<a href="<?php  get_site_url; ?>wordpress" class="pull-left"> <button type="button" class="btn btn-default" >Wordpress</button></a></br>
                                                             <div class="clear"></div>
                                                             </br>
-                                                            <a href="<?php  get_site_url; ?>android-developpement" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Android</button></a></br>
-                                                            <div class="clear"></div>
-                                                            </br>
-                                                            <a href="<?php  get_site_url; ?>ios-development" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Hybride</button></a></br>
+                                                            <a href="<?php  get_site_url; ?>laravel" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Laravel</button></a></br>
+                                                            
                                                         </div>
 
                                                     </div>
@@ -59,10 +57,18 @@ endwhile;
                                                 <img class="exp-logo exp-logo-cs wow fadeInDown" data-wow-delay="0.5s" src="<?php the_field('logo-field'); ?>">
                                                 <div class="exp-content" style="visibility: hidden; opacity: 0; margin-top: 80px;">
                                                         <div>
+
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
 															<h4> <?php the_content(); ?></h4>
-															<a href="<?php  get_site_url; ?>android-developpment" class="pull-left"> <button type="button" class="btn btn-default">Learn More</button></a>
+															<a href="<?php  get_site_url; ?>ios-development" class="pull-left"> <button type="button" class="btn btn-default" >IOs</button></a></br>
                                                             <div class="clear"></div>
+                                                            </br>
+                                                            <a href="<?php  get_site_url; ?>android-development" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Android</button></a></br>
+                                                            <div class="clear"></div>
+                                                            </br>
+                                                            <a href="<?php  get_site_url; ?>hybrid-development" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Hybride</button></a></br>
+
+                                                            
                                                         </div>
                                                     </div>
                                                     <?php } ?>
