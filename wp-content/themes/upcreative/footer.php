@@ -21,7 +21,7 @@
         </div>
         <div class="container">
             <div class="privacy">
-                <p>Copyright 2017 © Up Creative &nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>Copyright 2017 © Up Creatives &nbsp;&nbsp;&nbsp;&nbsp;</p>
             </div>
         </div>
     </div>

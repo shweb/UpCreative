@@ -1,346 +1,352 @@
-@media screen and (max-width:768px){
-	#logo-home {
-    float: left;
-    width: 80px ! important;
-    height: 88px;
-    margin-top: 20px;
-    margin-right: 15px;
-    background-image: url(../img/logowhite.png);
-    background-size: contain;
-    cursor: pointer;
+@media screen and (max-width:768px) {
+    #logo-home {
+        float: left;
+        width: 80px ! important;
+        height: 88px;
+        margin-top: 20px;
+        margin-right: 15px;
+        background-image: url(../img/logos1blanc.png);
+        background-size: contain;
+        cursor: pointer;
+    }
+    .dividerupc {
+        height: 0px;
+    }
 }
-.dividerupc {
-    height: 0px;
-}
-}
-
-
-
 
 .center {
-margin-top:50px;   
+    margin-top: 50px;
 }
 
 .modal-header {
-padding-bottom: 5px;
-border-bottom:none ! important;
+    padding-bottom: 5px;
+    border-bottom: none ! important;
 }
 
 .modal-footer {
-padding: 0;
-border-top:none ! important;
-text-align: center ! important;
+    padding: 0;
+    border-top: none ! important;
+    text-align: center ! important;
 }
-
 
 .modal-footer .btn-group button {
-height:40px;
-border-top-left-radius : 0;
-border-top-right-radius : 0;
-border: none;
-border-right: 1px solid #ddd;
+    height: 40px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: none;
+    border-right: 1px solid #ddd;
 }
 
-.modal-footer .btn-group:last-child > button {
-border-right: 0;
-}
-.header-popup{
-padding: 20px 20px 0px 15px;
+.modal-footer .btn-group:last-child>button {
+    border-right: 0;
 }
 
-#input-name{ 
-background:url(../img/user.png) no-repeat #FFF;
-background-size: 20px;
-background-position: 6px 7px;
-}
-#input-mail{ 
-background:url(../img/email.png) no-repeat #FFF;
-background-size: 20px;
-background-position: 6px 7px;
-}
-#input-phone{ 
-background:url(../img/phone-call.png) no-repeat #FFF;
-background-size: 20px;
-background-position: 6px 7px;
-}
-#input-message{ 
-background:url(../img/chat.png) no-repeat #FFF;
-background-size: 20px;
-background-position: 6px 7px;
+.header-popup {
+    padding: 20px 20px 0px 15px;
 }
 
-input[type=text] .placehold{ border:none;}
-.placehold {
-padding-top: 5px !important;
-padding-left: 40px !important;
-}
-.placehold-text {
-padding-left: 41px !important; 
-
-}
-.modal-dialog {
-width: 70% !important; 
-margin: 115px auto !important; 
-
-}
-.modal-content {
-background: url(../img/popup.png);
-padding-left: 11%;
-padding-right: 11%;
-padding-bottom: 4%;
-background-position: 48% 30%;
-}
-.modal-title {
-color: white;
-font-family: Sakkal Majalla;
-font-size: 65px;
-line-height: 65px ! important;
-}
-.modal-title2 {
-font-family: Sakkal Majalla;
-font-size: 45px;
-color: white;
-}
-.modal-header .close {
-font-size: 45px ! important;
-}
-#social {
-width:35px;
-
-}
-#social:before{
-width:35px;
-margin-left:20px;
-}
-
-.modal-body {
-margin-bottom: 60px;
-border-bottom: none  ! important;
-}
-
-.btn-sender{
-background-color:black;
-color:white;
-padding: 10px 47px 10px 47px;
-border: none;	
-}
-.form-control {
-height: 45px ! important;
-
-}
-/* responsive start */
-@media screen and (max-width:359px) {
-#social {
-width: 36px;
-margin-bottom: 15px;
-margin-left: 13px;
-}
-
-.modal-title {
-font-size: 35px ! important;
-margin-top:50% ! important;
-text-align:center ! important;
-line-height: 0 ! important;
-margin-bottom: 25px ! important;
-}
-.modal-title2 {
-font-size:22px;
-text-align:center;
-
-}
-.btn-sender {
-margin-left: 15px;
-padding: 10px 50px 10px 50px !important;
-width: 140px;
-}
-.form-control {
-height: 50px !important;
-}
 #input-name {
-background-position: 7px 13px !important;
+    background: url(../img/user.png) no-repeat #FFF;
+    background-size: 20px;
+    background-position: 6px 7px;
 }
+
 #input-mail {
-background-position: 7px 13px !important;
+    background: url(../img/email.png) no-repeat #FFF;
+    background-size: 20px;
+    background-position: 6px 7px;
 }
+
 #input-phone {
-background-position: 7px 13px !important;
+    background: url(../img/phone-call.png) no-repeat #FFF;
+    background-size: 20px;
+    background-position: 6px 7px;
 }
+
 #input-message {
-background-position: 7px 13px !important;
+    background: url(../img/chat.png) no-repeat #FFF;
+    background-size: 20px;
+    background-position: 6px 7px;
 }
+
+input[type=text] .placehold {
+    border: none;
+}
+
+.placehold {
+    padding-top: 5px !important;
+    padding-left: 40px !important;
+}
+
+.placehold-text {
+    padding-left: 41px !important;
+}
+
+.modal-dialog {
+    width: 70% !important;
+    margin: 115px auto !important;
+}
+
 .modal-content {
-
-background-position: 50% 50% !important;
-}
-}
-@media screen and (min-width:360px) and (max-width:365px) {
-#social {
-width: 36px;
-margin-bottom: 15px;
-margin-left: 13px;
-}
-.modal-title {
-font-size: 29px ! important;
-margin-top: 85px !important;
-line-height: 0 ! important;
-margin-bottom: 25px ! important;
-text-align: center ! important;
-
-}
-
-.modal-title2 {
-font-size:22px ! important;
-text-align:center ! important;
-
-}
-.btn-sender {
-margin-left: 12px;
-padding: 10px 65px 10px 65px !important;
-} 
-.modal-content {
-
-background-position: 50% !important;
-}
-}
-
-@media screen and (min-width:370px) and (max-width:400px) {
-.modal-title {
-font-size: 29px ! important;
-margin-top: 85px !important;
-line-height: 0 ! important;
-margin-bottom: 25px ! important;
-text-align: center ! important;
-
-}
-
-.modal-title2 {
-font-size:22px ! important;
-text-align:center ! important;
-
-}
-.btn-sender {
-padding: 10px 70px 10px 70px !important;
-margin-left: -73px;
-float: none !important;
-margin-left: 15px;
-
-}
-.modal-content {
-
-background-position: 50% !important;
-}
-}
-@media screen and (min-width:401px) and (max-width:550px) {
-.btn-sender {
-margin-left: 15%;
-padding: 10px 50px 10px 50px !important;
-width: 194px;
-}
-.modal-title {
-font-size: 59px ! important; 
-line-height: 43px ! important;
-margin-top: 58px ! important;
-text-align: center ! important;
-}
-.modal-title2 {
-font-family: Sakkal Majalla;
-font-size: 40px;
-color: white;
-text-align: center;
-}
-.modal-body {
-margin-bottom: 0;
-border-bottom: none ! important;
-}	
-.modal-content {
-background-position: 48% 24% ! important;
-}
-}
-@media screen and (min-width:600px) and (max-width:700px) {
-	.modal-content {
     background: url(../img/popup.png);
     padding-left: 11%;
     padding-right: 11%;
     padding-bottom: 4%;
     background-position: 48% 30%;
-    margin-top: 50%;
 }
-.btn-sender {
-margin-left: 62%;
-padding: 10px 50px 10px 50px !important;
-width: 140px;
+
+.modal-title {
+    color: white;
+    font-family: Sakkal Majalla;
+    font-size: 65px;
+    line-height: 65px ! important;
 }
+
+.modal-title2 {
+    font-family: Sakkal Majalla;
+    font-size: 45px;
+    color: white;
+}
+
+.modal-header .close {
+    font-size: 45px ! important;
+}
+
+#social {
+    width: 35px;
+}
+
+#social:before {
+    width: 35px;
+    margin-left: 20px;
+}
+
 .modal-body {
-margin-bottom: 0px !important;
-border-bottom: none !important;
+    margin-bottom: 60px;
+    border-bottom: none ! important;
 }
-}
-@media screen and (min-width:750px) and (max-width:799px) {
-.modal-footer {
-    padding: 0;
-    border-top: none ! important;
-    text-align: center ! important;
-    margin-top: -26px ! important;
-    margin-left: 25px ! important;
-}
+
 .btn-sender {
     background-color: black;
     color: white;
     padding: 10px 47px 10px 47px;
     border: none;
-    margin-left: 14px;
 }
-.modal-content {
-    background: url(../img/popup.png);
-    padding-left: 11%;
-    padding-right: 11%;
-    padding-bottom: 4%;
-    background-position: 48% 30%;
-    margin-top: 40%;
+
+.form-control {
+    height: 45px ! important;
 }
+
+
+/* responsive start */
+
+@media screen and (max-width:359px) {
+    #social {
+        width: 36px;
+        margin-bottom: 15px;
+        margin-left: 13px;
+    }
+    .modal-title {
+        font-size: 35px ! important;
+        margin-top: 50% ! important;
+        text-align: center ! important;
+        line-height: 0 ! important;
+        margin-bottom: 25px ! important;
+    }
+    .modal-title2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .btn-sender {
+        margin-left: 15px;
+        padding: 10px 50px 10px 50px !important;
+        width: 140px;
+    }
+    .form-control {
+        height: 50px !important;
+    }
+    #input-name {
+        background-position: 7px 13px !important;
+    }
+    #input-mail {
+        background-position: 7px 13px !important;
+    }
+    #input-phone {
+        background-position: 7px 13px !important;
+    }
+    #input-message {
+        background-position: 7px 13px !important;
+    }
+    .modal-content {
+        background-position: 50% 50% !important;
+    }
 }
+
+@media screen and (min-width:360px) and (max-width:365px) {
+    #social {
+        width: 36px;
+        margin-bottom: 15px;
+        margin-left: 13px;
+    }
+    .modal-title {
+        font-size: 29px ! important;
+        margin-top: 85px !important;
+        line-height: 0 ! important;
+        margin-bottom: 25px ! important;
+        text-align: center ! important;
+    }
+    .modal-title2 {
+        font-size: 22px ! important;
+        text-align: center ! important;
+    }
+    .btn-sender {
+        margin-left: 12px;
+        padding: 10px 65px 10px 65px !important;
+    }
+    .modal-content {
+        background-position: 50% !important;
+    }
+}
+
+@media screen and (min-width:370px) and (max-width:400px) {
+    .modal-title {
+        font-size: 29px ! important;
+        margin-top: 85px !important;
+        line-height: 0 ! important;
+        margin-bottom: 25px ! important;
+        text-align: center ! important;
+    }
+    .modal-title2 {
+        font-size: 22px ! important;
+        text-align: center ! important;
+    }
+    .btn-sender {
+        padding: 10px 70px 10px 70px !important;
+        margin-left: -73px;
+        float: none !important;
+        margin-left: 15px;
+    }
+    .modal-content {
+        background-position: 50% !important;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:550px) {
+    .btn-sender {
+        margin-left: 15%;
+        padding: 10px 50px 10px 50px !important;
+        width: 194px;
+    }
+    .modal-title {
+        font-size: 59px ! important;
+        line-height: 43px ! important;
+        margin-top: 58px ! important;
+        text-align: center ! important;
+    }
+    .modal-title2 {
+        font-family: Sakkal Majalla;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+    .modal-body {
+        margin-bottom: 0;
+        border-bottom: none ! important;
+    }
+    .modal-content {
+        background-position: 48% 24% ! important;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:700px) {
+    .modal-content {
+        background: url(../img/popup.png);
+        padding-left: 11%;
+        padding-right: 11%;
+        padding-bottom: 4%;
+        background-position: 48% 30%;
+        margin-top: 50%;
+    }
+    .btn-sender {
+        margin-left: 62%;
+        padding: 10px 50px 10px 50px !important;
+        width: 140px;
+    }
+    .modal-body {
+        margin-bottom: 0px !important;
+        border-bottom: none !important;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:799px) {
+    .modal-footer {
+        padding: 0;
+        border-top: none ! important;
+        text-align: center ! important;
+        margin-top: -26px ! important;
+        margin-left: 25px ! important;
+    }
+    .btn-sender {
+        background-color: black;
+        color: white;
+        padding: 10px 47px 10px 47px;
+        border: none;
+        margin-left: 14px;
+    }
+    .modal-content {
+        background: url(../img/popup.png);
+        padding-left: 11%;
+        padding-right: 11%;
+        padding-bottom: 4%;
+        background-position: 48% 30%;
+        margin-top: 40%;
+    }
+}
+
 @media screen and (min-width:800px) and (max-width:1000px) {
-.modal-content {
-margin-top: 71% !important;
-}
-.btn-sender {
-margin-left: 39%;
-padding: 10px 50px 10px 50px !important;
-width: 140px;
-}
-.modal-body {
-margin-bottom:8px !important;
-border-bottom: none !important;
+    .modal-content {
+        margin-top: 71% !important;
+    }
+    .btn-sender {
+        margin-left: 39%;
+        padding: 10px 50px 10px 50px !important;
+        width: 140px;
+    }
+    .modal-body {
+        margin-bottom: 8px !important;
+        border-bottom: none !important;
+    }
 }
 
-}
 @media screen and (min-width:1000px) and (max-width:1300px) {
-.modal-content {
-margin-top: 5% !important;
+    .modal-content {
+        margin-top: 5% !important;
+    }
+    .btn-sender {
+        margin-left: -38px;
+        padding: 10px 50px 10px 50px !important;
+        width: 140px;
+    }
+    .modal-body {
+        margin-bottom: 24px !important;
+        border-bottom: none !important;
+    }
+}
 
-}
-.btn-sender {
-margin-left: -38px;
-padding: 10px 50px 10px 50px !important;
-width: 140px;
-}
-.modal-body {
-margin-bottom: 24px !important;
-border-bottom: none !important;
-}
-}
 @media screen and (min-width:1350px) and (max-width:1445px) {
-.modal-content {
-margin-top: 15%;
+    .modal-content {
+        margin-top: 15%;
+    }
+    .btn-sender {
+        margin-left: -25px;
+        padding: 10px 50px 10px 50px !important;
+        width: 140px;
+    }
+    .modal-body {
+        margin-bottom: 24px !important;
+        border-bottom: none !important;
+    }
 }
-.btn-sender {
-margin-left: -25px;
-padding: 10px 50px 10px 50px !important;
-width: 140px;
-}
-.modal-body {
-margin-bottom: 24px !important;
-border-bottom: none !important;
-}
-}
+
+
 /* responsive end */
