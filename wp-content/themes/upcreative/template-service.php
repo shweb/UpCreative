@@ -43,10 +43,10 @@ endwhile;
                                                         <div>
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
 															<h4> <?php the_content(); ?></h4>
-															<a href="<?php  get_site_url; ?>wordpress" class="pull-left"> <button type="button" class="btn btn-default" >Wordpress</button></a></br>
+															<a href="<?php  get_site_url; ?>wordpress-development" class="pull-left"> <button type="button" class="btn btn-default" >Wordpress</button></a></br>
                                                             <div class="clear"></div>
                                                             </br>
-                                                            <a href="<?php  get_site_url; ?>laravel" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Laravel</button></a></br>
+                                                            <a href="<?php  get_site_url; ?>laravel-development" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Laravel</button></a></br>
                                                             
                                                         </div>
 
