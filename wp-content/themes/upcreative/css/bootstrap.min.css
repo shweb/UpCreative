@@ -6,14 +6,15 @@
 
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-.swith{
-  color: white;
-  font-size: 21px;
-  margin-top: 48px;
-  margin-right: 16px;
- font-family: proxima nova thn;
- }
- 
+
+.swith {
+    color: white;
+    font-size: 21px;
+    margin-top: 48px;
+    margin-right: 16px;
+    font-family: proxima nova thn;
+}
+
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -40,13 +41,13 @@ summary {
     display: block
 }
 
-a{
-	color:#000 ! important;
-}
-a:hover{
-	color:#000 ! important;
+a {
+    color: #000 ! important;
 }
 
+a:hover {
+    color: #000 ! important;
+}
 
 audio,
 canvas,
@@ -250,8 +251,8 @@ th {
 
 @media print {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         color: #000!important;
         text-shadow: none!important;
         background: 0 0!important;
@@ -286,8 +287,7 @@ th {
     }
     img {
         max-width: 100%!important
- 
-	}
+    }
     h2,
     h3,
     p {
@@ -3693,7 +3693,8 @@ textarea.input-lg {
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px
+    border-radius: 4px;
+    width: 150px;
 }
 
 .btn.active.focus,
@@ -3739,7 +3740,8 @@ fieldset[disabled] a.btn {
 .btn-default {
     color: #333;
     background-color: #fff;
-    border-color: #ccc
+    border-color: #ccc;
+    font-weight: bold;
 }
 
 .btn-default.focus,
@@ -3803,20 +3805,19 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary {
     color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4
+    background-color: black;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
     color: #fff;
-    background-color: #286090;
+    background-color: black;
     border-color: #122b40
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #286090;
+    background-color: black;
     border-color: #204d74
 }
 

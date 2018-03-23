@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12">
-                    <a href="<?php echo home_url(); ?>">
-                        <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('logo')) ?>
+                   
+                       <img src="<?php echo get_template_directory_uri(); ?>/img/logos1blanc.png" width="100px" height="60px" >
                 </div>
                 <div class="col-md-6 col-xs-12 ">
                     <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-footer')) ?>
@@ -21,7 +21,7 @@
         </div>
         <div class="container">
             <div class="privacy">
-                <p>Copyright 2017 © Up Creative &nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>Copyright 2017 © Up Creatives &nbsp;&nbsp;&nbsp;&nbsp;</p>
             </div>
         </div>
     </div>

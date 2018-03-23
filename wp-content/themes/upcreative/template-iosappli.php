@@ -11,7 +11,7 @@
 					<div class="row">
 						<div class="col-md-5">
 							<div class="image round fit">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/iosdev.png"/>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/i-ios.png"/>
 							</div>
 						</div>
 						<div class="col-md-7">

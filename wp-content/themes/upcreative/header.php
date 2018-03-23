@@ -4,7 +4,7 @@
 <meta http-equiv="expires" content="-1">
 <title><?php wp_title(''); ?><?php if (wp_title('', false)){echo ' :';} ?><?php bloginfo('name'); ?></title>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/LOGO.png">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/logonoir.png">
 <?php wp_head(); ?>
 <script>
     new WOW().init();
@@ -13,7 +13,7 @@
     <?php $custom_logo_id = get_theme_mod( 'custom_logo' );$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
     <div id="topbar" class="white   noselect">
         <div class="wrapper page-topbar ">
-            <a href="<?php echo home_url(); ?>" alt="logo" id="logoupcreative" style="background-image: url(<?php echo esc_url( $logo[0] )?>);" class="load-show wow fadeInLeft"></a>
+            <a href="<?php echo home_url(); ?>" alt="logo" id="logoupcreative" class="load-show wow fadeInLeft"></a>
             <div class="page-buttonsupcreative">
                 <div id="navicon" class="wow fadeInRight">
                 <span></span><span></span><span></span><span></span></div>
