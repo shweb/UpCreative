@@ -104,7 +104,7 @@
 							<div>
 								<div class="move-horizontal move-title">
 								<span>
-									<a class="slide" href="<?php echo home_url(); ?>" data-toggle="modal" data-target="#myModal">
+									<a class="slide" href="" data-toggle="modal" data-target="#myModal">
 										<?php the_field('haut-title'); ?>
 									</a>
 								</span>

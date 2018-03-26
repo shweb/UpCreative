@@ -25,7 +25,7 @@
 			</div> 
 			<div class="row">
 			<div class="col-md-offset-10 col-md-2 col-xs-6 col-sm-12">
-			<button class="btn btn-sender" type="submit" class="btn ">Send</button>
+			<button class="btn btn-default" type="submit" class="pull-left">Send</button>
 			</div>
 			</div>
 		</form>
