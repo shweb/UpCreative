@@ -66,7 +66,7 @@ endwhile;
                                                             <a href="<?php  get_site_url; ?>android-development" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Android</button></a></br>
                                                             <div class="clear"></div>
                                                             </br>
-                                                            <a href="<?php  get_site_url; ?>hybrid-development" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Hybride</button></a></br>
+                                                            <a href="<?php  get_site_url; ?>hybrid-development" class="pull-left" style="top:5px;"> <button type="button" class="btn btn-default" >Hybrid</button></a></br>
 
                                                             
                                                         </div>

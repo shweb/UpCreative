@@ -1,7 +1,8 @@
 <?php /* Template Name: About Page Template */ get_header(); ?>
 
     <!-- section about upcreative start -->
-<div class="mainbar-spacer white"></div>
+<div class="mainbar-spacer white">
+</div>
     <div class="cover aboutusupcreative" style="background: url('<?php the_field('image_background'); ?>') no-repeat top; background-size:cover !important">
         <div class="wrapper-s ">
             <div class="dividerupc"></div>
@@ -61,5 +62,5 @@
     </div>
 
     <!-- How we work end -->
-<?php get_template_part('enquire'); ?>
+  <?php get_template_part('enquire'); ?>
 <?php get_footer(); ?>
