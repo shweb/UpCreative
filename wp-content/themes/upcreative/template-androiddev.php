@@ -17,7 +17,7 @@
 						<div class="col-md-7">
 							<h1 class="title-detailservice"><?php the_title(); ?></h1>
 							<p class="text-service">we always work on latest iOS app development technologies and trends to provide future-ready mobile apps. Our iPhone app development company always follow agile development methodology for shortened development lifecycles and faster project completion.</p>
-							<a href="<?php  get_site_url; ?>services"><button class="btn btn-primary btn-service btn-lg pull-right">Previouss</button></a>
+							<a href="<?php bloginfo('url'); ?>/services/"><button class="btn btn-primary btn-service btn-lg pull-right">Previouss</button></a>
 						</div>
 					</div>
 				</section>

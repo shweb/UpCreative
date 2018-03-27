@@ -17,7 +17,7 @@
 						<div class="col-md-7">
 							<h1 class="title-detailservice"><?php the_title(); ?></h1>
 							<p class="text-service">We are constantly studing new technologies and recommend them when they make sense as the use of wordpress a powerful CMS used by 29% of the web sites in the word in 2017</p>
-							<a href="<?php  get_site_url; ?>services"><button class="btn btn-primary btn-service btn-lg pull-right">Previouss</button></a>
+							<a href="<?php bloginfo('url'); ?>/services/"><button class="btn btn-primary btn-service btn-lg pull-right">Previous</button></a>
 						</div>
 					</div>
 				</section>
