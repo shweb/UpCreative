@@ -17,7 +17,7 @@
 						<div class="col-md-7">
 						<h1 class="title-detailservice"><?php the_title(); ?></h1>
 						<p class="text-service">With our expert hybrid app development services, we create a perfect blend of native apps usability and web app versatility. Make UpCreatives your hybrid app development partner and unleash new horizons of opportunities.If you want your mobile application to be available in the market fast and within limited budget and maintenance cost, you should go for hybrid mobile app development service.</p>
-							<a href="<?php  get_site_url; ?>services"><button class="btn btn-primary btn-service btn-lg pull-right">Previous</button></a>
+							<a href="<?php bloginfo('url'); ?>/services/"><button class="btn btn-primary btn-service btn-lg pull-right">Previous</button></a>
 						</div>
 					</div>
 				</section>

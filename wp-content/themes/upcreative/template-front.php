@@ -9,7 +9,7 @@
                 <?php bloginfo('name'); ?>
     </title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/LOGO.png">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/logo.png">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
     <link href="<?php echo get_template_directory_uri(); ?>/css/font-animat.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
@@ -40,7 +40,7 @@
                         <div id="navicon" class=""><span></span><span></span><span></span><span></span></div>
                         <?php if(ICL_LANGUAGE_CODE == 'en'): ?>
                             <a href="<?php echo get_site_url();?>/zh">
-                                <div class="swith right cover "> 中文 </div>
+                                 <!-- <div class="swith right cover "> 中文 </div> -->
                             </a>
                             <?php else: ?>
                                 <a href="<?php echo get_site_url();?>/">
