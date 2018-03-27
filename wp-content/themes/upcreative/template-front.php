@@ -116,7 +116,7 @@
 					<div id="move-bottom" class="move-bar clicker noselect" style="bottom: -245px;">
 						<div class="container tcenter">
 							<div>
-								<div class="move-horizontal move-title"><span><a class="slide" href="<?php  get_site_url; ?>services"><?php the_field('bas-title'); ?></a></span></div>
+								<div class="move-horizontal move-title"><span><a class="slide" href="<?php  get_site_url; ?>about-us"><?php the_field('gauche-title'); ?></a></span></div>
 							</div>
 							<div class="move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flbas.png" alt="Down arrow"></div>
 						</div>
@@ -139,7 +139,7 @@
 						<div class="table-cell table-cell-m">
 						<div class="table-cell table-cell-m tright move-img"><img src="<?php echo get_template_directory_uri(); ?>/img/flgauche.png"></div>
 							<div class="table-cell table-cell-m tleft move-upleft">
-								<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>about-us"><?php the_field('gauche-title'); ?></a></span></div>
+								<div class="move-vertical move-title"><span><a class="slide" href="<?php  get_site_url; ?>services"><?php the_field('bas-title'); ?></a></span></div>
 							</div>
 							
 						</div>
