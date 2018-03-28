@@ -16,7 +16,7 @@
 						</div>
 						<div class="col-md-7">
 							<h1 class="title-detailservice"><?php the_title(); ?></h1>
-							<p class="text-service">We are constantly studing new technologies and recommend them when they make sense as the use of wordpress a powerful CMS used by 29% of the web sites in the word in 2017</p>
+							<p class="text-service">WordPress is a powerful semantic publishing platform, and comes with a great set of features designed for all types of websites. We are proud to offer you this CMS to share your experience and your knowledge with thousands of Internet users.</p>
 							<a href="<?php bloginfo('url'); ?>/services/"><button class="btn btn-primary btn-service btn-lg pull-right">Previous</button></a>
 						</div>
 					</div>
