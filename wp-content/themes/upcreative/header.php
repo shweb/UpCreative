@@ -4,7 +4,7 @@
 <meta http-equiv="expires" content="-1">
 <title><?php wp_title(''); ?><?php if (wp_title('', false)){echo ' :';} ?><?php bloginfo('name'); ?></title>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
- <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/logo.png">
+ <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/Favicon.png">
 
 <?php wp_head(); ?>
 <script>
