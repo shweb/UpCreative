@@ -9,7 +9,7 @@
                 <?php bloginfo('name'); ?>
     </title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/logo.png">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/Favicon.png">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
     <link href="<?php echo get_template_directory_uri(); ?>/css/font-animat.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
