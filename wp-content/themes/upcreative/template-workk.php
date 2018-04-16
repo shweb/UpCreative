@@ -11,17 +11,14 @@
                         <h3><?php the_title(); ?></h3>
                     </div>
                 </div>
-				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+				
                 <div class="col-xs-push-0 col-md-push-1 col-sm-push-0 col-md-6">
-                   <div class="intro" ><?php the_content(); ?></div>
+                     <div class="intro">
+						<p style="visibility: hidden; opacity: 0;"><?php the_content(); ?></p>
+					 
+					 </div>
                 </div>
-				<?php endwhile; ?>
-
-		        <?php else: ?>
-				    <div class="col-xs-push-0 col-md-push-1 col-sm-push-0 col-md-6">
-                     <p class="intro"><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></p>
-                    </div>
-				<?php endif; ?>
+		
             </div>
         </div>
 </div>
