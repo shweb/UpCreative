@@ -631,7 +631,7 @@ h3 {
 
 .exp-content,
 .visibility {
-    visibility: hidden
+    cursor: pointer;
 }
 
 .exp-col {
@@ -666,7 +666,8 @@ h3 {
     right: 0;
     top: 0;
     bottom: 0;
-    left: 0
+    left: 0;
+    cursor: pointer;
 }
 
 .exp-menu {
@@ -679,7 +680,6 @@ h3 {
     width: 33.33%;
     margin-right: -4px;
     color: #fff;
-    cursor: pointer
 }
 
 .exp-logo,
@@ -728,7 +728,8 @@ h3 {
     padding: 80px;
     margin-top: 80px;
     text-align: left;
-    overflow: auto
+    overflow: auto;
+    z-index: 4;
 }
 
 .about-vision-block,
@@ -739,7 +740,6 @@ h3 {
 
 .exp-content {
     text-decoration: none;
-    cursor: pointer
 }
 
 .exp-button {
@@ -883,10 +883,43 @@ h3 {
     margin-left: 2%;
 }
 
+@media screen and (max-width: 320px) {
+    .intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 280px;
+        margin-left: 2%;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 300px;
+        margin-left: 5%;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 300px;
+        margin-left: 7%;
+        text-align: justify;
+    }
+}
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .intro {
         margin: 5px;
         font-size: 12px;
+        max-width: 650px;
+        margin-left: 15%;
+        text-align: justify;
     }
 }
 
@@ -1626,6 +1659,8 @@ body {
     font-size: 24px !important;
     font-family: Mrs Eaves OT;
     line-height: 29px;
+    width: 500px;
+    text-align: justify;
 }
 h3 {
     font-size: 35px !important;

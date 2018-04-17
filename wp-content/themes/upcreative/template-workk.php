@@ -1,7 +1,7 @@
 <?php /* Template Name: workk Page Template */ get_header(); ?>
 
 <div class="mainbar-spacer white"></div>
-<div class="works-bg" style="background: url('<?php the_field('image_background'); ?>') no-repeat top">
+<div class="works-bg" >
 <div class="wrapper-s ">
         <div class="dividerupc"></div>
         <div class="container">
@@ -14,7 +14,7 @@
 				
                 <div class="col-xs-push-0 col-md-push-1 col-sm-push-0 col-md-6">
                      <div class="intro">
-						<p style="visibility: hidden; opacity: 0;"><?php the_content(); ?></p>
+						<p style="visibility: hidden; opacity: 0;text-align:justify"><?php the_content(); ?></p>
 					 
 					 </div>
                 </div>

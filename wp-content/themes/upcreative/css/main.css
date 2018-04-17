@@ -1,1063 +1,1110 @@
                                         body {
-                                        overflow: hidden;
-                                        padding-top: 0;
-                                        background-color: #000000;
+                                            overflow: hidden;
+                                            padding-top: 0;
+                                            background-color: #000000;
+                                        }
+                                        
+                                        *,
+                                        .box {
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        *,
+                                        img,
+                                        ul li {
+                                            padding: 0;
+                                            margin: 0;
+                                        }
+                                        
+                                        a,
+                                        img {
+                                            border: none;
+                                            text-decoration: none;
+                                            outline: 0;
+                                        }
+                                        
+                                        body,
+                                        sup {
+                                            position: relative;
+                                        }
+                                        
+                                        *,
+                                        body,
+                                        img,
+                                        ul li {
+                                            margin: 0;
+                                        }
+                                        
+                                        .button-default,
+                                        a {
+                                            transition: all .5s;
+                                        }
+                                        
+                                        .button-default {
+                                            text-align: center;
+                                        }
+                                        
+                                        .slide {
+                                            color: white ! important;
+                                            font-size: 35px ! important;
+                                        }
+                                        
+                                        .slide:hover {
+                                            color: white ! important;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        * {
+                                            -moz-box-sizing: border-box;
+                                            -webkit-box-sizing: border-box;
+                                        }
+                                        
+                                        ol,
+                                        ul {
+                                            list-style-type: square;
+                                            margin: 10px 0 0;
+                                            padding: 10px 10px 10px 40px;
+                                        }
+                                        
+                                        img {
+                                            line-height: 0;
+                                            -webkit-user-drag: none;
+                                            -khtml-user-drag: none;
+                                            -moz-user-drag: none;
+                                            -ms-user-drag: none;
+                                            -o-user-drag: none;
+                                            user-drag: none;
+                                        }
+                                        
+                                        a:hover {
+                                            text-decoration: underline;
+                                        }
+                                        
+                                        p {
+                                            padding-bottom: 15px;
+                                        }
+                                        
+                                        article,
+                                        aside,
+                                        details,
+                                        figcaption,
+                                        figure,
+                                        footer,
+                                        header,
+                                        hgroup,
+                                        menu,
+                                        nav,
+                                        section {
+                                            display: block;
+                                        }
+                                        
+                                        sup {
+                                            top: -.2em;
+                                        }
+                                        
+                                        body,
+                                        html {
+                                            overflow-x: hidden;
+                                        }
+                                        
+                                        body {
+                                            padding-top: 0;
+                                            background-color: #fff;
+                                            color: #303e48;
+                                            font-family: proxima-nova, sans-serif;
+                                            font-size: 16px;
+                                            font-weight: 300;
+                                            -webkit-text-size-adjust: none;
+                                            -webkit-overflow-scrolling: touch;
+                                        }
+                                        
+                                        .button-default {
+                                            display: inline-block;
+                                            margin: 10px 0;
+                                            padding: 10px 24px;
+                                            border: 1px solid #000;
+                                            background-color: transparent;
+                                            color: #000;
+                                            border-radius: 0;
+                                            -webkit-border-radius: 0;
+                                            -moz-border-radius: 0;
+                                            font-family: inherit;
+                                            font-size: 18px;
+                                            font-weight: 400; //line-height: 16px;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        #navicon span,
+                                        .button-default:hover {
+                                            background-color: #000;
+                                        }
+                                        
+                                        .button-default:hover {
+                                            color: #fff;
+                                            text-decoration: none !important;
+                                        }
+                                        
+                                        .hero-list li a,
+                                        .lock-up,
+                                        .lock-up:hover {
+                                            text-decoration: none;
+                                        }
+                                        
+                                        .button-w {
+                                            border-color: #fff;
+                                            color: #fff;
+                                            font-weight: 500;
+                                        }
+                                        
+                                        .button-w:hover {
+                                            background-color: #fff;
+                                            color: #000;
+                                        }
+                                        
+                                        .button-xl {
+                                            padding: 16px 25px;
+                                            font-weight: 400;
+                                        }
+                                        
+                                        #mainbar {
+                                            display: block;
+                                        }
+                                        
+                                        .hero-list li a:hover,
+                                        .lock-up:hover {
+                                            border-bottom: 1px solid #fff;
+                                        }
+                                        
+                                        #logo-home {
+                                            background-position: left top;
+                                            background-repeat: no-repeat;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 80px;
+                                            margin-top: -60px;
+                                            height: 80px;
+                                        }
+                                        
+                                        #mainbar,
+                                        .hero {
+                                            position: relative;
+                                        }
+                                        
+                                        #mainbar {
+                                            width: 100%;
+                                            height: 100%;
+                                            margin: 0;
+                                            padding: overflow-x: hidden;
+                                        }
+                                        
+                                        .wrapper {}
                                     }
-                                    
-                                    *,
-                                    .box {
-                                        box-sizing: border-box;
+                                    .top-search,
+                                    .top-search-w {
+                                        width: 28px;
+                                        height: 28px;
+                                        margin: 50px 17px 0 10px;
+                                        background-image: url(../img/icon-search.png);
+                                        cursor: pointer
                                     }
-                                    
-                                    *,
-                                    img,
-                                    ul li {
+                                    .backg-upcreative {
+                                        position: absolute;
+                                        left: 0
+                                    }
+                                    .backg-upcreative {
+                                        z-index: 1;
+                                        top: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        transition: all .4s
+                                    }
+                                    .exp-buttons,
+                                    .home-buttons,
+                                    .page-buttons .top-search {
+                                        transition: all .5s
+                                    }
+                                    .navupcreat {
+                                        z-index: 2;
+                                        padding-top: 40px
+                                    }
+                                    .hero-bottom {
+                                        z-index: 1;
+                                        right: 0;
+                                        bottom: 40px
+                                    }
+                                    .hero-list li {
+                                        float: left;
+                                        position: relative;
+                                        padding-right: 20px;
+                                        margin-right: 20px;
+                                        border-right: 1px solid #fff
+                                    }
+                                    .hero-list li a {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #fff ! important;
+                                        text-shadow: 0 0 9px rgba(0, 0, 0, .5)
+                                    }
+                                    .hero-list li:last-child {
+                                        padding-right: 0;
+                                        margin-right: 0;
+                                        border-right: none
+                                    }
+                                    .home-buttons {
+                                        position: absolute;
+                                        z-index: 1002;
+                                        right: 45px;
+                                        margin-top: 45px;
+                                    }
+                                    .home-buttons {
+                                        margin-top: 2px
+                                    }
+                                    .home-buttons {
+                                        float: right;
+                                        margin-top: 0
+                                    }
+                                    .social-list {
+                                        vertical-align: middle;
+                                        list-style: none;
+                                        animation-duration: 2s;
+                                        animation-name: flipInX;
+                                    }
+                                    .social-list img {
+                                        display: table-cell;
+                                        height: auto;
+                                        padding: 15px;
+                                        width: 60px;
+                                    }
+                                    #logo-home {
+                                        float: left;
+                                        width: 120px;
+                                        height: 88px;
+                                        margin-top: 2px;
+                                        margin-right: 15px;
+                                        background-image: url(../img/logos1blanc.png);
+                                        background-size: contain;
+                                        cursor: pointer;
+                                    }
+                                    .lock-up {
+                                        float: left;
+                                        margin-left: 7px;
+                                        margin-top: 35px;
+                                        color: #fff;
+                                        font-size: 18px;
+                                        font-style: italic;
+                                        line-height: 1;
+                                        letter-spacing: 1px;
+                                        cursor: pointer;
+                                    }
+                                    .footer,
+                                    .hero-img {
+                                        position: absolute;
+                                        left: 0;
+                                    }
+                                    .hero-img {
+                                        z-index: 1;
+                                        top: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        transition: all .4s;
+                                    }
+                                    .home-buttons,
+                                    .top-search {
+                                        transition: all .5s;
+                                    }
+                                    .spacer-top {
+                                        z-index: 2;
+                                        padding-top: 40px;
+                                        position: relative;
+                                        clear: both;
+                                    }
+                                    .footer {
+                                        z-index: 1;
+                                        right: 0;
+                                        bottom: 40px;
+                                    }
+                                    .hero-list {
+                                        list-style: none;
+                                        height: auto;
+                                        padding: 0;
+                                        margin: 20px;
+                                    }
+                                    .hero-list li {
+                                        float: left;
+                                        position: relative;
+                                        padding-right: 10px;
+                                        margin-right: 10px;
+                                        border-right: 1px solid #fff;
+                                    }
+                                    .hero-list li a {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #fff ! important;
+                                        text-shadow: 0 0 9px rgba(0, 0, 0, .5);
+                                    }
+                                    .hero-list li:last-child {
+                                        padding-right: 0;
+                                        margin-right: 0;
+                                        border-right: none;
+                                    }
+                                    .home-buttons {
+                                        position: absolute;
+                                        z-index: 1002;
+                                        right: 10px;
+                                        margin-top: 30px;
+                                    }
+                                    .home-buttons #navicon {
+                                        margin-top: 2px;
+                                    }
+                                    .home-buttons .top-search-w {
+                                        float: right;
+                                        margin-top: 0;
+                                    }
+                                    .menu-list,
+                                    .menu-search {
+                                        vertical-align: middle;
+                                        list-style: none;
+                                    }
+                                    #menumask {
+                                        display: none;
+                                        position: fixed;
+                                        z-index: 1001;
+                                        top: 0;
+                                        bottom: 0;
+                                        left: 0;
+                                        right: 0;
+                                        background-color: rgba(0, 0, 0, .9);
+                                        text-align: center;
+                                        overflow-x: hidden;
+                                        overflow-y: auto;
+                                    }
+                                    .menu-bar,
+                                    .menu-bar-home {
+                                        position: fixed;
+                                        top: 31px; //left: 0;
+                                        transition: all .5s;
+                                    }
+                                    .menu-bar-home {
+                                        top: 65px;
+                                    }
+                                    .menu-bar-scroll {
+                                        //top: 1px;
+                                        top: 52px;
+                                    }
+                                    .menu-frame {
+                                        display: table;
+                                        width: 100%;
+                                        height: 100%;
+                                        margin: auto;
+                                        padding: 70px 15px;
+                                        text-align: center;
+                                    }
+                                    .menu-search {
+                                        display: none; //display: table-cell;
+                                        height: auto;
                                         padding: 0;
                                         margin: 0;
                                     }
-                                    
-                                    a,
-                                    img {
-                                        border: none;
-                                        text-decoration: none;
-                                        outline: 0;
-                                    }
-                                    
-                                    body,
-                                    sup {
-                                        position: relative;
-                                    }
-                                    
-                                    *,
-                                    body,
-                                    img,
-                                    ul li {
-                                        margin: 0;
-                                    }
-                                    
-                                    .button-default,
-                                    a {
-                                        transition: all .5s;
-                                    }
-                                    
-                                    .button-default {
-                                        text-align: center;
-                                    }
-                                    
-                                    .slide {
-                                        color: white ! important;
-                                        font-size: 35px ! important;
-                                    }
-                                    
-                                    .slide:hover {
-                                        color: white ! important;
-                                        text-decoration: none;
-                                    }
-                                    
-                                    * {
-                                        -moz-box-sizing: border-box;
-                                        -webkit-box-sizing: border-box;
-                                    }
-                                    
-                                    ol,
-                                    ul {
-                                        list-style-type: square;
-                                        margin: 10px 0 0;
-                                        padding: 10px 10px 10px 40px;
-                                    }
-                                    
-                                    img {
-                                        line-height: 0;
-                                        -webkit-user-drag: none;
-                                        -khtml-user-drag: none;
-                                        -moz-user-drag: none;
-                                        -ms-user-drag: none;
-                                        -o-user-drag: none;
-                                        user-drag: none;
-                                    }
-                                    
-                                    a:hover {
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    p {
-                                        padding-bottom: 15px;
-                                    }
-                                    
-                                    article,
-                                    aside,
-                                    details,
-                                    figcaption,
-                                    figure,
-                                    footer,
-                                    header,
-                                    hgroup,
-                                    menu,
-                                    nav,
-                                    section {
-                                        display: block;
-                                    }
-                                    
-                                    sup {
-                                        top: -.2em;
-                                    }
-                                    
-                                    body,
-                                    html {
-                                        overflow-x: hidden;
-                                    }
-                                    
-                                    body {
-                                        padding-top: 0;
-                                        background-color: #fff;
-                                        color: #303e48;
-                                        font-family: proxima-nova, sans-serif;
-                                        font-size: 16px;
-                                        font-weight: 300;
-                                        -webkit-text-size-adjust: none;
-                                        -webkit-overflow-scrolling: touch;
-                                    }
-                                    
-                                    .button-default {
-                                        display: inline-block;
-                                        margin: 10px 0;
-                                        padding: 10px 24px;
-                                        border: 1px solid #000;
+                                    .menu-search-input {
+                                        width: 100%;
+                                        margin-bottom: 10px;
+                                        padding: 15px;
+                                        color: #fff;
                                         background-color: transparent;
-                                        color: #000;
+                                        border: none;
+                                        font-family: inherit;
+                                        font-size: 70px;
                                         border-radius: 0;
                                         -webkit-border-radius: 0;
                                         -moz-border-radius: 0;
-                                        font-family: inherit;
-                                        font-size: 18px;
-                                        font-weight: 400;
-                                        //line-height: 16px;
-                                        cursor: pointer;
+                                        -webkit-appearance: none;
+                                        text-align: center;
+                                        transition: all .4s;
                                     }
-                                    
-                                    #navicon span,
-                                    .button-default:hover {
-                                        background-color: #000;
+                                    .menu-list li li,
+                                    .move-title {
+                                        font-family: mrs-eaves-xl-serif, sans-serif;
+                                        font-style: italic;
                                     }
-                                    
-                                    .button-default:hover {
+                                    .menu-search-input-s {
+                                        margin-bottom: 0;
+                                        padding: 10px;
+                                        font-size: 32px;
+                                    }
+                                    .menu-search-box {
+                                        height: 56px;
+                                    }
+                                    .menu-search-button {
+                                        margin: 0;
+                                    }
+                                    .menu-search-close {
+                                        margin-top: 8px;
+                                    }
+                                    .menu-search-button-s {
+                                        padding: 7px 22px;
+                                        font-size: 15px;
+                                    }
+                                    .search-results {
+                                        padding-top: 50px;
                                         color: #fff;
-                                        text-decoration: none!important;
+                                        font-size: 18px;
                                     }
-                                    
-                                    .hero-list li a,
-                                    .lock-up,
-                                    .lock-up:hover {
+                                    .search-results-button {
+                                        display: inline-block;
+                                        width: auto;
+                                        margin: 7px;
+                                    }
+                                    .menu-search-input::-webkit-input-placeholder {
+                                        color: #494949;
+                                    }
+                                    .menu-search-input:-moz-placeholder {
+                                        color: #494949;
+                                    }
+                                    .menu-search-input::-moz-placeholder {
+                                        color: #494949;
+                                    }
+                                    .menu-search-input:-ms-input-placeholder {
+                                        color: #494949;
+                                    }
+                                    .menu-search-placeholder {
+                                        color: #494949;
+                                    }
+                                    .menu-list {
+                                        display: table-cell;
+                                        height: auto;
+                                        padding: 0;
+                                        margin: 0;
+                                        text-align: center;
+                                    }
+                                    .move-horizontal,
+                                    .table-cell-t {
+                                        vertical-align: top;
+                                    }
+                                    .menu-list li {
+                                        display: block;
+                                        border: none;
+                                        padding: 0;
+                                        margin: 0;
+                                        font-size: 35px;
+                                        text-transform: uppercase;
+                                        line-height: 2;
+                                    }
+                                    .menu-list li a {
+                                        color: #fff !important;
                                         text-decoration: none;
                                     }
-                                    
-                                    .button-w {
-                                        border-color: #fff;
-                                        color: #fff;
-                                        font-weight: 500;
-                                    }
-                                    
-                                    .button-w:hover {
-                                        background-color: #fff;
-                                        color: #000;
-                                    }
-                                    
-                                    .button-xl {
-                                        padding: 16px 25px;
-                                        font-weight: 400;
-                                    }
-                                    
-                                    #mainbar {
-                                        display: block;
-                                    }
-                                    
-                                    .hero-list li a:hover,
-                                    .lock-up:hover {
+                                    .mask-active,
+                                    .menu-list li a:hover {
                                         border-bottom: 1px solid #fff;
                                     }
-                                    
-                                    #logo-home {
-                                        background-position: left top;
+                                    .menu-sub-list {
+                                        margin: 10px 0 30px;
+                                        padding: 0;
+                                        font-size: 20px;
+                                    }
+                                    .menu-list li li {
+                                        display: inline-block;
+                                        border: none;
+                                        padding: 0 0 0 15px;
+                                        margin: 5px -4px 5px 15px;
+                                        border-left: 1px solid #868686;
+                                        font-size: 20px;
+                                        font-weight: 400;
+                                        text-transform: none;
+                                    }
+                                    .menu-list li li a {
+                                        color: #868686;
+                                        text-decoration: none;
+                                    }
+                                    .menu-list li li a:hover {
+                                        border-bottom: 1px solid #868686;
+                                    }
+                                    .menu-list li li:first-child {
+                                        border-left: none;
+                                        margin-left: 0;
+                                        padding-left: 0;
+                                    }
+                                    .menu-list li:last-child {
+                                        margin-bottom: 0;
+                                    }
+                                    .top-search,
+                                    .top-search-w {
+                                        width: 28px;
+                                        height: 28px;
+                                        margin: 11px 17px 0 10px;
+                                        background-image: url(../images/icon-search.png);
+                                        cursor: pointer;
+                                    }
+                                    .top-search-f,
+                                    .top-search-m,
+                                    .top-search-w {
+                                        background-image: url(../img/icon-search.png);
+                                    }
+                                    .top-search-w {
+                                        margin-top: 35px;
+                                    }
+                                    #move-bottom,
+                                    #move-left,
+                                    #move-right,
+                                    #move-top,
+                                    .move-bar {
+                                        display: none;
+                                    }
+                                    #activate-bottom,
+                                    #activate-top {
+                                        height: 15%;
+                                        width: 130px;
+                                        right: 0;
+                                        left: 0;
+                                    }
+                                    #activate-left,
+                                    #activate-right {
+                                        bottom: 0;
+                                        height: 130px;
+                                        width: 15%;
+                                        top: 0;
+                                    }
+                                    .activate-bar,
+                                    .move-bar {
+                                        position: fixed;
+                                        transition: all .2s;
+                                    }
+                                    .move-bar {
+                                        //visibility: hidden;
+                                        z-index: 1003;
+                                        background: rgba(0, 0, 0, .9);
+                                        color: #fff;
+                                    }
+                                    #move-bottom,
+                                    #move-top {
+                                        left: 0;
+                                        right: 0;
+                                        padding: 50px 0;
+                                    }
+                                    #move-bottom .move-title,
+                                    #move-top .move-title {
+                                        font-size: 46px;
+                                    }
+                                    #move-bottom .move-copy,
+                                    #move-top .move-copy {
+                                        max-width: 500px;
+                                        font-size: 18px;
+                                        text-align: left;
+                                    }
+                                    #move-top {
+                                        top: 0;
+                                    }
+                                    #move-top .move-img {
+                                        margin-bottom: 20px;
+                                    }
+                                    #move-bottom {
+                                        bottom: 0;
+                                    }
+                                    #move-bottom .move-img {
+                                        margin-top: 20px;
+                                    }
+                                    #move-left,
+                                    #move-right {
+                                        top: 0;
+                                        bottom: 0;
+                                        padding: 0 35px;
+                                        width: 330px;
+                                    }
+                                    #move-left .move-title,
+                                    #move-right .move-title {
+                                        font-size: 38px;
+                                    }
+                                    #move-left .move-copy,
+                                    #move-right .move-copy {
+                                        font-size: 17px;
+                                    }
+                                    #move-right {
+                                        right: 0;
+                                    }
+                                    #move-right .move-upright {
+                                        padding-right: 40px;
+                                    }
+                                    #move-left {
+                                        left: 0;
+                                    }
+                                    #move-left .move-upleft {
+                                        padding-left: 40px;
+                                    }
+                                    .move-horizontal {
+                                        display: inline-block;
+                                    }
+                                    .move-title {
+                                        line-height: 1;
+                                        font-weight: 100;
+                                    }
+                                    .move-copy {
+                                        padding-top: 15px;
+                                    }
+                                    .activate-bar {
+                                        display: block;
+                                        z-index: 3;
+                                        margin: auto;
+                                        background-color: transparent;
+                                        background-position: center center;
                                         background-repeat: no-repeat;
                                     }
-                                    
-                                    .qrcode {
-                                        width: 150px;
-                                        margin-top: -60px;
-                                        height: 150px;
+                                    #activate-top {
+                                        top: 0;
+                                        background-image: url(../img/flhaut.png);
                                     }
-                                    
-                                    #mainbar,
-                                    .hero {
+                                    #activate-bottom {
+                                        bottom: 0;
+                                        background-image: url(../img/flbas.png);
+                                    }
+                                    #activate-left {
+                                        left: 0;
+                                        background-image: url(../img/flgauche.png);
+                                    }
+                                    #activate-right {
+                                        right: 0;
+                                        background-image: url(../img/fldroit.png);
+                                    }
+                                    .activate-hide {
+                                        opacity: 0 !important;
+                                    }
+                                    #navicon {
+                                        //display: none;
+                                        float: right;
+                                        width: 36px;
+                                        height: 25px;
+                                        position: relative;
+                                        z-index: 1002;
+                                        margin: 38px 5px 8px;
+                                        -webkit-transform: rotate(0);
+                                        -moz-transform: rotate(0);
+                                        -o-transform: rotate(0);
+                                        transform: rotate(0);
+                                        -webkit-transition: .5s ease-in-out;
+                                        -moz-transition: .5s ease-in-out;
+                                        -o-transition: .5s ease-in-out;
+                                        transition: .5s ease-in-out;
+                                        cursor: pointer;
+                                    }
+                                    #navicon span {
+                                        display: block;
+                                        position: absolute;
+                                        height: 2px;
+                                        width: 100%;
+                                        border-radius: 2px;
+                                        opacity: 1;
+                                        left: 0;
+                                        background: #fff;
+                                        -webkit-transform: rotate(0);
+                                        -moz-transform: rotate(0);
+                                        -o-transform: rotate(0);
+                                        transform: rotate(0);
+                                        -webkit-transition: .25s ease-in-out;
+                                        -moz-transition: .25s ease-in-out;
+                                        -o-transition: .25s ease-in-out;
+                                        transition: .25s ease-in-out;
+                                    }
+                                    #navicon span:nth-child(1) {
+                                        top: 0;
+                                    }
+                                    #navicon span:nth-child(2),
+                                    #navicon span:nth-child(3) {
+                                        top: 10px;
+                                    }
+                                    #navicon span:nth-child(4) {
+                                        top: 20px;
+                                    }
+                                    #navicon.open span:nth-child(1),
+                                    #navicon.open span:nth-child(4) {
+                                        top: 10px;
+                                        width: 0;
+                                        left: 50%
+                                    }
+                                    #navicon.open span:nth-child(2) {
+                                        -webkit-transform: rotate(45deg);
+                                        -moz-transform: rotate(45deg);
+                                        -o-transform: rotate(45deg);
+                                        transform: rotate(45deg);
+                                    }
+                                    #navicon.open span:nth-child(3) {
+                                        -webkit-transform: rotate(-45deg);
+                                        -moz-transform: rotate(-45deg);
+                                        -o-transform: rotate(-45deg);
+                                        transform: rotate(-45deg);
+                                    }
+                                    .table {
+                                        display: table;
+                                        height: 100%;
+                                        width: 100%
+                                    }
+                                    .table-auto {
+                                        height: auto;
+                                    }
+                                    .table-cell {
+                                        display: table-cell;
+                                    }
+                                    .table-cell-m {
+                                        vertical-align: middle;
+                                    }
+                                    .table-cell-b {
+                                        vertical-align: bottom;
+                                    }
+                                    @-moz-keyframes spin {
+                                        100% {
+                                            -moz-transform: rotate(360deg);
+                                        }
+                                    }
+                                    @-webkit-keyframes spin {
+                                        100% {
+                                            -webkit-transform: rotate(360deg);
+                                        }
+                                    }
+                                    @keyframes spin {
+                                        100% {
+                                            -webkit-transform: rotate(360deg);
+                                            transform: rotate(360deg);
+                                        }
+                                    }
+                                    .cover {
+                                        background-position: center center;
+                                        background-repeat: no-repeat;
+                                    }
+                                     :focus {
+                                        outline: 0;
+                                    }
+                                    .relative {
                                         position: relative;
                                     }
-                                    
-                                    #mainbar {
-                                        width: 100%;
-                                        height: 100%;
-                                        margin: 0;
-                                        padding: overflow-x: hidden;
+                                    .clear {
+                                        clear: both;
                                     }
-                                    
-                                    .wrapper {}
-                                }
-                                .top-search,
-                                .top-search-w {
-                                    width: 28px;
-                                    height: 28px;
-                                    margin: 50px 17px 0 10px;
-                                    background-image: url(../img/icon-search.png);
-                                    cursor: pointer
-                                }
-                                .backg-upcreative {
-                                    position: absolute;
-                                    left: 0
-                                }
-                                .backg-upcreative {
-                                    z-index: 1;
-                                    top: 0;
-                                    width: 100%;
-                                    height: 100%;
-                                    transition: all .4s
-                                }
-                                .exp-buttons,
-                                .home-buttons,
-                                .page-buttons .top-search {
-                                    transition: all .5s
-                                }
-                                .navupcreat {
-                                    z-index: 2;
-                                    padding-top: 40px
-                                }
-                                .hero-bottom {
-                                    z-index: 1;
-                                    right: 0;
-                                    bottom: 40px
-                                }
-                                .hero-list li {
-                                    float: left;
-                                    position: relative;
-                                    padding-right: 20px;
-                                    margin-right: 20px;
-                                    border-right: 1px solid #fff
-                                }
-                                .hero-list li a {
-                                    font-size: 14px;
-                                    font-weight: 400;
-                                    color: #fff ! important;
-                                    text-shadow: 0 0 9px rgba(0, 0, 0, .5)
-                                }
-                                .hero-list li:last-child {
-                                    padding-right: 0;
-                                    margin-right: 0;
-                                    border-right: none
-                                }
-                                .home-buttons {
-                                    position: absolute;
-                                    z-index: 1002;
-                                    right: 45px;
-                                    margin-top: 45px;
-                                }
-                                .home-buttons {
-                                    margin-top: 2px
-                                }
-                                .home-buttons {
-                                    float: right;
-                                    margin-top: 0
-                                }
-                                .social-list {
-                                    vertical-align: middle;
-                                    list-style: none;
-                                    animation-duration: 2s;
-                                    animation-name: flipInX;
-                                }
-                                .social-list img {
-                                    display: table-cell;
-                                    height: auto;
-                                    padding: 15px;
-                                    width: 60px;
-                                }
-                                #logo-home {
-                                    float: left;
-                                    width: 120px;
-                                    height: 88px;
-                                    margin-top: 2px;
-                                    margin-right: 15px;
-                                    background-image: url(../img/logos1blanc.png);
-                                    background-size: contain;
-                                    cursor: pointer;
-                                }
-                                .lock-up {
-                                    float: left;
-                                    margin-left: 7px;
-                                    margin-top: 35px;
-                                    color: #fff;
-                                    font-size: 18px;
-                                    font-style: italic;
-                                    line-height: 1;
-                                    letter-spacing: 1px;
-                                    cursor: pointer;
-                                }
-                                .footer,
-                                .hero-img {
-                                    position: absolute;
-                                    left: 0;
-                                }
-                                .hero-img {
-                                    z-index: 1;
-                                    top: 0;
-                                    width: 100%;
-                                    height: 100%;
-                                    transition: all .4s;
-                                }
-                                .home-buttons,
-                                .top-search {
-                                    transition: all .5s;
-                                }
-                                .spacer-top {
-                                    z-index: 2;
-                                    padding-top: 40px;
-                                    position: relative;
-                                    clear: both;
-                                }
-                                .footer {
-                                    z-index: 1;
-                                    right: 0;
-                                    bottom: 40px;
-                                }
-                                .hero-list {
-                                    list-style: none;
-                                    height: auto;
-                                    padding: 0;
-                                    margin: 20px;
-                                }
-                                .hero-list li {
-                                    float: left;
-                                    position: relative;
-                                    padding-right: 10px;
-                                    margin-right: 10px;
-                                    border-right: 1px solid #fff;
-                                }
-                                .hero-list li a {
-                                    font-size: 14px;
-                                    font-weight: 400;
-                                    color: #fff ! important;
-                                    text-shadow: 0 0 9px rgba(0, 0, 0, .5);
-                                }
-                                .hero-list li:last-child {
-                                    padding-right: 0;
-                                    margin-right: 0;
-                                    border-right: none;
-                                }
-                                .home-buttons {
-                                    position: absolute;
-                                    z-index: 1002;
-                                    right: 10px;
-                                    margin-top: 30px;
-                                }
-                                .home-buttons #navicon {
-                                    margin-top: 2px;
-                                }
-                                .home-buttons .top-search-w {
-                                    float: right;
-                                    margin-top: 0;
-                                }
-                                .menu-list,
-                                .menu-search {
-                                    vertical-align: middle;
-                                    list-style: none;
-                                }
-                                #menumask {
-                                    display: none;
-                                    position: fixed;
-                                    z-index: 1001;
-                                    top: 0;
-                                    bottom: 0;
-                                    left: 0;
-                                    right: 0;
-                                    background-color: rgba(0, 0, 0, .9);
-                                    text-align: center;
-                                    overflow-x: hidden;
-                                    overflow-y: auto;
-                                }
-                                .menu-bar,
-                                .menu-bar-home {
-                                    position: fixed;
-                                    top: 31px;
-                                    //left: 0;
-                                    transition: all .5s;
-                                }
-                                .menu-bar-home {
-                                    top: 65px;
-                                }
-                                .menu-bar-scroll {
-                                    //top: 1px;
-                                    top: 52px;
-                                }
-                                .menu-frame {
-                                    display: table;
-                                    width: 100%;
-                                    height: 100%;
-                                    margin: auto;
-                                    padding: 70px 15px;
-                                    text-align: center;
-                                }
-                                .menu-search {
-                                    display: none;
-                                    //display: table-cell;
-                                    height: auto;
-                                    padding: 0;
-                                    margin: 0;
-                                }
-                                .menu-search-input {
-                                    width: 100%;
-                                    margin-bottom: 10px;
-                                    padding: 15px;
-                                    color: #fff;
-                                    background-color: transparent;
-                                    border: none;
-                                    font-family: inherit;
-                                    font-size: 70px;
-                                    border-radius: 0;
-                                    -webkit-border-radius: 0;
-                                    -moz-border-radius: 0;
-                                    -webkit-appearance: none;
-                                    text-align: center;
-                                    transition: all .4s;
-                                }
-                                .menu-list li li,
-                                .move-title {
-                                    font-family: mrs-eaves-xl-serif, sans-serif;
-                                    font-style: italic;
-                                }
-                                .menu-search-input-s {
-                                    margin-bottom: 0;
-                                    padding: 10px;
-                                    font-size: 32px;
-                                }
-                                .menu-search-box {
-                                    height: 56px;
-                                }
-                                .menu-search-button {
-                                    margin: 0;
-                                }
-                                .menu-search-close {
-                                    margin-top: 8px;
-                                }
-                                .menu-search-button-s {
-                                    padding: 7px 22px;
-                                    font-size: 15px;
-                                }
-                                .search-results {
-                                    padding-top: 50px;
-                                    color: #fff;
-                                    font-size: 18px;
-                                }
-                                .search-results-button {
-                                    display: inline-block;
-                                    width: auto;
-                                    margin: 7px;
-                                }
-                                .menu-search-input::-webkit-input-placeholder {
-                                    color: #494949;
-                                }
-                                .menu-search-input:-moz-placeholder {
-                                    color: #494949;
-                                }
-                                .menu-search-input::-moz-placeholder {
-                                    color: #494949;
-                                }
-                                .menu-search-input:-ms-input-placeholder {
-                                    color: #494949;
-                                }
-                                .menu-search-placeholder {
-                                    color: #494949;
-                                }
-                                .menu-list {
-                                    display: table-cell;
-                                    height: auto;
-                                    padding: 0;
-                                    margin: 0;
-                                    text-align: center;
-                                }
-                                .move-horizontal,
-                                .table-cell-t {
-                                    vertical-align: top;
-                                }
-                                .menu-list li {
-                                    display: block;
-                                    border: none;
-                                    padding: 0;
-                                    margin: 0;
-                                    font-size: 35px;
-                                    text-transform: uppercase;
-                                    line-height: 2;
-                                }
-                                .menu-list li a {
-                                    color: #fff !important;
-                                    text-decoration: none;
-                                }
-                                .mask-active,
-                                .menu-list li a:hover {
-                                    border-bottom: 1px solid #fff;
-                                }
-                                .menu-sub-list {
-                                    margin: 10px 0 30px;
-                                    padding: 0;
-                                    font-size: 20px;
-                                }
-                                .menu-list li li {
-                                    display: inline-block;
-                                    border: none;
-                                    padding: 0 0 0 15px;
-                                    margin: 5px -4px 5px 15px;
-                                    border-left: 1px solid #868686;
-                                    font-size: 20px;
-                                    font-weight: 400;
-                                    text-transform: none;
-                                }
-                                .menu-list li li a {
-                                    color: #868686;
-                                    text-decoration: none;
-                                }
-                                .menu-list li li a:hover {
-                                    border-bottom: 1px solid #868686;
-                                }
-                                .menu-list li li:first-child {
-                                    border-left: none;
-                                    margin-left: 0;
-                                    padding-left: 0;
-                                }
-                                .menu-list li:last-child {
-                                    margin-bottom: 0;
-                                }
-                                .top-search,
-                                .top-search-w {
-                                    width: 28px;
-                                    height: 28px;
-                                    margin: 11px 17px 0 10px;
-                                    background-image: url(../images/icon-search.png);
-                                    cursor: pointer;
-                                }
-                                .top-search-f,
-                                .top-search-m,
-                                .top-search-w {
-                                    background-image: url(../img/icon-search.png);
-                                }
-                                .top-search-w {
-                                    margin-top: 35px;
-                                }
-                                #move-bottom,
-                                #move-left,
-                                #move-right,
-                                #move-top,
-                                .move-bar {
-                                    display: none;
-                                }
-                                #activate-bottom,
-                                #activate-top {
-                                    height: 15%;
-                                    width: 130px;
-                                    right: 0;
-                                    left: 0;
-                                }
-                                #activate-left,
-                                #activate-right {
-                                    bottom: 0;
-                                    height: 130px;
-                                    width: 15%;
-                                    top: 0;
-                                }
-                                .activate-bar,
-                                .move-bar {
-                                    position: fixed;
-                                    transition: all .2s;
-                                }
-                                .move-bar {
-                                    //visibility: hidden;
-                                    z-index: 1003;
-                                    background: rgba(0, 0, 0, .9);
-                                    color: #fff;
-                                }
-                                #move-bottom,
-                                #move-top {
-                                    left: 0;
-                                    right: 0;
-                                    padding: 50px 0;
-                                }
-                                #move-bottom .move-title,
-                                #move-top .move-title {
-                                    font-size: 46px;
-                                }
-                                #move-bottom .move-copy,
-                                #move-top .move-copy {
-                                    max-width: 500px;
-                                    font-size: 18px;
-                                    text-align: left;
-                                }
-                                #move-top {
-                                    top: 0;
-                                }
-                                #move-top .move-img {
-                                    margin-bottom: 20px;
-                                }
-                                #move-bottom {
-                                    bottom: 0;
-                                }
-                                #move-bottom .move-img {
-                                    margin-top: 20px;
-                                }
-                                #move-left,
-                                #move-right {
-                                    top: 0;
-                                    bottom: 0;
-                                    padding: 0 35px;
-                                    width: 330px;
-                                }
-                                #move-left .move-title,
-                                #move-right .move-title {
-                                    font-size: 38px;
-                                }
-                                #move-left .move-copy,
-                                #move-right .move-copy {
-                                    font-size: 17px;
-                                }
-                                #move-right {
-                                    right: 0;
-                                }
-                                #move-right .move-upright {
-                                    padding-right: 40px;
-                                }
-                                #move-left {
-                                    left: 0;
-                                }
-                                #move-left .move-upleft {
-                                    padding-left: 40px;
-                                }
-                                .move-horizontal {
-                                    display: inline-block;
-                                }
-                                .move-title {
-                                    line-height: 1;
-                                    font-weight: 100;
-                                }
-                                .move-copy {
-                                    padding-top: 15px;
-                                }
-                                .activate-bar {
-                                    display: block;
-                                    z-index: 3;
-                                    margin: auto;
-                                    background-color: transparent;
-                                    background-position: center center;
-                                    background-repeat: no-repeat;
-                                }
-                                #activate-top {
-                                    top: 0;
-                                    background-image: url(../img/flhaut.png);
-                                }
-                                #activate-bottom {
-                                    bottom: 0;
-                                    background-image: url(../img/flbas.png);
-                                }
-                                #activate-left {
-                                    left: 0;
-                                    background-image: url(../img/flgauche.png);
-                                }
-                                #activate-right {
-                                    right: 0;
-                                    background-image: url(../img/fldroit.png);
-                                }
-                                .activate-hide {
-                                    opacity: 0!important;
-                                }
-                                #navicon {
-                                    //display: none;
-                                    float: right;
-                                    width: 36px;
-                                    height: 25px;
-                                    position: relative;
-                                    z-index: 1002;
-                                    margin: 38px 5px 8px;
-                                    -webkit-transform: rotate(0);
-                                    -moz-transform: rotate(0);
-                                    -o-transform: rotate(0);
-                                    transform: rotate(0);
-                                    -webkit-transition: .5s ease-in-out;
-                                    -moz-transition: .5s ease-in-out;
-                                    -o-transition: .5s ease-in-out;
-                                    transition: .5s ease-in-out;
-                                    cursor: pointer;
-                                }
-                                #navicon span {
-                                    display: block;
-                                    position: absolute;
-                                    height: 2px;
-                                    width: 100%;
-                                    border-radius: 2px;
-                                    opacity: 1;
-                                    left: 0;
-                                    background: #fff;
-                                    -webkit-transform: rotate(0);
-                                    -moz-transform: rotate(0);
-                                    -o-transform: rotate(0);
-                                    transform: rotate(0);
-                                    -webkit-transition: .25s ease-in-out;
-                                    -moz-transition: .25s ease-in-out;
-                                    -o-transition: .25s ease-in-out;
-                                    transition: .25s ease-in-out;
-                                }
-                                #navicon span:nth-child(1) {
-                                    top: 0;
-                                }
-                                #navicon span:nth-child(2),
-                                #navicon span:nth-child(3) {
-                                    top: 10px;
-                                }
-                                #navicon span:nth-child(4) {
-                                    top: 20px;
-                                }
-                                #navicon.open span:nth-child(1),
-                                #navicon.open span:nth-child(4) {
-                                    top: 10px;
-                                    width: 0;
-                                    left: 50%
-                                }
-                                #navicon.open span:nth-child(2) {
-                                    -webkit-transform: rotate(45deg);
-                                    -moz-transform: rotate(45deg);
-                                    -o-transform: rotate(45deg);
-                                    transform: rotate(45deg);
-                                }
-                                #navicon.open span:nth-child(3) {
-                                    -webkit-transform: rotate(-45deg);
-                                    -moz-transform: rotate(-45deg);
-                                    -o-transform: rotate(-45deg);
-                                    transform: rotate(-45deg);
-                                }
-                                .table {
-                                    display: table;
-                                    height: 100%;
-                                    width: 100%
-                                }
-                                .table-auto {
-                                    height: auto;
-                                }
-                                .table-cell {
-                                    display: table-cell;
-                                }
-                                .table-cell-m {
-                                    vertical-align: middle;
-                                }
-                                .table-cell-b {
-                                    vertical-align: bottom;
-                                }
-                                @-moz-keyframes spin {
-                                    100% {
-                                        -moz-transform: rotate(360deg);
+                                    .inblock {
+                                        display: inline-block;
                                     }
-                                }
-                                @-webkit-keyframes spin {
-                                    100% {
-                                        -webkit-transform: rotate(360deg);
+                                    .hidden {
+                                        display: none;
                                     }
-                                }
-                                @keyframes spin {
-                                    100% {
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
+                                    .box {
+                                        -moz-box-sizing: border-box;
+                                        -webkit-box-sizing: border-box;
                                     }
-                                }
-                                .cover {
-                                    background-position: center center;
-                                    background-repeat: no-repeat;
-                                }
-                                 :focus {
-                                    outline: 0;
-                                }
-                                .relative {
-                                    position: relative;
-                                }
-                                .clear {
-                                    clear: both;
-                                }
-                                .inblock {
-                                    display: inline-block;
-                                }
-                                .hidden {
-                                    display: none;
-                                }
-                                .box {
-                                    -moz-box-sizing: border-box;
-                                    -webkit-box-sizing: border-box;
-                                }
-                                .left {
-                                    float: left;
-                                }
-                                .right {
-                                    float: right;
-                                }
-                                .tleft {
-                                    text-align: left;
-                                }
-                                .tright {
-                                    text-align: right;
-                                }
-                                .tcenter {
-                                    text-align: center;
-                                }
-                                .noselect {
-                                    -webkit-touch-callout: none;
-                                    -webkit-user-select: none;
-                                    -khtml-user-select: none;
-                                    -moz-user-select: none;
-                                    -ms-user-select: none;
-                                    user-select: none;
-                                    -webkit-tap-highlight-color: transparent;
-                                }
-                                .noverflow {
-                                    overflow: hidden;
-                                }
-                                .cover {
-                                    -webkit-background-size: cover;
-                                    -moz-background-size: cover;
-                                    -o-background-size: cover;
-                                    background-size: cover;
-                                }
-                                .placeholder,
-                                .placeholderFocus {
-                                    color: #797979;
-                                }
-                                 ::-webkit-input-placeholder {
-                                    color: #797979;
-                                }
-                                 :-moz-placeholder {
-                                    color: #797979;
-                                }
-                                 ::-moz-placeholder {
-                                    color: #797979;
-                                }
-                                input:-moz-placeholder {
-                                    color: #797979;
-                                }
-                                 :-ms-input-placeholder {
-                                    color: #797979;
-                                }
-                                .swith {
-                                    color: white;
-                                    font-size: 25px;
-                                    margin-left: 0;
-                                    margin-right: 10px;
-                                    margin-top: -5px;
-                                }
-                                .space {
-                                    height: 250px;
-                                }
-                                /*---------------------------------------------------------------------- responsive start----------------------------------------------- */
-                                /* text -align-xs */
-                                @media (max-width: 767px) {
-                                    .text-left-xs {
+                                    .left {
+                                        float: left;
+                                    }
+                                    .right {
+                                        float: right;
+                                    }
+                                    .tleft {
                                         text-align: left;
                                     }
-                                    
-                                    .text-center-xs {
-                                        text-align: center;
-                                    }
-                                    
-                                    .text-right-xs {
+                                    .tright {
                                         text-align: right;
                                     }
-                                    
-                                    .text-justify-xs {
-                                        text-align: justify;
-                                    }
-                                }
-                                /* text-align-sm */
-                                @media (min-width: 768px) and (max-width: 991px) {
-                                    .text-left-sm {
-                                        text-align: left;
-                                    }
-                                    
-                                    .text-center-sm {
+                                    .tcenter {
                                         text-align: center;
                                     }
-                                    
-                                    .text-right-sm {
-                                        text-align: right;
+                                    .noselect {
+                                        -webkit-touch-callout: none;
+                                        -webkit-user-select: none;
+                                        -khtml-user-select: none;
+                                        -moz-user-select: none;
+                                        -ms-user-select: none;
+                                        user-select: none;
+                                        -webkit-tap-highlight-color: transparent;
                                     }
-                                    
-                                    .text-justify-sm {
-                                        text-align: justify;
+                                    .noverflow {
+                                        overflow: hidden;
                                     }
-                                }
-                                /* text-align-md */
-                                @media (min-width: 992px) and (max-width: 1199px) {
-                                    .text-left-md {
-                                        text-align: left;
+                                    .cover {
+                                        -webkit-background-size: cover;
+                                        -moz-background-size: cover;
+                                        -o-background-size: cover;
+                                        background-size: cover;
                                     }
-                                    
-                                    .text-center-md {
-                                        text-align: center;
+                                    .placeholder,
+                                    .placeholderFocus {
+                                        color: #797979;
                                     }
-                                    
-                                    .text-right-md {
-                                        text-align: right;
+                                     ::-webkit-input-placeholder {
+                                        color: #797979;
                                     }
-                                    
-                                    .text-justify-md {
-                                        text-align: justify;
+                                     :-moz-placeholder {
+                                        color: #797979;
                                     }
-                                }
-                                /* text-align-lg */
-                                @media (min-width: 1200px) {
-                                    .text-left-lg {
-                                        text-align: left;
+                                     ::-moz-placeholder {
+                                        color: #797979;
                                     }
-                                    
-                                    .text-center-lg {
-                                        text-align: center;
+                                    input:-moz-placeholder {
+                                        color: #797979;
                                     }
-                                    
-                                    .text-right-lg {
-                                        text-align: right;
+                                     :-ms-input-placeholder {
+                                        color: #797979;
                                     }
-                                    
-                                    .text-justify-lg {
-                                        text-align: justify;
+                                    .swith {
+                                        color: white;
+                                        font-size: 25px;
+                                        margin-left: 0;
+                                        margin-right: 10px;
+                                        margin-top: -5px;
                                     }
-                                }
-                                .absolute {
-                                    position: relative;
-                                }
-                                /* home responsive-start */
-                                @media screen and (min-width:319px) and (max-width:350px) {
                                     .space {
-                                        height: 115px !important;
+                                        height: 250px;
                                     }
-                                    
-                                    .title1 {
-                                        font-size: 25px !important;
-                                        margin-top: 10px !important;
+                                    /*---------------------------------------------------------------------- responsive start----------------------------------------------- */
+                                    /* text -align-xs */
+                                    @media (max-width: 767px) {
+                                        .text-left-xs {
+                                            text-align: left;
+                                        }
+                                        
+                                        .text-center-xs {
+                                            text-align: center;
+                                        }
+                                        
+                                        .text-right-xs {
+                                            text-align: right;
+                                        }
+                                        
+                                        .text-justify-xs {
+                                            text-align: justify;
+                                        }
                                     }
-                                    
-                                    .title2 {
-                                        font-size: 20px !important;
-                                        margin-top: 0px !important;
+                                    /* text-align-sm */
+                                    @media (min-width: 768px) and (max-width: 991px) {
+                                        .text-left-sm {
+                                            text-align: left;
+                                        }
+                                        
+                                        .text-center-sm {
+                                            text-align: center;
+                                        }
+                                        
+                                        .text-right-sm {
+                                            text-align: right;
+                                        }
+                                        
+                                        .text-justify-sm {
+                                            text-align: justify;
+                                        }
                                     }
-                                    
-                                    .qrcode {
-                                        width: 110px !important;
-                                        margin-top: -58px !important;
-                                        height: 110px !important;
+                                    /* text-align-md */
+                                    @media (min-width: 992px) and (max-width: 1199px) {
+                                        .text-left-md {
+                                            text-align: left;
+                                        }
+                                        
+                                        .text-center-md {
+                                            text-align: center;
+                                        }
+                                        
+                                        .text-right-md {
+                                            text-align: right;
+                                        }
+                                        
+                                        .text-justify-md {
+                                            text-align: justify;
+                                        }
                                     }
-                                }
-                                @media screen and (min-width:351px) and (max-width:375px) {
-                                    .space {
-                                        height: 210px !important;
+                                    /* text-align-lg */
+                                    @media (min-width: 1200px) {
+                                        .text-left-lg {
+                                            text-align: left;
+                                        }
+                                        
+                                        .text-center-lg {
+                                            text-align: center;
+                                        }
+                                        
+                                        .text-right-lg {
+                                            text-align: right;
+                                        }
+                                        
+                                        .text-justify-lg {
+                                            text-align: justify;
+                                        }
                                     }
-                                    
-                                    .title1 {
-                                        font-size: 25px !important;
-                                        margin-top: 10px !important;
+                                    .absolute {
+                                        position: relative;
                                     }
-                                    
-                                    .title2 {
-                                        font-size: 20px !important;
-                                        margin-top: 0px !important;
+                                    /* home responsive-start */
+                                    @media screen and (min-width:319px) and (max-width:350px) {
+                                        .space {
+                                            height: 200px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 25px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                            margin-top: 0px !important;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 50px !important;
+                                            margin-top: 0px !important;
+                                            height: 50px !important;
+                                        }
                                     }
-                                }
-                                @media screen and (min-width:358px) and (max-width:414px) {
-                                    .space {
-                                        height: 190px !important;
+                                    @media screen and (min-width:351px) and (max-width:375px) {
+                                        .space {
+                                            height: 210px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 25px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                            margin-top: 0px !important;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 60px !important;
+                                            margin-top: 0px !important;
+                                            height: 60px !important;
+                                        }
                                     }
-                                    
-                                    .title1 {
-                                        font-size: 35px !important;
-                                        margin-top: 10px !important;
+                                    @media screen and (min-width:320px) and (max-width:357px) {
+                                        .space {
+                                            height: 130px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 25px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                            margin-top: 0px !important;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 70px !important;
+                                            margin-top: 0px !important;
+                                            height: 70px !important;
+                                        }
                                     }
-                                    
-                                    .title2 {
-                                        font-size: 20px !important;
-                                        margin-top: 0px !important;
+                                    @media screen and (min-width:358px) and (max-width:414px) {
+                                        .space {
+                                            height: 200px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 35px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                            margin-top: 0px !important;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 70px !important;
+                                            margin-top: 0px !important;
+                                            height: 70px !important;
+                                        }
                                     }
-                                }
-                                @media screen and (min-width:415px) and (max-width:768px) {
-                                    .space {
-                                        height: 300px !important;
+                                    @media screen and (min-width:415px) and (max-width:768px) {
+                                        .space {
+                                            height: 400px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 35px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                            margin-top: 0px !important;
+                                        }
                                     }
-                                    
-                                    .title1 {
-                                        font-size: 35px !important;
-                                        margin-top: 10px !important;
+                                    @media screen and (min-width:769px) and (max-width:1024px) {
+                                        .space {
+                                            height: 600px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 35px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 25px !important;
+                                            margin-top: 0px !important;
+                                        }
                                     }
-                                    
-                                    .title2 {
-                                        font-size: 20px !important;
-                                        margin-top: 0px !important;
+                                    @media screen and (min-width:1025px) and (max-width:1099px) {
+                                        .space {
+                                            height: 450px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 50px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 40px !important;
+                                        }
                                     }
-                                }
-                                @media screen and (min-width:768px) and (max-width:900px) {
-                                    .space {
-                                        height: 400px !important;
+                                    @media screen and (min-width:1100px) and (max-width:1399px) {
+                                        .space {
+                                            height: 400px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 46px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 30px !important;
+                                        }
                                     }
-                                    
-                                    .title1 {
-                                        font-size: 35px !important;
-                                        margin-top: 10px !important;
-                                    }
-                                    
-                                    .title2 {
-                                        font-size: 20px !important;
-                                        margin-top: 0px !important;
-                                    }
-                                }
-                                @media screen and (min-width:1000px) and (max-width:1023px) {
-                                    .space {
-                                        height: 190px !important;
-                                    }
-                                    
-                                    .title1 {
-                                        font-size: 32px !important;
-                                        margin-top: 10px !important;
-                                    }
-                                    
-                                    .title2 {
-                                        font-size: 20px !important;
-                                    }
-                                }
-                                @media screen and (min-width:1024px) and (max-width:1099px) {
-                                    .space {
-                                        height: 450px !important;
-                                    }
-                                    
-                                    .title1 {
-                                        font-size: 54px !important;
-                                        margin-top: 10px !important;
-                                    }
-                                    
-                                    .title2 {
-                                        font-size: 40px !important;
+                                    @media screen and (min-width:1400px) {
+                                        .space {
+                                            height: 400px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 50px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 40px !important;
+                                        }
                                     }
                                     /* home responsive end */
-                                    
                                     @media screen and (max-width:1200px) {
                                         .about-contact-info {
                                             font-size: 14px;
                                         }
                                     }
-                                    
                                     @media screen and (max-width:1100px) {
                                         .top-menu li {
                                             //margin-left: 5%}
                                         }
+                                        
                                         @media screen and (max-width:960px) {}
+                                        
                                         @media screen and (max-width:900px) {}
+                                        
                                         @media screen and (max-width:850px) {
                                             .topsub-menu li {
                                                 //margin-left: 15px;
                                                 //font-size: 15px;
                                             }
                                         }
+                                        
                                         @media screen and (max-width:710px) {
                                             #menumask,
                                             .pop-exp-best {
@@ -1135,6 +1182,7 @@
                                                 margin-top: 14px;
                                             }
                                         }
+                                        
                                         @media screen and (max-width:603px) {
                                             .activate-bar {
                                                 display: none;
@@ -1146,6 +1194,7 @@
                                                 //padding: 20px 0;
                                             }
                                         }
+                                        
                                         @media screen and (max-width:520px) {
                                             body {
                                                 font-size: 17px;
@@ -1162,6 +1211,7 @@
                                         /* height:410px ! important; */
                                         /* } */
                                         /* } */
+                                        
                                         @media screen and (min-width:603px) {
                                              ::-webkit-scrollbar {
                                                 width: 8px;
@@ -1186,6 +1236,7 @@
                                         /* height: 248px !important; */
                                         /* } */
                                         /* } */
+                                        
                                         @media screen and (max-width:320px) and (orientation:portrait) {
                                             .menu-list li {
                                                 border: none;
@@ -1200,8 +1251,10 @@
                                                 margin-left: 74px !important;
                                             }
                                         }
+                                        
                                         @media all and (-ms-high-contrast:none),
                                         (-ms-high-contrast:active) {}
+                                        
                                         @media screen and (min-width:321px) and (max-width:361px) {
                                             .menu-list li {
                                                 border: none !important;
@@ -1216,6 +1269,7 @@
                                                 margin-left: 95px !important;
                                             }
                                         }
+                                        
                                         @media screen and (min-width:362px) and (max-width:400px) {
                                             .menu-list li {
                                                 border: none !important;
@@ -1230,6 +1284,7 @@
                                                 margin-left: 100px !important;
                                             }
                                         }
+                                        
                                         @media screen and (min-width:401px) and (max-width:450px) {
                                             .menu-list li {
                                                 border: none !important;
@@ -1244,6 +1299,7 @@
                                                 margin-left: 125px !important;
                                             }
                                         }
+                                        
                                         @media screen and (min-width:451px) and (max-width:500px) {
                                             .menu-list li {
                                                 border: none !important;
@@ -1258,6 +1314,7 @@
                                                 margin-left: 50% !important;
                                             }
                                         }
+                                        
                                         @media screen and (min-width:501px) and (max-width:550px) {
                                             .menu-list li {
                                                 border: none !important;
@@ -1272,6 +1329,7 @@
                                                 margin-left: 52% !important;
                                             }
                                         }
+                                        
                                         @media screen and (min-width:551px) and (max-width:600px) {
                                             .menu-list li {
                                                 border: none !important;
@@ -1286,6 +1344,7 @@
                                                 margin-left: 215px !important;
                                             }
                                         }
+                                        
                                         @media screen and (min-width:601px) and (max-width:650px) {
                                             .menu-list li {
                                                 border: none !important;
@@ -1300,6 +1359,7 @@
                                                 margin-left: 235px !important;
                                             }
                                         }
+                                        
                                         @media screen and (min-width:651px) and (max-width:709px) {
                                             .menu-list li {
                                                 border: none !important;
@@ -1314,6 +1374,7 @@
                                                 margin-left: 63% !important;
                                             }
                                         }
+                                        
                                         @media screen and (max-width:768px) {
                                             #logo-home {
                                                 float: left;

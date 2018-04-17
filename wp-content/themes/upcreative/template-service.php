@@ -40,16 +40,26 @@ endwhile;
                                                     </div>
 <?php } else if(min($array)==get_the_id()){ ?>
 
-                                    <div class="exp-col exp-fixed exp-nc bg-nc cover cover-top-right cover-bottom-left exp-col-border-r wow fadeInLeft" rel="exp-nc" style="background: url(&quot;<?php the_field('image-field') ; ?>&quot;) left; width: 33.33%;max-height: 800px ! important;background-attachment:scroll;">
+                                    <div class="exp-col exp-fixed exp-nc bg-nc  cover-top-right cover-bottom-left exp-col-border-r wow fadeInLeft" rel="exp-nc" style="background: url(&quot;<?php the_field('image-field') ; ?>&quot;) left; width: 33.33%;max-height: 800px ! important;background-attachment:scroll;">
                                         <div class="exp-mask" style="display: none;"></div>
 </br>
 </br>
 </br>
                                         <img class="exp-logo exp-logo-mv wow fadeInLeft" data-wow-delay="0.5s" src="<?php the_field('logo-field'); ?>">
-                                         <div class="exp-content" style="visibility: hidden; opacity: 0; margin-top: 80px;">
-                                                        <div>
+                                        <div class="exp-content" style="visibility: hidden; opacity: 0; margin-top: 80px;">
+                                                       
+													   <div>
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
-															<h4> <?php the_content(); ?></h4>
+                                                            <h4> <?php the_content(); ?></h4>
+                                                            <div class="">
+                                                           <p id="demo" onclick="myFunction()" style="cursor:pointer" >Learn more</p>
+
+                                                            <script>
+                                                            function myFunction() {
+                                                                document.getElementById("demo").innerHTML = '<p class="load-show">Web programming, also known as web development, is the creation of dynamic web applications. There are many ways to develop it and we offer two of the most common solutions. Wordpress and Laravel.Upcreatives is specialized in the use of these two languages for your projects, and starts with an analysis, then the expression of your needs but more precisely the choice of a solution corresponding to your needs and your budget. To guarantee the quality of its code, our agency follows a methodology of development according to the norms. That is to say that your project will be carried out by rigorous and agile methods.</p>';
+                                                            }
+                                                            </script>
+                                                            </div>
 															<a href="<?php  get_site_url; ?>wordpress-development" class="pull-left"> <button type="button" class="btn btn-default" >Wordpress</button></a></br>
                                                             <div class="clear"></div>
                                                             </br>
@@ -57,7 +67,7 @@ endwhile;
                                                             
                                                         </div>
 
-                                                    </div>
+                                        </div>
 <?php } else { ?>
                                             <div class="exp-col exp-fixed exp-cs bg-cs cover exp-col-border-r wow fadeInUp" rel="exp-cs" style="background: url(&quot;<?php the_field('image-field'); ?>&quot;) center no-repeat; background-size:cover;width: 33.33%;max-height: 800px ! important;background-attachment:scroll;">
                                                 <div class="exp-mask" style="display: block;"></div>
