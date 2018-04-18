@@ -975,12 +975,12 @@
                                         }
                                         
                                         .title1 {
-                                            font-size: 25px !important;
+                                            font-size: 22px !important;
                                             margin-top: 10px !important;
                                         }
                                         
                                         .title2 {
-                                            font-size: 20px !important;
+                                            font-size: 18px !important;
                                             margin-top: 0px !important;
                                         }
                                         
@@ -996,7 +996,7 @@
                                         }
                                         
                                         .title1 {
-                                            font-size: 35px !important;
+                                            font-size: 30px !important;
                                             margin-top: 10px !important;
                                         }
                                         
@@ -1047,21 +1047,21 @@
                                         }
                                         
                                         .title1 {
-                                            font-size: 50px !important;
+                                            font-size: 40px !important;
                                             margin-top: 10px !important;
                                         }
                                         
                                         .title2 {
-                                            font-size: 40px !important;
+                                            font-size: 30px !important;
                                         }
                                     }
                                     @media screen and (min-width:1100px) and (max-width:1399px) {
                                         .space {
-                                            height: 400px !important;
+                                            height: 250px !important;
                                         }
                                         
                                         .title1 {
-                                            font-size: 46px !important;
+                                            font-size: 40px !important;
                                             margin-top: 10px !important;
                                         }
                                         
@@ -1071,16 +1071,16 @@
                                     }
                                     @media screen and (min-width:1400px) {
                                         .space {
-                                            height: 400px !important;
+                                            height: 350px !important;
                                         }
                                         
                                         .title1 {
-                                            font-size: 50px !important;
+                                            font-size: 40px !important;
                                             margin-top: 10px !important;
                                         }
                                         
                                         .title2 {
-                                            font-size: 40px !important;
+                                            font-size: 30px !important;
                                         }
                                     }
                                     /* home responsive end */
