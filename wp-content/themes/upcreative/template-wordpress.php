@@ -22,7 +22,7 @@ WordPress sites are reputed to be the best referenced in search engines. While y
 One of the main criteria for the good SEO of your site is that it is "responsive". In other words, your site must be displayed correctly on all types of receivers (computer, mobile, tablet ...). The majority of topics proposed by Upcreatives, meets this criterion and incorporates the essential technologies. Your site is then favored by Google and your visibility increases.
 In short, the performance, free and accessible WordPress make it essential for the development of businesses and especially SMEs. This CMS will allow you to create but also to administer, modify, enrich your website and boost your visibility with your customers and prospects via the Web.
 </p>
-							<a href="<?php bloginfo('url'); ?>/services/"><button class="btn btn-primary btn-service btn-lg pull-right">Previous</button></a>
+							<a href="<?php bloginfo('url'); ?>/services/"><button class="btn btn-primary btn-service btn-lg pull-left">Previous</button></a>
 						</div>
 					</div>
 				</section>
