@@ -1,4 +1,5 @@
-<?php /* Template Name: workk Page Template */ get_header(); ?>
+<?php /* Template Name: workk Page Template */;?> 
+<?php get_header(); ?>
 
 <div class="mainbar-spacer white"></div>
 <div class="works-bg" >
@@ -24,7 +25,7 @@
 </div>
 	
 <div class="wrapper">
-    <div class="grid">
+        <div class="grid">
 		<?php
 		$args = array('post_type' => 'Works','post_status' => 'publish','order' => 'ASC');
         $works_loop = new WP_Query( $args );		
@@ -38,7 +39,7 @@
                 <div class="col-md-5">
                     <h4 class="name"><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
                 </div>
-                <div class="col-md-5 hidden-xs wow animated fadeInRight animated work-banner" style="z-index:3;">
+                <div class="col-md-5 col-sm-5 hidden-xs wow animated fadeInRight animated work-banner" style="z-index:3;">
                     <span class="screenshots" style="background-image: url('<?php echo $work_image2; ?>')"></span>
                 </div>
             </div>
@@ -46,11 +47,10 @@
          endwhile;
          wp_reset_postdata();
         endif;?>
-    </div>
-    </div>
- </div>
+        </div>
 </div>
-</div>	
-<?php get_template_part('enquire'); ?> 
+<?php get_template_part('enquire'); ?>  
 <?php get_footer(); ?>
+
+
 

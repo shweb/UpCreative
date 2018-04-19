@@ -883,25 +883,18 @@ h3 {
     margin-left: 2%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) and (max-width: 375px) {
     .intro {
         margin: 5px;
         font-size: 12px;
-        max-width: 280px;
-        margin-left: 2%;
-        text-align: justify;
+        max-width: 240px;
+       
+        text-align: center;
+		font-size:16px;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
-    .intro {
-        margin: 5px;
-        font-size: 12px;
-        max-width: 300px;
-        margin-left: 5%;
-        text-align: justify;
-    }
-}
+
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
     .intro {
@@ -1858,4 +1851,5 @@ h3 {
 .div.wpcf7-mail-sent-ok {
     display: none ! important;
 }
-s
+
+/* enquire margin */
