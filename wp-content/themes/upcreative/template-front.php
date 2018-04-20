@@ -3,11 +3,7 @@
     <meta http-equiv="Content-Language" content="en-gb">
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta http-equiv="expires" content="-1">
-    <title>
-        <?php wp_title(''); ?>
-            <?php if (wp_title('', false)){echo ' : ';} ?>
-                <?php bloginfo('name'); ?>
-    </title>
+    <title><?php wp_title(''); ?><?php if (wp_title('', false)){echo '';} ?><?php bloginfo('name'); ?></title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/Favicon.png">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
