@@ -10,7 +10,7 @@
 				<section>
 					<div class="row">
 						<div class="col-md-5">
-							<div class="image round fit">
+							<div class="image round fit" id="imagepage">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/i-hybrid.png" >
 							</div>
 						</div>
@@ -21,7 +21,7 @@ A hybrid application is actually an application that can be deployed on the Appl
 The arrival on the market of this new technology, which is reinforced by a growing community and development tools and terribly powerful design designed for your projects and companies. Our agency offers you a better design and maintainability of applications and websites to offer a new generation of applications that can adapt to different platforms on which they will be used for your projects. In addition, the development and design time of a hybrid application is much shorter than designing 4 or 5 versions of the same project. It is easy to pass on time savings of up to 50% or even 80%. It would be a pity, to say the least, to miss this new development of the web.
 Through our expert hybrid application development services, we create a perfect blend of native application ergonomics and web application versatility. Make UpCreatives your hybrid application development partner and unleash new horizons of opportunity. Because it is a multiplatform technology, which is a considerable time saver if the project is not too complex and does not require the development of specific plugins, web skills are more widespread than mobile skills, the costs of development are therefore generally less important. Downloadable, the hybrid mobile application can be monetized and benefits from rankings in the blinds. If you want your mobile application to be available quickly on the market and with limited budget and maintenance costs, opt for a hybrid mobile application development service.
 </p>
-							<a href="<?php bloginfo('url'); ?>/services/"><button class="btn btn-primary btn-service btn-lg pull-left">Previous</button></a>
+							<a href="<?php bloginfo('url'); ?>/services/"><button class="btn btn-primary btn-service btn-lg pull-left" id="buttonmargin" >Previous</button></a>
 						</div>
 					</div>
 				</section>
