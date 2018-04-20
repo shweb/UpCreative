@@ -9,7 +9,7 @@
                 </div>
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
                 <div class="col-xs-push-0 col-md-push-1 col-sm-push-0 col-md-6">
-                   <div class="intro" ><?php the_content(); ?></div>
+                   <div class="intro"><?php the_content(); ?></div>
                 </div>
 				<?php endwhile; ?>
 
@@ -37,7 +37,7 @@
                 <div class="col-md-5">
                     <h4 class="name"><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
                 </div>
-                <div class="col-md-5 hidden-xs wow animated fadeInRight animated work-banner" style="z-index:3;">
+                <div class="col-md-5 col-sm-5 hidden-xs wow animated fadeInRight animated work-banner" style="z-index:3;">
                     <span class="screenshots" style="background-image: url('<?php echo $work_image2; ?>')"></span>
                 </div>
             </div>
