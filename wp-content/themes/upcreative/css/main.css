@@ -62,7 +62,7 @@
                                         ol,
                                         ul {
                                             list-style-type: square;
-                                            margin: 10px 0 0;
+                                            margin: 0px 0 0;
                                             padding: 10px 10px 10px 40px;
                                         }
                                         
@@ -198,7 +198,9 @@
                                             padding: overflow-x: hidden;
                                         }
                                         
-                                        .wrapper {}
+                                        .wrapper {
+                                            max-width: 1920px;
+                                        }
                                     }
                                     .top-search,
                                     .top-search-w {
@@ -235,9 +237,8 @@
                                     }
                                     .hero-list li {
                                         float: left;
+                                        margin-left: 0px;
                                         position: relative;
-                                        padding-right: 20px;
-                                        margin-right: 20px;
                                         border-right: 1px solid #fff
                                     }
                                     .hero-list li a {
@@ -927,51 +928,30 @@
                                         position: relative;
                                     }
                                     /* home responsive-start */
-                                    @media screen and (min-width:319px) and (max-width:350px) {
+                                    @media screen and (min-width:320px) and (max-width:359px) {
+                                        .space {
+                                            height: 150px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 20px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 16px !important;
+                                            margin-top: 0px !important;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
+                                        }
+                                    }
+									@media screen and (min-width:360px) and (max-width:374px) {
                                         .space {
                                             height: 200px !important;
-                                        }
-                                        
-                                        .title1 {
-                                            font-size: 25px !important;
-                                            margin-top: 10px !important;
-                                        }
-                                        
-                                        .title2 {
-                                            font-size: 20px !important;
-                                            margin-top: 0px !important;
-                                        }
-                                        
-                                        .qrcode {
-                                            width: 50px !important;
-                                            margin-top: 0px !important;
-                                            height: 50px !important;
-                                        }
-                                    }
-                                    @media screen and (min-width:351px) and (max-width:375px) {
-                                        .space {
-                                            height: 210px !important;
-                                        }
-                                        
-                                        .title1 {
-                                            font-size: 25px !important;
-                                            margin-top: 10px !important;
-                                        }
-                                        
-                                        .title2 {
-                                            font-size: 20px !important;
-                                            margin-top: 0px !important;
-                                        }
-                                        
-                                        .qrcode {
-                                            width: 60px !important;
-                                            margin-top: 0px !important;
-                                            height: 60px !important;
-                                        }
-                                    }
-                                    @media screen and (min-width:320px) and (max-width:357px) {
-                                        .space {
-                                            height: 130px !important;
                                         }
                                         
                                         .title1 {
@@ -980,17 +960,38 @@
                                         }
                                         
                                         .title2 {
-                                            font-size: 18px !important;
+                                            font-size: 15px !important;
                                             margin-top: 0px !important;
                                         }
                                         
                                         .qrcode {
-                                            width: 70px !important;
-                                            margin-top: 0px !important;
-                                            height: 70px !important;
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
                                         }
                                     }
-                                    @media screen and (min-width:358px) and (max-width:414px) {
+                                    @media screen and (min-width:375px) and (max-width:383px) {
+                                        .space {
+                                            height: 210px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 22px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 15px !important;
+                                            margin-top: 0px !important;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 100px !important;
+                                            margin-top: 0px !important;
+                                            height: 100px !important;
+                                        }
+                                    }
+                                    @media screen and (min-width:384px) and (max-width:413px) {
                                         .space {
                                             height: 200px !important;
                                         }
@@ -1006,14 +1007,56 @@
                                         }
                                         
                                         .qrcode {
-                                            width: 70px !important;
-                                            margin-top: 0px !important;
-                                            height: 70px !important;
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
                                         }
                                     }
-                                    @media screen and (min-width:415px) and (max-width:768px) {
+									 @media screen and (min-width:414px) and (max-width:431px) {
                                         .space {
-                                            height: 400px !important;
+                                            height: 200px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 30px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                            margin-top: 0px !important;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
+                                        }
+                                    }
+									@media screen and (min-width:432px) and (max-width:479px) {
+                                        .space {
+                                            height: 250px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 25px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 16px !important;
+                                            margin-top: 0px !important;
+                                        }
+                                        
+                                        .qrcode {
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
+                                        }
+                                    }
+                                    @media screen and (min-width:480px) and (max-width:599px) {
+                                        .space {
+                                            height: 250px !important;
                                         }
                                         
                                         .title1 {
@@ -1025,10 +1068,16 @@
                                             font-size: 20px !important;
                                             margin-top: 0px !important;
                                         }
+                                        
+                                        .qrcode {
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
+                                        }
                                     }
-                                    @media screen and (min-width:769px) and (max-width:1024px) {
+                                    @media screen and (min-width:600px) and (max-width:719px) {
                                         .space {
-                                            height: 600px !important;
+                                            height: 380px !important;
                                         }
                                         
                                         .title1 {
@@ -1040,10 +1089,92 @@
                                             font-size: 25px !important;
                                             margin-top: 0px !important;
                                         }
+										.qrcode {
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
+                                        }
                                     }
-                                    @media screen and (min-width:1025px) and (max-width:1099px) {
+                                    @media screen and (min-width:720px) and (max-width:767px) {
                                         .space {
-                                            height: 450px !important;
+                                            height: 520px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 30px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                        }
+										.qrcode {
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
+                                        }
+                                    }
+                                    @media screen and (min-width:768px) and (max-width:799px) {
+                                        .space {
+                                            height: 400px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 30px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                        }
+										.qrcode {
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
+                                        }
+                                    }
+									
+									 @media screen and (min-width:800px) and (max-width:1023px) {
+                                        .space {
+                                            height: 530px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 30px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                        }
+										.qrcode {
+                                            width: 100px !important;
+                                            margin-top: -10px !important;
+                                            height: 100px !important;
+                                        }
+                                    }
+									 @media screen and (min-width:1024px) and (max-width:1277px) {
+                                        .space {
+                                            height: 560px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 30px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 20px !important;
+                                        }
+										.qrcode {
+                                            width: 150px !important;
+                                            margin-top: -10px !important;
+                                            height: 150px !important;
+                                        }
+                                    }
+									@media screen and (min-width:1280px) and (max-width:1365px) {
+                                        .space {
+                                            height: 300px !important;
                                         }
                                         
                                         .title1 {
@@ -1054,10 +1185,15 @@
                                         .title2 {
                                             font-size: 30px !important;
                                         }
+										.qrcode {
+                                            width: 150px !important;
+                                            margin-top: -10px !important;
+                                            height: 150px !important;
+                                        }
                                     }
-                                    @media screen and (min-width:1100px) and (max-width:1399px) {
+									@media screen and (min-width:1366px) and (max-width:1439px) {
                                         .space {
-                                            height: 250px !important;
+                                            height: 320px !important;
                                         }
                                         
                                         .title1 {
@@ -1068,10 +1204,91 @@
                                         .title2 {
                                             font-size: 30px !important;
                                         }
+										.qrcode {
+                                            width: 150px !important;
+                                            margin-top: -10px !important;
+                                            height: 150px !important;
+                                        }
                                     }
-                                    @media screen and (min-width:1400px) {
+									@media screen and (min-width:1440px) and (max-width:1499px) {
                                         .space {
-                                            height: 350px !important;
+                                            height: 320px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 40px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 30px !important;
+                                        }
+										.qrcode {
+                                            width: 150px !important;
+                                            margin-top: -10px !important;
+                                            height: 150px !important;
+                                        }
+                                    }
+									@media screen and (min-width:1500px) and (max-width:1679px) {
+                                        .space {
+                                            height: 360px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 40px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 30px !important;
+                                        }
+										.qrcode {
+                                            width: 150px !important;
+                                            margin-top: -10px !important;
+                                            height: 150px !important;
+                                        }
+                                    }
+									@media screen and (min-width:1680px) and (max-width:1919px) {
+                                        .space {
+                                            height: 400px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 40px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 30px !important;
+                                        }
+										.qrcode {
+                                            width: 150px !important;
+                                            margin-top: -10px !important;
+                                            height: 150px !important;
+                                        }
+                                    }
+									@media screen and (min-width:1920px) and (max-width:2559px) {
+                                        .space {
+                                            height: 400px !important;
+                                        }
+                                        
+                                        .title1 {
+                                            font-size: 40px !important;
+                                            margin-top: 10px !important;
+                                        }
+                                        
+                                        .title2 {
+                                            font-size: 30px !important;
+                                        }
+										.qrcode {
+                                            width: 150px !important;
+                                            margin-top: -10px !important;
+                                            height: 150px !important;
+                                        }
+                                    }
+                                    @media screen and (min-width:2560px) {
+                                        .space {
+                                            height: 600px !important;
                                         }
                                         
                                         .title1 {
@@ -1170,8 +1387,8 @@
                                                 padding-top: 20px;
                                             }
                                             .hero-list li {
-                                                padding-right: 10px;
-                                                margin-right: 10px;
+                                                padding-right: 20px;
+                                                margin-right: 20px;
                                                 margin: 25px;
                                             }
                                             .pop-exp,
@@ -1386,4 +1603,8 @@
                                                 background-size: contain;
                                                 cursor: pointer;
                                             }
+                                        }
+                                        
+                                        #enquire_margin {
+                                            color: red;
                                         }

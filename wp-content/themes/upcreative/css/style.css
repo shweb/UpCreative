@@ -28,9 +28,266 @@ team Trustylabs */
     margin-top: 100px;
     margin-bottom: 75px;
 }
+@media screen and (min-width:320px) and (max-width:359px) {
+	.text-service
+	{
+		width:280px;
+		margin-left:30px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:30px
+	}
+	#imagepage
+	{
+			margin-left:120px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+@media screen and (min-width:360px) and (max-width:374px) {
+	.text-service
+	{
+		width:320px;
+		margin-left:30px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:30px
+	}
+	#imagepage
+	{
+			margin-left:140px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+@media screen and (min-width:375px) and (max-width:383px) {
+	.text-service
+	{
+		width:330px;
+		margin-left:30px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:30px
+	}
+	#imagepage
+	{
+			margin-left:140px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+ @media screen and (min-width:384px) and (max-width:410px) {
+	.text-service
+	{
+		width:340px;
+		margin-left:30px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:30px
+	}
+	#imagepage
+	{
+			margin-left:140px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+ @media screen and (min-width:411px) and (max-width:431px) {
+	.text-service
+	{
+		width:355px;
+		margin-left:35px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:35px
+	}
+	#imagepage
+	{
+		margin-left:145px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+@media screen and (min-width:432px) and (max-width:479px) {
+	.text-service
+	{
+		width:380px;
+		margin-left:35px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:35px
+	}
+	#imagepage
+	{
+		margin-left:145px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+@media screen and (min-width:480px) and (max-width:599px) {
+	.text-service
+	{
+		width:420px;
+		margin-left:35px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:35px
+	}
+	#imagepage
+	{
+		margin-left:145px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+ @media screen and (min-width:600px) and (max-width:719px) {
+	.text-service
+	{
+		width:545px;
+		margin-left:35px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:35px
+	}
+	#imagepage
+	{
+		margin-left:200px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
 
-.text-service {
-    font-size: 18px;
+@media screen and (min-width:720px) and (max-width:767px) {
+	.text-service
+	{
+		width:660px;
+		margin-left:35px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:35px
+	}
+	#imagepage
+	{
+		margin-left:200px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+ @media screen and (min-width:768px) and (max-width:799px) {
+	.text-service
+	{
+		width:700px;
+		margin-left:35px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:30px
+	}
+	#imagepage
+	{
+		margin-left:200px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+@media screen and (min-width:800px) and (max-width:1023px) {
+	.text-service
+	{
+		width:730px;
+		margin-left:20px;
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		margin-left:30px
+	}
+	#imagepage
+	{
+		margin-left:200px;
+	}
+	#buttonmargin
+	{
+		margin-left:30px;
+	}
+    
+}
+@media screen and (min-width:1024px) {
+	.text-service
+	{
+		
+		
+		font-size:16px;
+		text-align:justify;
+	}
+	.title-detailservice
+	{
+		
+	}
+	#imagepage
+	{
+		margin-left:50px;
+	}
+    
 }
 
 .title-detailservice {
@@ -289,40 +546,7 @@ h3 {
     padding: 10px 20px;
 }
 
-@media screen and (max-width:320px) {
-    .work-border {
-        max-width: 180px;
-        margin-left: 8%;
-    }
-}
 
-@media screen and (min-width: 321px) and (max-width:375px) {
-    .work-border {
-        max-width: 180px;
-        margin-left: 10%;
-    }
-}
-
-@media screen and (min-width: 376px) and (max-width:425px) {
-    .work-border {
-        max-width: 180px;
-        margin-left: 14%;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width:768px) {
-    .work-border {
-        max-width: 180px;
-        margin-left: 33%;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width:1024px) {
-    .work-border {
-        max-width: 180px;
-        margin-left: 33%;
-    }
-}
 
 
 /* ---- button ---- */
@@ -883,46 +1107,155 @@ h3 {
     margin-left: 2%;
 }
 
-@media screen and (max-width: 320px) {
+ @media screen and (min-width:320px) and (max-width:359px) {
     .intro {
         margin: 5px;
         font-size: 12px;
-        max-width: 280px;
-        margin-left: 2%;
-        text-align: justify;
+        max-width: 240px;
+       margin-left:40px;
+        text-align: center;
+		font-size:16px;
     }
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-    .intro {
-        margin: 5px;
-        font-size: 12px;
-        max-width: 300px;
-        margin-left: 5%;
-        text-align: justify;
-    }
-}
-
-@media screen and (min-width: 376px) and (max-width: 425px) {
-    .intro {
-        margin: 5px;
-        font-size: 12px;
-        max-width: 300px;
+	.work-border {
+        max-width: 180px;
         margin-left: 7%;
-        text-align: justify;
     }
 }
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width:360px) and (max-width:374px) {
     .intro {
         margin: 5px;
         font-size: 12px;
-        max-width: 650px;
-        margin-left: 15%;
-        text-align: justify;
+        max-width: 260px;
+       margin-left:40px;
+        text-align: center;
+		font-size:16px;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 9%;
     }
 }
 
+
+
+ @media screen and (min-width:375px) and (max-width:383px) {
+    .intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 300px;
+        margin-left:25px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width:384px) and (max-width:410px) {
+    .intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 300px;
+        margin-left:32.5px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 10%;
+    }
+}
+ @media screen and (min-width:411px) and (max-width:431px) {
+    .intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 380px;
+        margin-left:15px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 11%;
+    }
+}
+@media screen and (min-width:432px) and (max-width:479px) {
+    .intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 350px;
+        margin-left:32.5px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 12%;
+    }
+}
+ @media screen and (min-width:480px) and (max-width:599px) {
+.intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 400px;
+        margin-left:32.5px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 15%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:719px) {
+.intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 540px;
+        margin-left:40px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 22%;
+    }
+}
+@media screen and (min-width:720px) and (max-width:767px) {
+	.intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 680px;
+        margin-left:100px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 28%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:799px) {
+	.intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 700px;
+        margin-left:120px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 300px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px) {
+	.intro {
+        margin: 5px;
+        font-size: 12px;
+        max-width: 700px;
+        margin-left:140px;
+        text-align: justify;
+    }
+	.work-border {
+        max-width: 180px;
+        margin-left: 320px;
+    }
+}
 .button-multilangue:hover {
     text-decoration: none !important;
 }
@@ -1858,4 +2191,5 @@ h3 {
 .div.wpcf7-mail-sent-ok {
     display: none ! important;
 }
-s
+
+/* enquire margin */

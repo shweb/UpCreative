@@ -156,9 +156,9 @@
 			<div class="container footer ">
 				<div class="row">
 					<div class="col-md-6">
-						<ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0s; animation-name: fadeInLeft;">
-							<li><a href="<?php  get_site_url; ?>about-us">ABOUT</a></li>
-							<li><a href="<?php  get_site_url; ?>" class="sf-box" data-toggle="modal" data-target="#myModal">ENQUIRE</a></li>
+						<ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s;margin:0px; animation-delay: 0s; animation-name: fadeInLeft;width:200px">
+							<li ><a href="<?php  get_site_url; ?>about-us">ABOUT</a></li>
+							<li style="margin-left:auto;"><a href="<?php  get_site_url; ?>"  class="sf-box" data-toggle="modal" data-target="#myModal">ENQUIRE</a></li>
 						</ul>
 					</div>
 					<div class="col-md-6">
