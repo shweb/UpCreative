@@ -1,30 +1,29 @@
 <?php /* Template Name: workk Page Template */;?> 
 <?php get_header(); ?>
-
-<div class="mainbar-spacer white"></div>
-<div class="works-bg" >
-<div class="wrapper-s ">
-        <div class="dividerupc"></div>
-        <div class="container">
+<div class="works-bg" style="background: url('<?php the_field('image_background'); ?>') no-repeat top">
+        <div class="container wow fadeInUp">
             <div class="row">
                 <div class="col-md-4">
                     <div class="work-border text-center">
                         <h3><?php the_title(); ?></h3>
                     </div>
                 </div>
-				
+				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
                 <div class="col-xs-push-0 col-md-push-1 col-sm-push-0 col-md-6">
-                     <div class="intro">
-						<p style="visibility: hidden; opacity: 0;text-align:justify"><?php the_content(); ?></p>
-					 
-					 </div>
+                   <div class="intro"><?php the_content(); ?></div>
                 </div>
-		
+				<?php endwhile; ?>
+
+		        <?php else: ?>
+				    <div class="col-xs-push-0 col-md-push-1 col-sm-push-0 col-md-6">
+                     <p class="intro"><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></p>
+                    </div>
+				<?php endif; ?>
             </div>
         </div>
-</div>
+    </div>
 	
-<div class="wrapper">
+	<div class="wrapper">
         <div class="grid">
 		<?php
 		$args = array('post_type' => 'Works','post_status' => 'publish','order' => 'ASC');
@@ -48,9 +47,9 @@
          wp_reset_postdata();
         endif;?>
         </div>
-</div>
+    </div>
+
+	
+	
 <?php get_template_part('enquire'); ?>  
 <?php get_footer(); ?>
-
-
-
