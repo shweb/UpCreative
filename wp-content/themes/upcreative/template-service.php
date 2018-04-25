@@ -45,6 +45,7 @@ endwhile;
 </br>
 </br>
 </br>
+                                        <div class="exp-mask" style="display: none;"></div>
                                         <img class="exp-logo exp-logo-mv wow fadeInLeft" data-wow-delay="0.5s" src="<?php the_field('logo-field'); ?>">
                                         <div class="exp-content" style="visibility: hidden; opacity: 0; margin-top: 80px;z-index:1">
                                                        
@@ -66,7 +67,8 @@ endwhile;
 </br>
 </br>
                                                 <img class="exp-logo exp-logo-cs wow fadeInDown" data-wow-delay="0.5s" src="<?php the_field('logo-field'); ?>">
-                                                <div class="exp-content" style="visibility: hidden; opacity: 0; margin-top: 80px;">
+                                      
+                                                <div class="exp-content" style=" opacity:; margin-top: 80px;">
                                                         <div>
 
                                                             <a href="#" class="load-show"><img src="<?php the_field('logo-field'); ?>" style="width:275px ! important;"></a>
