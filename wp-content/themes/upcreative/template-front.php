@@ -153,15 +153,15 @@
 
     <!--section footer start -->
 		<section id="footer">
-			<div class="container footer ">
+			<div class="container footer">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6" style="margin-top:90px">
 						<ul class="hero-list wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s;margin:0px; animation-delay: 0s; animation-name: fadeInLeft;width:200px">
 							<li ><a href="<?php  get_site_url; ?>about-us">ABOUT</a></li>
 							<li style="margin-left:auto;"><a href="<?php  get_site_url; ?>"  class="sf-box" data-toggle="modal" data-target="#myModal">ENQUIRE</a></li>
 						</ul>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" style="margin-top:0px">
 						<p><a href="#" class="pull-right wow fadeInRight"><img class="qrcode" src="<?php echo get_template_directory_uri(); ?>/img/qrcodeupcreative.png" ></a>
 						<p>
 					</div>
